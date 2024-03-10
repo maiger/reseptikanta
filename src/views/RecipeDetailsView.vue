@@ -21,24 +21,8 @@
         </div>
       </div>
       <div class="recipe-info">
-        <div class="ingredients">
-          <h2>Ainesosat</h2>
-          <div
-            v-for="(ingredient, index) in recipe.ingredients"
-            class="ingredient"
-          >
-            {{ ingredient.name }} {{ ingredient.amount }}{{ ingredient.unit }}
-          </div>
-        </div>
-        <div class="instructions">
-          <h2>Ohjeet</h2>
-          <div
-            v-for="(step, index) in recipe.instructions"
-            class="instruction-step"
-          >
-            <b>Vaihe {{ index + 1 }}:</b> {{ step }}
-          </div>
-        </div>
+        <RecipeIngredients :recipe="recipe" />
+        <RecipeInstructions :recipe="recipe" />
       </div>
       <div class="tags">
         <div v-for="tag in recipe.tags">
@@ -53,6 +37,9 @@
 import { Icon } from "@iconify/vue";
 import { useRecipeStore } from "@/stores/recipes";
 import { useRoute } from "vue-router";
+
+import RecipeIngredients from "../components/RecipeIngredients.vue";
+import RecipeInstructions from "../components/RecipeInstructions.vue";
 
 // Get ID
 const route = useRoute();
@@ -175,38 +162,6 @@ const recipe = recipeStore.getRecipeById(+recipeID);
   display: flex;
   width: 100%;
   margin-bottom: 2rem;
-
-  .ingredients,
-  .instructions {
-    padding: 1rem;
-    margin: 1rem;
-    border-radius: 20px;
-    box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.2);
-    background-color: var(--color-primary-1-dark);
-  }
-
-  .ingredients {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    padding: 3rem;
-    // height: 100%;
-
-    .ingredient {
-      margin: 1rem 0;
-    }
-  }
-
-  .instructions {
-    flex: 3;
-    padding: 3rem;
-
-    .instruction-step {
-      margin: 1rem 0;
-    }
-  }
 }
 
 .tags {
