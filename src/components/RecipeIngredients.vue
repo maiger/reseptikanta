@@ -43,7 +43,7 @@ const computedServings = computed(() => {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  flex: 1;
+  flex: 2;
   margin: 1rem;
   padding: 3rem;
 

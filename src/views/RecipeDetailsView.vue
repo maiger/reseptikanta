@@ -173,6 +173,7 @@ const removeServings = () => {
 .recipe-info {
   display: flex;
   width: 100%;
+  align-items: flex-start;
   margin-bottom: 2rem;
 }
 
