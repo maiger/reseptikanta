@@ -11,17 +11,17 @@
           <p>60min</p>
         </div>
         <div class="servings-container">
-          <button class="remove-servings">
+          <button @click="removeServings" class="remove-servings">
             <Icon class="icon" icon="mdi:minus" />
           </button>
-          <h2 class="servings">4</h2>
-          <button class="add-servings">
+          <h2 class="servings">{{ servings }}</h2>
+          <button @click="addServings" class="add-servings">
             <Icon class="icon" icon="mdi:plus" />
           </button>
         </div>
       </div>
       <div class="recipe-info">
-        <RecipeIngredients :recipe="recipe" />
+        <RecipeIngredients :recipe="recipe" :servings="servings" />
         <RecipeInstructions :recipe="recipe" />
       </div>
       <div class="tags">
@@ -37,6 +37,7 @@
 import { Icon } from "@iconify/vue";
 import { useRecipeStore } from "@/stores/recipes";
 import { useRoute } from "vue-router";
+import { ref } from "vue";
 
 import RecipeIngredients from "../components/RecipeIngredients.vue";
 import RecipeInstructions from "../components/RecipeInstructions.vue";
@@ -48,6 +49,17 @@ const recipeID = route.params.id;
 // Get recipe
 const recipeStore = useRecipeStore();
 const recipe = recipeStore.getRecipeById(+recipeID);
+
+let servings = ref(recipe.servings);
+
+const addServings = () => {
+  servings.value++;
+};
+
+const removeServings = () => {
+  if (servings.value <= 1) return;
+  servings.value--;
+};
 </script>
 
 <style lang="scss" scoped>
