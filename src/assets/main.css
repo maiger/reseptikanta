@@ -1,0 +1,19 @@
+@import "./reset.css";
+@import "./variables.css";
+
+/* Base styles */
+body {
+  font-family: var(--text-sans-serif-font);
+  font-weight: var(--text-weight-regular);
+  font-size: var(--text-para-size);
+  color: var(--color-secondary-1-dark-1);
+  background-color: var(--color-primary-1);
+}
+
+h1 {
+  font-size: var(--text-heading-size-1);
+}
+
+h2 {
+  font-size: var(--text-heading-size-2);
+}

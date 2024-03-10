@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+:root {
+  /* NEUTRAL */
+  --color-neutral-white: hsl(0, 0%, 100%);
+  --color-neutral-grey-1: hsl(210, 60%, 98%);
+  --color-neutral-grey-2: hsl(211, 68%, 94%);
+  --color-neutral-grey-3: hsl(205, 33%, 90%);
+  --color-neutral-grey-4: hsl(219, 14%, 63%);
+  --color-neutral-grey-5: hsl(219, 12%, 42%);
+  --color-neutral-grey-6: hsl(224, 21%, 14%);
+
+  /* TEXT */
+  --text-heading-size-1: 2.4rem;
+  --text-heading-size-2: 2rem;
+  --text-heading-size-3: 1.8rem;
+  --text-para-size: 1.6rem;
+  --text-para-size-small: 1.2rem;
+  --text-sans-serif-font: "Poppins", sans-serif;
+  --text-weight-regular: 400;
+  --text-weight-semibold: 600;
+  --text-weight-bold: 700;
+}
+
+/* Semantic variables */
+:root {
+  /* PRIMARY */
+  --color-primary-1-light: #fffefa;
+  --color-primary-1: #fff8d6;
+  --color-primary-1-dark: #f7e1ae;
+  /* SECONDARY */
+  --color-secondary-1: #a4d0a4;
+  --color-secondary-1-dark: #617a55;
+  --color-secondary-1-dark-1: #24351d;
+  /* ACCENT */
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--vt-c-black);
+    --color-background-soft: var(--vt-c-black-soft);
+    --color-background-mute: var(--vt-c-black-mute);
+
+    --color-border: var(--vt-c-divider-dark-2);
+    --color-border-hover: var(--vt-c-divider-dark-1);
+
+    --color-heading: var(--vt-c-text-dark-1);
+    --color-text: var(--vt-c-text-dark-2);
+  }
+} */
