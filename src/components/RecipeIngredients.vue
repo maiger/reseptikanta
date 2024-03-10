@@ -2,13 +2,17 @@
   <div class="ingredients">
     <h2>Ainesosat</h2>
     <div v-for="(ingredient, index) in recipe.ingredients" class="ingredient">
-      {{ ingredient.name }} {{ ingredient.amount }}{{ ingredient.unit }}
+      {{ ingredient.name }} {{ fracty(ingredient.amount) }}{{ ingredient.unit }}
     </div>
   </div>
 </template>
 
 <script setup>
+import fracty from "fracty";
+
 import { defineProps } from "vue";
+
+console.log(fracty(6.902));
 
 const props = defineProps({
   recipe: {
