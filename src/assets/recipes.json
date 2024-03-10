@@ -1,55 +1,82 @@
 [
   {
     "id": 1,
-    "title": "Kanakeitto",
+    "title": "Jauheliha-Chorizokeitto",
     "description": "Lorem ipsum",
-    "tags": ["kana", "keitto"],
-    "img": "600/401",
+    "tags": ["jauheliha", "chorizo", "keitto"],
+    "img": "jauheliha_chorizokeitto.jpg",
     "prepTime": 30,
-    "servings": 4,
+    "servings": 5,
     "instructions": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dignissim, velit et aliquam vehicula, ante tellus mollis lacus, id rutrum elit justo et turpis. Vivamus faucibus ac enim eget tristique. Mauris sodales mollis nibh, ac consectetur arcu maximus sit amet. Proin rutrum libero ac lacus aliquam, at accumsan velit aliquet.",
-      "Integer pulvinar massa sed augue cursus vehicula. Proin ullamcorper suscipit interdum. Vivamus id magna imperdiet, commodo purus sed, eleifend felis. Aenean rhoncus est at tortor consequat imperdiet. In hac habitasse platea dictumst. Quisque consectetur dignissim orci in dictum. Pellentesque risus ex, vehicula eget gravida eu, vestibulum vel mauris. Pellentesque eget risus nec ante gravida luctus at vitae ligula. Cras ullamcorper malesuada ante, at condimentum magna rutrum ut. Cras fringilla vestibulum magna et volutpat. Mauris eget turpis nisi. Fusce porta cursus lacus quis suscipit.",
-      "Proin sit amet ante condimentum, pulvinar ipsum sit amet, blandit neque. Morbi ipsum magna, viverra a lacinia in, ultrices eu lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+      "Ruskista jauheliha ja suikaloitu chorizo kattilassa. Lisää halkaistu, huuhdottu, suikaloitu purjo sekä hienonnettu valkosipuli. Anna pehmetä hieman. Kaada joukkoon vesi, suola, mustapippurit ja laakerinlehdet.",
+      "Leikkaa kuoritut perunat reiluiksi ja porkkanat pieniksi kuutioiksi ja lisää ne kiehuvan liemen joukkoon. Keitä miedolla lämmöllä noin 15 minuuttia, kunnes juurekset ovat kypsiä.",
+      "Lisää liemeen tomaattipyre ja hienonna keiton pinnalle runsaasti tuoretta persiljaa. Tarjoa jauhelihakeitto tuoreen leivän kanssa.",
+      "Kokeile yhdistelmää Tulinen makkarakeitto / Jauheliha-chorizo –keitto."
     ],
+    "source": "",
     "ingredients": [
       {
         "collectionName": "Osa 1",
         "collectionIngredients": [
           {
-            "name": "Ainesosa 1",
-            "amount": 1.5,
-            "unit": "rkl"
+            "name": "Vähärasvainen naudan jauheliha",
+            "amount": 250,
+            "unit": "g"
           },
           {
-            "name": "Ainesosa 2",
-            "amount": 3,
-            "unit": "kpl"
-          }
-        ]
-      },
-      {
-        "collectionName": "Osa 2",
-        "collectionIngredients": [
-          {
-            "name": "Ainesosa 3",
-            "amount": 5.5,
-            "unit": "dl"
+            "name": "Chorizo",
+            "amount": 100,
+            "unit": "g"
           },
           {
-            "name": "Ainesosa 4",
+            "name": "Purjo",
             "amount": 200,
             "unit": "g"
           },
           {
-            "name": "Ainesosa 5",
-            "amount": 0.5,
+            "name": "Valkosipulinkynsi",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Porkkana",
+            "amount": 300,
+            "unit": "g"
+          },
+          {
+            "name": "Peruna",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "name": "Vesi",
+            "amount": 1,
+            "unit": "l"
+          },
+          {
+            "name": "Suola",
+            "amount": 1,
             "unit": "tl"
           },
           {
-            "name": "Ainesosa 6",
-            "amount": 1.5,
+            "name": "Kokonaisia mustapippureita",
+            "amount": 12,
+            "unit": "kpl"
+          },
+          {
+            "name": "Laakerinlehti",
+            "amount": 3,
+            "unit": "kpl"
+          },
+          {
+            "name": "Tomaattipyree",
+            "amount": 3,
             "unit": "rkl"
+          },
+          {
+            "name": "Persilja hienonnettuna",
+            "amount": 1,
+            "unit": "dl"
           }
         ]
       }
@@ -57,55 +84,85 @@
   },
   {
     "id": 2,
-    "title": "Lihapata",
-    "description": "Lorem ipsum",
-    "tags": ["liha", "pata"],
-    "img": "600/402",
-    "prepTime": 45,
+    "title": "Perinteinen kaalilaatikko",
+    "description": "Perinteinen kaalilaatikko on kotiruokien ehdoton ykkönen. Tällä supersuositulla reseptillä kaalilaatikosta tulee juuri niin mehevä kuin kuuluukin.",
+    "tags": ["kaali", "laatikko"],
+    "img": "perinteinen_kaalilaatikko.PNG",
+    "prepTime": 80,
     "servings": 6,
     "instructions": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dignissim, velit et aliquam vehicula, ante tellus mollis lacus, id rutrum elit justo et turpis. Vivamus faucibus ac enim eget tristique. Mauris sodales mollis nibh, ac consectetur arcu maximus sit amet. Proin rutrum libero ac lacus aliquam, at accumsan velit aliquet.",
-      "Integer pulvinar massa sed augue cursus vehicula. Proin ullamcorper suscipit interdum. Vivamus id magna imperdiet, commodo purus sed, eleifend felis. Aenean rhoncus est at tortor consequat imperdiet. In hac habitasse platea dictumst. Quisque consectetur dignissim orci in dictum. Pellentesque risus ex, vehicula eget gravida eu, vestibulum vel mauris. Pellentesque eget risus nec ante gravida luctus at vitae ligula. Cras ullamcorper malesuada ante, at condimentum magna rutrum ut. Cras fringilla vestibulum magna et volutpat. Mauris eget turpis nisi. Fusce porta cursus lacus quis suscipit.",
-      "Proin sit amet ante condimentum, pulvinar ipsum sit amet, blandit neque. Morbi ipsum magna, viverra a lacinia in, ultrices eu lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+      "Keitä riisi suolalla maustetussa vedessä, kunnes neste on imeytynyt riiseihin.",
+      "Kuori ja hienonna sipuli, leikkaa kaali suikaleiksi.",
+      "Paista jauheliha ja sipuli paistokasarissa kypsäksi. Mausta suolalla, pippurilla ja meiramilla ja siirrä lautaselle odottamaan.",
+      "Kuumenna öljy kasarissa ja lisää kaalisuikaleet. Hauduta kaalia kannen alla 5–10 minuuttia, kunnes se on hieman pehmentynyt. Mausta siirapilla.",
+      "Sekoita keskenään riisi, jauheliha ja kaalit. Levitä seos uunivuokaan.",
+      "Kaada päälle lihaliemi ja paista 200-asteisessa uunissa noin tunti. Jos pinta tummuu liikaa paiston aikana, peitä laatikko alumiinifoliolla.",
+      "Tarjoa kaalilaatikko puolukkasurvoksen kera."
     ],
+    "source": "",
     "ingredients": [
       {
         "collectionName": "Osa 1",
         "collectionIngredients": [
           {
-            "name": "Ainesosa 1",
+            "name": "Puuroriisi",
             "amount": 1.5,
-            "unit": "rkl"
-          },
-          {
-            "name": "Ainesosa 2",
-            "amount": 3,
-            "unit": "kpl"
-          }
-        ]
-      },
-      {
-        "collectionName": "Osa 2",
-        "collectionIngredients": [
-          {
-            "name": "Ainesosa 3",
-            "amount": 5.5,
             "unit": "dl"
           },
           {
-            "name": "Ainesosa 4",
-            "amount": 200,
-            "unit": "g"
-          },
-          {
-            "name": "Ainesosa 5",
+            "name": "Suola",
             "amount": 0.5,
             "unit": "tl"
           },
           {
-            "name": "Ainesosa 6",
-            "amount": 1.5,
+            "name": "Vettä",
+            "amount": 4,
+            "unit": "dl"
+          },
+          {
+            "name": "Sipuli",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Keräkaali",
+            "amount": 1000,
+            "unit": "g"
+          },
+          {
+            "name": "Sika-nautajauheliha",
+            "amount": 4,
+            "unit": "g"
+          },
+          {
+            "name": "Suola",
+            "amount": 1,
+            "unit": "tl"
+          },
+          {
+            "name": "Mustapippuria",
+            "amount": 0.25,
+            "unit": "tl"
+          },
+          {
+            "name": "Meriamia",
+            "amount": 1,
+            "unit": "tl"
+          },
+          {
+            "name": "Ruokaoljyä",
+            "amount": 1,
             "unit": "rkl"
+          },
+          {
+            "name": "Siirappia",
+            "amount": 1,
+            "unit": "rkl"
+          },
+          {
+            "name": "Lihalientä",
+            "amount": 4,
+            "unit": "dl"
           }
         ]
       }
@@ -113,55 +170,97 @@
   },
   {
     "id": 3,
-    "title": "Kasviskeitto",
-    "description": "Lorem ipsum",
+    "title": "Lohipasta",
+    "description": "Tässä oiva vaihtoehto perinteiselle kanasuikale-pastalle. Lohi on helppo paistaa pannulla ja maistuu loistavalta!",
     "tags": ["kasvis", "keitto"],
-    "img": "600/403",
-    "prepTime": 20,
+    "img": "lohipasta.jpg",
+    "prepTime": 30,
     "servings": 2,
     "instructions": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dignissim, velit et aliquam vehicula, ante tellus mollis lacus, id rutrum elit justo et turpis. Vivamus faucibus ac enim eget tristique. Mauris sodales mollis nibh, ac consectetur arcu maximus sit amet. Proin rutrum libero ac lacus aliquam, at accumsan velit aliquet.",
-      "Integer pulvinar massa sed augue cursus vehicula. Proin ullamcorper suscipit interdum. Vivamus id magna imperdiet, commodo purus sed, eleifend felis. Aenean rhoncus est at tortor consequat imperdiet. In hac habitasse platea dictumst. Quisque consectetur dignissim orci in dictum. Pellentesque risus ex, vehicula eget gravida eu, vestibulum vel mauris. Pellentesque eget risus nec ante gravida luctus at vitae ligula. Cras ullamcorper malesuada ante, at condimentum magna rutrum ut. Cras fringilla vestibulum magna et volutpat. Mauris eget turpis nisi. Fusce porta cursus lacus quis suscipit.",
-      "Proin sit amet ante condimentum, pulvinar ipsum sit amet, blandit neque. Morbi ipsum magna, viverra a lacinia in, ultrices eu lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+      "Kuullota sipulikuutiot ja paista lohisuikaleita öljyssä pannulla hetken. Lisää joukkoon tuorejuusto, kerma, yrtit, sitruunamehu ja anna hautua noin 5 minuuttia.",
+      "Mausta lopuksi vielä rouhitulla mustapippurilla ja suolalla. Keitä pasta kypsäksi pakkauksen ohjeen mukaisesti suolalla maustetussa vedessä.",
+      "Yhdistä kastike pastan joukkoon tai tarjoa erikseen.",
+      "Käytetty ruohosipulituorejuustoa, valkosipulia ja lohi ostettu raakana. Ei edes tilliä ja ruohosipulia."
     ],
+    "source": "Ruokala.fi / Basilisko",
     "ingredients": [
       {
         "collectionName": "Osa 1",
         "collectionIngredients": [
           {
-            "name": "Ainesosa 1",
-            "amount": 1.5,
-            "unit": "rkl"
-          },
-          {
-            "name": "Ainesosa 2",
-            "amount": 3,
-            "unit": "kpl"
-          }
-        ]
-      },
-      {
-        "collectionName": "Osa 2",
-        "collectionIngredients": [
-          {
-            "name": "Ainesosa 3",
-            "amount": 5.5,
-            "unit": "dl"
-          },
-          {
-            "name": "Ainesosa 4",
-            "amount": 200,
+            "name": "Lohisuikaleita",
+            "amount": 300,
             "unit": "g"
           },
           {
-            "name": "Ainesosa 5",
-            "amount": 0.5,
+            "name": "Pieni sipuli pilkottuna",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Öljyä",
+            "amount": 1,
             "unit": "tl"
           },
           {
-            "name": "Ainesosa 6",
-            "amount": 1.5,
+            "name": "Tuorejuusto (ruohosipuli)",
+            "amount": 100,
+            "unit": "g"
+          },
+          {
+            "name": "Ruokakermaa / kuohukermaa",
+            "amount": 2,
+            "unit": "dl"
+          },
+          {
+            "name": "Hienonnettua ruohosipulia",
+            "amount": 3,
             "unit": "rkl"
+          },
+          {
+            "name": "Hienonnettua tilliä",
+            "amount": 3,
+            "unit": "rkl"
+          },
+          {
+            "name": "Sitruunan mehu",
+            "amount": 0.5,
+            "unit": "kpl"
+          },
+          {
+            "name": "Pastaa tai makaronia",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "name": "Pippuria",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "Suolaa",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "(Valkosipulinkynsi)",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "(Katkarapuja)",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "(Simpukoita)",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "Sitruunan kuorta",
+            "amount": 0,
+            "unit": ""
           }
         ]
       }
@@ -169,55 +268,75 @@
   },
   {
     "id": 4,
-    "title": "Kanapata",
-    "description": "Lorem ipsum",
-    "tags": ["kana", "pata"],
-    "img": "600/404",
+    "title": "Makaronilaatikko",
+    "description": "Ikisuosikki makaronilaatikko maistuu kaikille! Tee tällä ohjeella perinteinen, lempeänmakuinen liha-makaronilaatikko.",
+    "tags": ["makaroni", "laatikko"],
+    "img": "makaronilaatikko.PNG",
     "prepTime": 60,
     "servings": 4,
     "instructions": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dignissim, velit et aliquam vehicula, ante tellus mollis lacus, id rutrum elit justo et turpis. Vivamus faucibus ac enim eget tristique. Mauris sodales mollis nibh, ac consectetur arcu maximus sit amet. Proin rutrum libero ac lacus aliquam, at accumsan velit aliquet.",
-      "Integer pulvinar massa sed augue cursus vehicula. Proin ullamcorper suscipit interdum. Vivamus id magna imperdiet, commodo purus sed, eleifend felis. Aenean rhoncus est at tortor consequat imperdiet. In hac habitasse platea dictumst. Quisque consectetur dignissim orci in dictum. Pellentesque risus ex, vehicula eget gravida eu, vestibulum vel mauris. Pellentesque eget risus nec ante gravida luctus at vitae ligula. Cras ullamcorper malesuada ante, at condimentum magna rutrum ut. Cras fringilla vestibulum magna et volutpat. Mauris eget turpis nisi. Fusce porta cursus lacus quis suscipit.",
-      "Proin sit amet ante condimentum, pulvinar ipsum sit amet, blandit neque. Morbi ipsum magna, viverra a lacinia in, ultrices eu lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+      "Keitä makaronit puolikypsäksi pakkauksen ohjeen mukaan, valuta hyvin.",
+      "Kuori ja hienonna sipuli.",
+      "Ruskista jauheliha pannulla ilman rasvaa, lisää hienonnettu sipuli ja mausta suolalla ja pippurilla.",
+      "Riko munat kulhoon. Lisää maito ja suola vatkaten.",
+      "Kaada puolet makaroneista voideltuun uunivuokaan (isoon vuokaan), lisää jauheliha ja loput makaronit. Sekoita, jos haluat. Jätä päällimmäiseksi pelkät makaronit.",
+      "Kaada lopuksi munamaito vuokaan. Lisää päälle 5 nokaretta voita.",
+      "Kypsennä perinteistä makaronilaatikkoa 180-asteisessa uunissa noin 45 minuuttia. Tai 1 h ja 200 astetta."
     ],
+    "source": "Maku 04/2007",
     "ingredients": [
       {
-        "collectionName": "Osa 1",
+        "collectionName": "Makaronijauhelihaseos",
         "collectionIngredients": [
           {
-            "name": "Ainesosa 1",
-            "amount": 1.5,
-            "unit": "rkl"
-          },
-          {
-            "name": "Ainesosa 2",
-            "amount": 3,
-            "unit": "kpl"
-          }
-        ]
-      },
-      {
-        "collectionName": "Osa 2",
-        "collectionIngredients": [
-          {
-            "name": "Ainesosa 3",
-            "amount": 5.5,
+            "name": "Makaronia",
+            "amount": 5,
             "unit": "dl"
           },
           {
-            "name": "Ainesosa 4",
+            "name": "Sipulia",
             "amount": 200,
             "unit": "g"
           },
           {
-            "name": "Ainesosa 5",
+            "name": "Sika-nautajauheliha",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "name": "Suolaa",
             "amount": 0.5,
             "unit": "tl"
           },
           {
-            "name": "Ainesosa 6",
-            "amount": 1.5,
-            "unit": "rkl"
+            "name": "Valkopippuria",
+            "amount": 0.25,
+            "unit": "tl"
+          }
+        ]
+      },
+      {
+        "collectionName": "Munamaito",
+        "collectionIngredients": [
+          {
+            "name": "Kananmuna",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Kevytmaito",
+            "amount": 6,
+            "unit": "dl"
+          },
+          {
+            "name": "Suola",
+            "amount": 2,
+            "unit": "tl"
+          },
+          {
+            "name": "Valkopippuri",
+            "amount": 1,
+            "unit": " hyppysellinen"
           }
         ]
       }
@@ -225,55 +344,102 @@
   },
   {
     "id": 5,
-    "title": "Ranskalainen lihakanapata",
-    "description": "Lorem ipsum",
-    "tags": ["kana", "liha", "pata"],
-    "img": "600/405",
-    "prepTime": 70,
-    "servings": 5,
+    "title": "Nakkikeitto",
+    "description": "",
+    "tags": ["nakki", "keitto"],
+    "img": "nakkikeitto.jpg",
+    "prepTime": 45,
+    "servings": 7,
     "instructions": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dignissim, velit et aliquam vehicula, ante tellus mollis lacus, id rutrum elit justo et turpis. Vivamus faucibus ac enim eget tristique. Mauris sodales mollis nibh, ac consectetur arcu maximus sit amet. Proin rutrum libero ac lacus aliquam, at accumsan velit aliquet.",
-      "Integer pulvinar massa sed augue cursus vehicula. Proin ullamcorper suscipit interdum. Vivamus id magna imperdiet, commodo purus sed, eleifend felis. Aenean rhoncus est at tortor consequat imperdiet. In hac habitasse platea dictumst. Quisque consectetur dignissim orci in dictum. Pellentesque risus ex, vehicula eget gravida eu, vestibulum vel mauris. Pellentesque eget risus nec ante gravida luctus at vitae ligula. Cras ullamcorper malesuada ante, at condimentum magna rutrum ut. Cras fringilla vestibulum magna et volutpat. Mauris eget turpis nisi. Fusce porta cursus lacus quis suscipit.",
-      "Proin sit amet ante condimentum, pulvinar ipsum sit amet, blandit neque. Morbi ipsum magna, viverra a lacinia in, ultrices eu lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+      "Pilko juurekset ja purjo ja laita ne kiehumaan mausteiden kanssa (tai kuullota kevyesti).",
+      "Kuori perunat ja pilko ne ja lisää sekaan jo hetken (5-10 min) kiehuneiden juuresten kanssa.",
+      "Keitä 10-15 min.",
+      "Lisää nakit lähes valmiiseen keittoon (nakit kannattaa paistaa ensin)."
     ],
+    "source": "",
     "ingredients": [
       {
         "collectionName": "Osa 1",
         "collectionIngredients": [
           {
-            "name": "Ainesosa 1",
-            "amount": 1.5,
-            "unit": "rkl"
-          },
-          {
-            "name": "Ainesosa 2",
-            "amount": 3,
+            "name": "Isoa kiinteämaltoista perunaa (1/ruokailija)",
+            "amount": 6,
             "unit": "kpl"
-          }
-        ]
-      },
-      {
-        "collectionName": "Osa 2",
-        "collectionIngredients": [
-          {
-            "name": "Ainesosa 3",
-            "amount": 5.5,
-            "unit": "dl"
           },
           {
-            "name": "Ainesosa 4",
-            "amount": 200,
+            "name": "Porkkanaa",
+            "amount": 100,
             "unit": "g"
           },
           {
-            "name": "Ainesosa 5",
-            "amount": 0.5,
+            "name": "Selleri",
+            "amount": 100,
+            "unit": "g"
+          },
+          {
+            "name": "Palsternakka",
+            "amount": 100,
+            "unit": "g"
+          },
+          {
+            "name": "Lanttu",
+            "amount": 100,
+            "unit": "g"
+          },
+          {
+            "name": "Purjo",
+            "amount": 10,
+            "unit": "cm"
+          },
+          {
+            "name": "Kasvisliemikuutio",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Lihaliemikuutio",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Persiljaa",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "Paprikajauhetta",
+            "amount": 1.5,
             "unit": "tl"
           },
           {
-            "name": "Ainesosa 6",
+            "name": "Mustapippuria",
             "amount": 1.5,
-            "unit": "rkl"
+            "unit": "tl"
+          },
+          {
+            "name": "(Suolaa)",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "Nakkeja",
+            "amount": 100,
+            "unit": "g"
+          },
+          {
+            "name": "Vettä",
+            "amount": 3,
+            "unit": "l"
+          },
+          {
+            "name": "Sipuli",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Laakerinlehti",
+            "amount": 2,
+            "unit": "kpl"
           }
         ]
       }

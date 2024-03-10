@@ -2,13 +2,13 @@
   <section class="recipe-details-section">
     <div class="recipe-card">
       <div class="recipe-thumbnail">
-        <img :src="'https://picsum.photos/' + recipe.img" />
+        <img :src="'/images/' + recipe.img" />
         <h1>{{ recipe.title }}</h1>
       </div>
       <div class="recipe-stats">
         <div class="prep-time">
           <Icon class="icon" icon="mdi:clockwise" />
-          <p>60min</p>
+          <p>{{ recipe.prepTime }}</p>
         </div>
         <div class="servings-container">
           <button @click="removeServings" class="remove-servings">
