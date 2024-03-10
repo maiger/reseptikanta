@@ -14,34 +14,44 @@
     ],
     "ingredients": [
       {
-        "name": "Ainesosa 1",
-        "amount": 1.5,
-        "unit": "rkl"
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Ainesosa 1",
+            "amount": 1.5,
+            "unit": "rkl"
+          },
+          {
+            "name": "Ainesosa 2",
+            "amount": 3,
+            "unit": "kpl"
+          }
+        ]
       },
       {
-        "name": "Ainesosa 2",
-        "amount": 3,
-        "unit": "kpl"
-      },
-      {
-        "name": "Ainesosa 3",
-        "amount": 5.5,
-        "unit": "dl"
-      },
-      {
-        "name": "Ainesosa 4",
-        "amount": 200,
-        "unit": "g"
-      },
-      {
-        "name": "Ainesosa 5",
-        "amount": 0.5,
-        "unit": "tl"
-      },
-      {
-        "name": "Ainesosa 6",
-        "amount": 1.5,
-        "unit": "rkl"
+        "collectionName": "Osa 2",
+        "collectionIngredients": [
+          {
+            "name": "Ainesosa 3",
+            "amount": 5.5,
+            "unit": "dl"
+          },
+          {
+            "name": "Ainesosa 4",
+            "amount": 200,
+            "unit": "g"
+          },
+          {
+            "name": "Ainesosa 5",
+            "amount": 0.5,
+            "unit": "tl"
+          },
+          {
+            "name": "Ainesosa 6",
+            "amount": 1.5,
+            "unit": "rkl"
+          }
+        ]
       }
     ]
   },
@@ -60,34 +70,44 @@
     ],
     "ingredients": [
       {
-        "name": "Ainesosa 1",
-        "amount": 1.5,
-        "unit": "rkl"
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Ainesosa 1",
+            "amount": 1.5,
+            "unit": "rkl"
+          },
+          {
+            "name": "Ainesosa 2",
+            "amount": 3,
+            "unit": "kpl"
+          }
+        ]
       },
       {
-        "name": "Ainesosa 2",
-        "amount": 3,
-        "unit": "kpl"
-      },
-      {
-        "name": "Ainesosa 3",
-        "amount": 5.5,
-        "unit": "dl"
-      },
-      {
-        "name": "Ainesosa 4",
-        "amount": 200,
-        "unit": "g"
-      },
-      {
-        "name": "Ainesosa 5",
-        "amount": 0.5,
-        "unit": "tl"
-      },
-      {
-        "name": "Ainesosa 6",
-        "amount": 1.5,
-        "unit": "rkl"
+        "collectionName": "Osa 2",
+        "collectionIngredients": [
+          {
+            "name": "Ainesosa 3",
+            "amount": 5.5,
+            "unit": "dl"
+          },
+          {
+            "name": "Ainesosa 4",
+            "amount": 200,
+            "unit": "g"
+          },
+          {
+            "name": "Ainesosa 5",
+            "amount": 0.5,
+            "unit": "tl"
+          },
+          {
+            "name": "Ainesosa 6",
+            "amount": 1.5,
+            "unit": "rkl"
+          }
+        ]
       }
     ]
   },
@@ -106,34 +126,44 @@
     ],
     "ingredients": [
       {
-        "name": "Ainesosa 1",
-        "amount": 1.5,
-        "unit": "rkl"
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Ainesosa 1",
+            "amount": 1.5,
+            "unit": "rkl"
+          },
+          {
+            "name": "Ainesosa 2",
+            "amount": 3,
+            "unit": "kpl"
+          }
+        ]
       },
       {
-        "name": "Ainesosa 2",
-        "amount": 3,
-        "unit": "kpl"
-      },
-      {
-        "name": "Ainesosa 3",
-        "amount": 5.5,
-        "unit": "dl"
-      },
-      {
-        "name": "Ainesosa 4",
-        "amount": 200,
-        "unit": "g"
-      },
-      {
-        "name": "Ainesosa 5",
-        "amount": 0.5,
-        "unit": "tl"
-      },
-      {
-        "name": "Ainesosa 6",
-        "amount": 1.5,
-        "unit": "rkl"
+        "collectionName": "Osa 2",
+        "collectionIngredients": [
+          {
+            "name": "Ainesosa 3",
+            "amount": 5.5,
+            "unit": "dl"
+          },
+          {
+            "name": "Ainesosa 4",
+            "amount": 200,
+            "unit": "g"
+          },
+          {
+            "name": "Ainesosa 5",
+            "amount": 0.5,
+            "unit": "tl"
+          },
+          {
+            "name": "Ainesosa 6",
+            "amount": 1.5,
+            "unit": "rkl"
+          }
+        ]
       }
     ]
   },
@@ -152,34 +182,44 @@
     ],
     "ingredients": [
       {
-        "name": "Ainesosa 1",
-        "amount": 1.5,
-        "unit": "rkl"
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Ainesosa 1",
+            "amount": 1.5,
+            "unit": "rkl"
+          },
+          {
+            "name": "Ainesosa 2",
+            "amount": 3,
+            "unit": "kpl"
+          }
+        ]
       },
       {
-        "name": "Ainesosa 2",
-        "amount": 3,
-        "unit": "kpl"
-      },
-      {
-        "name": "Ainesosa 3",
-        "amount": 5.5,
-        "unit": "dl"
-      },
-      {
-        "name": "Ainesosa 4",
-        "amount": 200,
-        "unit": "g"
-      },
-      {
-        "name": "Ainesosa 5",
-        "amount": 0.5,
-        "unit": "tl"
-      },
-      {
-        "name": "Ainesosa 6",
-        "amount": 1.5,
-        "unit": "rkl"
+        "collectionName": "Osa 2",
+        "collectionIngredients": [
+          {
+            "name": "Ainesosa 3",
+            "amount": 5.5,
+            "unit": "dl"
+          },
+          {
+            "name": "Ainesosa 4",
+            "amount": 200,
+            "unit": "g"
+          },
+          {
+            "name": "Ainesosa 5",
+            "amount": 0.5,
+            "unit": "tl"
+          },
+          {
+            "name": "Ainesosa 6",
+            "amount": 1.5,
+            "unit": "rkl"
+          }
+        ]
       }
     ]
   },
@@ -198,34 +238,44 @@
     ],
     "ingredients": [
       {
-        "name": "Ainesosa 1",
-        "amount": 1.5,
-        "unit": "rkl"
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Ainesosa 1",
+            "amount": 1.5,
+            "unit": "rkl"
+          },
+          {
+            "name": "Ainesosa 2",
+            "amount": 3,
+            "unit": "kpl"
+          }
+        ]
       },
       {
-        "name": "Ainesosa 2",
-        "amount": 3,
-        "unit": "kpl"
-      },
-      {
-        "name": "Ainesosa 3",
-        "amount": 5.5,
-        "unit": "dl"
-      },
-      {
-        "name": "Ainesosa 4",
-        "amount": 200,
-        "unit": "g"
-      },
-      {
-        "name": "Ainesosa 5",
-        "amount": 0.5,
-        "unit": "tl"
-      },
-      {
-        "name": "Ainesosa 6",
-        "amount": 1.5,
-        "unit": "rkl"
+        "collectionName": "Osa 2",
+        "collectionIngredients": [
+          {
+            "name": "Ainesosa 3",
+            "amount": 5.5,
+            "unit": "dl"
+          },
+          {
+            "name": "Ainesosa 4",
+            "amount": 200,
+            "unit": "g"
+          },
+          {
+            "name": "Ainesosa 5",
+            "amount": 0.5,
+            "unit": "tl"
+          },
+          {
+            "name": "Ainesosa 6",
+            "amount": 1.5,
+            "unit": "rkl"
+          }
+        ]
       }
     ]
   }

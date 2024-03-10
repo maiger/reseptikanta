@@ -1,9 +1,17 @@
 <template>
   <div class="ingredients">
     <h2>Ainesosat</h2>
-    <div v-for="(ingredient, index) in recipe.ingredients" class="ingredient">
-      {{ ingredient.name }}: {{ fracty(ingredient.amount * computedServings)
-      }}{{ ingredient.unit }}
+    <div v-for="collection in recipe.ingredients" class="ingredient-section">
+      <p v-if="recipe.ingredients.length > 1">
+        {{ collection.collectionName }}
+      </p>
+      <div
+        v-for="(ingredient, index) in collection.collectionIngredients"
+        class="ingredient"
+      >
+        {{ ingredient.name }}: {{ fracty(ingredient.amount * computedServings)
+        }}{{ ingredient.unit }}
+      </div>
     </div>
   </div>
 </template>
