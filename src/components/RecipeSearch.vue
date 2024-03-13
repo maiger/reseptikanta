@@ -20,10 +20,10 @@
       <li
         class="search-tag"
         v-for="tag in tags"
-        :key="tag"
-        @click="onTagClick(tag)"
+        :key="tag.name"
+        @click="onTagClick(tag.name)"
       >
-        {{ tag.toUpperCase() }}
+        {{ tag.name.toUpperCase() }}&nbsp;({{ tag.count }})
       </li>
     </ul>
   </section>

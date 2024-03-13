@@ -35,15 +35,23 @@ const handleSearchSubmitted = (searchTerm) => {
 };
 
 const getUniqueTags = () => {
-  // TODO: Sort by count, only return top 5 results
+  //Sort by count, only return top 5 results
   let uTags = [];
   recipes.value.forEach((recipe) => {
     recipe.tags.forEach((tag) => {
-      if (!uTags.includes(tag)) uTags.push(tag);
+      // If tag already in uTags increment count, else add to array
+      const targetTag = uTags.find((uTag) => uTag.name === tag);
+      if (targetTag) {
+        targetTag.count++;
+      } else {
+        uTags.push({ name: tag, count: 1 });
+      }
     });
   });
 
-  tags.value = uTags;
+  // Use top 6 count tags
+  uTags.sort((a, b) => b.count - a.count);
+  tags.value = uTags.slice(0, 6);
 };
 
 getUniqueTags();
