@@ -1,7 +1,11 @@
 <template>
   <div class="instructions">
     <h2>Ohjeet</h2>
-    <div v-for="(step, index) in recipe.instructions" class="instruction-step">
+    <div
+      @click="toggleComplete"
+      v-for="(step, index) in recipe.instructions"
+      class="instruction-step"
+    >
       <b>Vaihe {{ index + 1 }}:</b> {{ step }}
     </div>
   </div>
@@ -16,11 +20,15 @@ const props = defineProps({
     required: true,
   },
 });
+
+const toggleComplete = (e) => {
+  e.target.closest(".instruction-step").classList.toggle("step-complete");
+};
 </script>
 
 <style lang="scss" scoped>
 .instructions {
-  flex: 3;
+  flex: 4;
   margin: 1rem;
   padding: 3rem;
 
@@ -30,6 +38,12 @@ const props = defineProps({
 
   .instruction-step {
     margin: 1rem 0;
+    cursor: pointer;
+  }
+
+  .step-complete {
+    text-decoration: line-through;
+    opacity: 0.75;
   }
 }
 </style>
