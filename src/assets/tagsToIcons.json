@@ -1,0 +1,12 @@
+{
+  "default": "material-symbols:error-outline",
+  "keitto": "lucide:soup",
+  "laatikko": "mdi:pot-outline",
+  "jauheliha": "mdi:meat-outline",
+  "nakki": "tabler:sausage",
+  "chorizo": "tabler:sausage",
+  "kaali": "tdesign:cabbage",
+  "kala": "tdesign:fish",
+  "pasta": "mdi:spaghetti",
+  "makaroni": "mdi:spaghetti"
+}

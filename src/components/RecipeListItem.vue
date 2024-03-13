@@ -12,7 +12,9 @@
         </div>
         <div class="tags">
           <div v-for="tag in recipe.tags">
-            <span class="tag">{{ tag.toUpperCase() }}</span>
+            <div class="tag">
+              <Icon class="icon" :icon="`${getTagIcon(tag)}`" />
+            </div>
           </div>
         </div>
       </div>
@@ -21,6 +23,7 @@
 </template>
 
 <script setup>
+import tagToIcon from "@/assets/tagsToIcons.json";
 import { Icon } from "@iconify/vue";
 import { defineProps } from "vue";
 
@@ -30,6 +33,15 @@ const props = defineProps({
     required: true,
   },
 });
+
+const getTagIcon = (tag) => {
+  let iconName = tagToIcon[tag];
+  if (!iconName) {
+    console.warn("Icon not found for tag: " + tag);
+    iconName = tagToIcon["default"];
+  }
+  return iconName;
+};
 </script>
 
 <style lang="scss" scoped>
@@ -98,7 +110,7 @@ const props = defineProps({
   .recipe-info {
     position: absolute;
     justify-content: space-between;
-    bottom: 1rem;
+    bottom: 0.5rem;
     width: 100%;
     padding: 0 0.5rem;
     display: flex;
@@ -125,14 +137,23 @@ const props = defineProps({
       display: flex;
 
       .tag {
-        margin: 0 0.25rem;
-        padding: 0.5rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0.25rem;
+        padding: 0.7rem 0.7rem;
         letter-spacing: 1px;
         font-size: var(--text-para-size-small);
         color: var(--color-primary-1-light);
         background-color: var(--color-secondary-1-dark-1);
         border-radius: 20px;
         opacity: 0.9;
+
+        .icon {
+          color: var(--color-primary-1-light);
+          width: 2.4rem;
+          height: 2.4rem;
+        }
       }
     }
   }
