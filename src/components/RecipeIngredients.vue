@@ -1,11 +1,11 @@
 <template>
   <div class="ingredients">
     <h2>Ainesosat</h2>
-    <div v-for="collection in recipe.ingredients" class="ingredient-section">
+    <ul v-for="collection in recipe.ingredients" class="ingredient-section">
       <p class="collection" v-if="recipe.ingredients.length > 1">
         {{ collection.collectionName }}
       </p>
-      <div
+      <li
         @click="toggleComplete"
         v-for="(ingredient, index) in collection.collectionIngredients"
         class="ingredient"
@@ -16,8 +16,8 @@
           {{ fracty(ingredient.amount * computedServings) }}
           {{ ingredient.unit }}
         </div>
-      </div>
-    </div>
+      </li>
+    </ul>
   </div>
 </template>
 

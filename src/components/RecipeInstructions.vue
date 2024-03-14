@@ -1,13 +1,15 @@
 <template>
   <div class="instructions">
     <h2>Ohjeet</h2>
-    <div
-      @click="toggleComplete"
-      v-for="(step, index) in recipe.instructions"
-      class="instruction-step"
-    >
-      <b>Vaihe {{ index + 1 }}:</b> {{ step }}
-    </div>
+    <ul>
+      <li
+        @click="toggleComplete"
+        v-for="(step, index) in recipe.instructions"
+        class="instruction-step"
+      >
+        <b>Vaihe {{ index + 1 }}:</b> {{ step }}
+      </li>
+    </ul>
   </div>
 </template>
 

@@ -36,11 +36,11 @@
         />
         <RecipeInstructions class="instructions" :recipe="recipe" />
       </div>
-      <div class="tags">
-        <div v-for="tag in recipe.tags">
+      <ul class="tags">
+        <li v-for="tag in recipe.tags">
           <span class="tag">{{ tag.toUpperCase() }}</span>
-        </div>
-      </div>
+        </li>
+      </ul>
     </div>
   </section>
 </template>
