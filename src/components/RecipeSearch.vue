@@ -135,6 +135,9 @@ const onTagClick = (tag) => {
 
 .search-tags {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   margin-top: 1rem;
   cursor: pointer;
 
@@ -157,6 +160,15 @@ const onTagClick = (tag) => {
   li:active {
     transform: translateY(1px) scale(0.95);
     box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .search-form {
+    input {
+      width: 22rem;
+      transform: translateX(-3rem);
+    }
   }
 }
 </style>
