@@ -68,7 +68,7 @@ const onTagClick = (tag) => {
   align-items: center;
   flex-direction: column;
 
-  margin: 4rem 0;
+  margin: 4rem 0 2rem 0;
 }
 
 .search-form {

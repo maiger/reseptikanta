@@ -158,4 +158,58 @@ const getTagIcon = (tag) => {
     }
   }
 }
+
+@media only screen and (max-width: 750px) {
+  .recipe-item {
+    height: 14rem;
+    width: 26rem;
+    margin: 8rem 1rem 1rem 1rem;
+
+    .recipe-thumbnail {
+      height: 16rem;
+      width: 24rem;
+    }
+
+    .title {
+      font-size: 2.4rem;
+      bottom: 5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .recipe-item {
+    height: 10rem;
+    width: 42rem;
+
+    .recipe-thumbnail {
+      height: 12rem;
+      width: 40rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .recipe-item {
+    height: 10rem;
+    width: 32rem;
+
+    .recipe-thumbnail {
+      height: 12rem;
+      width: 30rem;
+    }
+  }
+
+  .tags {
+    // background-color: red;
+    .tag {
+      background-color: blue;
+
+      .icon {
+        height: 2.4rem;
+        width: 2.4rem;
+      }
+    }
+  }
+}
 </style>
