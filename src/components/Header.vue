@@ -3,7 +3,7 @@
     <nav class="container">
       <RouterLink to="/">
         <div class="branding">
-          <img src="../assets/logo.png" alt="Logo" />
+          <img src="../assets/logo.png" alt="Logo" width="48" height="48" />
           <h1>Reseptikanta</h1>
         </div>
       </RouterLink>
