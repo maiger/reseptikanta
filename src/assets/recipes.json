@@ -87,7 +87,7 @@
     "title": "Perinteinen kaalilaatikko",
     "description": "Perinteinen kaalilaatikko on kotiruokien ehdoton ykkönen. Tällä supersuositulla reseptillä kaalilaatikosta tulee juuri niin mehevä kuin kuuluukin.",
     "tags": ["kaali", "laatikko"],
-    "img": "perinteinen_kaalilaatikko.PNG",
+    "img": "perinteinen_kaalilaatikko.jpg",
     "prepTime": 80,
     "servings": 6,
     "instructions": [
@@ -271,7 +271,7 @@
     "title": "Makaronilaatikko",
     "description": "Ikisuosikki makaronilaatikko maistuu kaikille! Tee tällä ohjeella perinteinen, lempeänmakuinen liha-makaronilaatikko.",
     "tags": ["makaroni", "laatikko"],
-    "img": "makaronilaatikko.PNG",
+    "img": "makaronilaatikko.jpg",
     "prepTime": 60,
     "servings": 4,
     "instructions": [
