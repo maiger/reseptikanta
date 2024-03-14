@@ -11,10 +11,8 @@
           <p>{{ recipe.prepTime }}min</p>
         </div>
         <div class="tags">
-          <div v-for="tag in recipe.tags">
-            <div class="tag">
-              <Icon class="icon" :icon="`${getTagIcon(tag)}`" />
-            </div>
+          <div class="tag" v-for="tag in recipe.tags">
+            <Icon class="icon" :icon="`${getTagIcon(tag)}`" />
           </div>
         </div>
       </div>
@@ -86,8 +84,9 @@ const getTagIcon = (tag) => {
   .recipe-thumbnail {
     position: absolute;
     top: -7rem;
-    height: 30rem;
-    width: 30rem;
+    height: calc(100% + 2rem);
+    width: calc(100% - 2rem);
+
     z-index: -1;
 
     img {
@@ -146,7 +145,7 @@ const getTagIcon = (tag) => {
         font-size: var(--text-para-size-small);
         color: var(--color-primary-1-light);
         background-color: var(--color-secondary-1-dark-1);
-        border-radius: 20px;
+        border-radius: 50px;
         opacity: 0.9;
 
         .icon {
@@ -162,13 +161,8 @@ const getTagIcon = (tag) => {
 @media only screen and (max-width: 750px) {
   .recipe-item {
     height: 14rem;
-    width: 26rem;
+    width: 45vw;
     margin: 8rem 1rem 1rem 1rem;
-
-    .recipe-thumbnail {
-      height: 16rem;
-      width: 24rem;
-    }
 
     .title {
       font-size: 2.4rem;
@@ -180,34 +174,31 @@ const getTagIcon = (tag) => {
 @media only screen and (max-width: 580px) {
   .recipe-item {
     height: 10rem;
-    width: 42rem;
-
-    .recipe-thumbnail {
-      height: 12rem;
-      width: 40rem;
-    }
+    width: 90vw;
   }
 }
 
 @media only screen and (max-width: 450px) {
   .recipe-item {
+    margin-top: 7rem;
     height: 10rem;
-    width: 32rem;
 
     .recipe-thumbnail {
-      height: 12rem;
-      width: 30rem;
+      top: -6rem;
     }
-  }
 
-  .tags {
-    // background-color: red;
-    .tag {
-      background-color: blue;
+    .recipe-info {
+      .prep-time {
+        margin-bottom: -1.5rem;
+      }
 
-      .icon {
-        height: 2.4rem;
-        width: 2.4rem;
+      .tags {
+        .tag {
+          .icon {
+            height: 3rem;
+            width: 3rem;
+          }
+        }
       }
     }
   }
