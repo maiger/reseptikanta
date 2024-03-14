@@ -1,10 +1,12 @@
 <template>
   <header>
     <nav class="container">
-      <div class="branding">
-        <img src="../assets/logo.png" alt="Logo" />
-        <h1>Reseptikanta</h1>
-      </div>
+      <RouterLink to="/">
+        <div class="branding">
+          <img src="../assets/logo.png" alt="Logo" />
+          <h1>Reseptikanta</h1>
+        </div>
+      </RouterLink>
       <ul class="nav-routes">
         <li>
           <RouterLink to="/">
@@ -32,10 +34,16 @@ import { RouterLink } from "vue-router";
 
 header {
   background-color: var(--color-primary-1-dark);
+
   nav {
     display: flex;
     align-items: center;
     padding: 1rem 1.6rem;
+
+    .branding,
+    .nav-routes li .icon {
+      color: var(--color-secondary-1-dark-1);
+    }
 
     .branding {
       display: flex;
@@ -60,18 +68,20 @@ header {
       gap: 1.2rem;
       list-style: none;
 
+      li {
+        transition: all 0.2s;
+      }
+
+      li:hover {
+        transform: scale(1.1) rotateZ(-5deg);
+      }
+
       .icon {
         display: flex;
         justify-content: center;
         width: 3rem;
         height: 3rem;
         opacity: 0.9;
-      }
-
-      a {
-        align-self: center;
-        padding: 0;
-        color: inherit;
       }
     }
   }
