@@ -9,10 +9,10 @@
         v-model="searchTerm"
         placeholder="Hae reseptiä.."
       />
-      <button class="btn-search" @click="doSearch">
+      <button class="btn-search" @click="doSearch" aria-label="search">
         <Icon class="icon" icon="material-symbols:search" />
       </button>
-      <button class="btn-reset" @click="resetSearch">
+      <button class="btn-reset" @click="resetSearch" aria-label="reset search">
         <Icon class="icon" icon="fluent:arrow-reset-20-filled" />
       </button>
     </form>

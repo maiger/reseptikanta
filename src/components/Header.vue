@@ -9,12 +9,12 @@
       </RouterLink>
       <ul class="nav-routes">
         <li>
-          <RouterLink to="/">
+          <RouterLink to="/" aria-label="home">
             <Icon class="icon" icon="material-symbols:home-outline" />
           </RouterLink>
         </li>
         <li>
-          <RouterLink to="/about">
+          <RouterLink to="/about" aria-label="about">
             <Icon class="icon" icon="material-symbols:info-outline" />
           </RouterLink>
         </li>

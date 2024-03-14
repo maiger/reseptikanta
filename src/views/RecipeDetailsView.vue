@@ -2,7 +2,7 @@
   <section class="recipe-details-section">
     <div class="recipe-card">
       <div class="recipe-thumbnail">
-        <img :src="'/images/' + recipe.img" />
+        <img :src="'/images/' + recipe.img" :alt="recipe.title" />
         <h1>{{ recipe.title }}</h1>
       </div>
       <div class="recipe-stats">
@@ -11,11 +11,19 @@
           <p>{{ recipe.prepTime }}</p>
         </div>
         <div class="servings-container">
-          <button @click="removeServings" class="remove-servings">
+          <button
+            @click="removeServings"
+            class="remove-servings"
+            aria-label="remove servings"
+          >
             <Icon class="icon" icon="mdi:minus" />
           </button>
           <h2 class="servings">{{ servings }}</h2>
-          <button @click="addServings" class="add-servings">
+          <button
+            @click="addServings"
+            class="add-servings"
+            aria-label="add servings"
+          >
             <Icon class="icon" icon="mdi:plus" />
           </button>
         </div>

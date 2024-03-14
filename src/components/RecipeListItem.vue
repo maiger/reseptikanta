@@ -2,7 +2,7 @@
   <RouterLink :to="`/recipes/${recipe.id}`">
     <div class="recipe-item">
       <div class="recipe-thumbnail">
-        <img :src="'/images/' + recipe.img" />
+        <img :src="'/images/' + recipe.img" :alt="recipe.title" />
       </div>
       <h1 class="title">{{ recipe.title }}</h1>
       <div class="recipe-info">
