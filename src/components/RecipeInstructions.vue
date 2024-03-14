@@ -28,7 +28,6 @@ const toggleComplete = (e) => {
 
 <style lang="scss" scoped>
 .instructions {
-  flex: 4;
   margin: 1rem;
   padding: 3rem;
 
@@ -44,6 +43,12 @@ const toggleComplete = (e) => {
   .step-complete {
     text-decoration: line-through;
     opacity: 0.75;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .instructions {
+    width: 90vw;
   }
 }
 </style>

@@ -52,7 +52,6 @@ const toggleComplete = (e) => {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  flex: 2;
   margin: 1rem;
   padding: 3rem 0 1rem 2rem;
 
@@ -87,6 +86,14 @@ const toggleComplete = (e) => {
       font-weight: var(--text-weight-semibold);
       white-space: nowrap;
     }
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .ingredients {
+    padding: 2rem 2rem;
+    // width: 90vw;
+    // max-width: 50rem;
   }
 }
 </style>

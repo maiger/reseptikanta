@@ -21,8 +21,12 @@
         </div>
       </div>
       <div class="recipe-info">
-        <RecipeIngredients :recipe="recipe" :servings="servings" />
-        <RecipeInstructions :recipe="recipe" />
+        <RecipeIngredients
+          class="ingredients"
+          :recipe="recipe"
+          :servings="servings"
+        />
+        <RecipeInstructions class="instructions" :recipe="recipe" />
       </div>
       <div class="tags">
         <div v-for="tag in recipe.tags">
@@ -73,7 +77,7 @@ const removeServings = () => {
   flex-direction: column;
   align-items: center;
   width: 100rem;
-  margin: 5rem 0;
+  margin: 5rem 0 0 0;
   padding: 2rem;
 }
 
@@ -82,7 +86,7 @@ const removeServings = () => {
   display: flex;
   justify-content: center;
   height: 30rem;
-  width: 60rem;
+  max-width: 64rem;
   background-color: var(--color-primary-1-dark);
   padding: 1rem;
   margin-bottom: 1rem;
@@ -175,6 +179,14 @@ const removeServings = () => {
   width: 100%;
   align-items: flex-start;
   margin-bottom: 2rem;
+
+  .ingredients {
+    flex: 2;
+  }
+
+  .instructions {
+    flex: 4;
+  }
 }
 
 .tags {
@@ -195,6 +207,32 @@ const removeServings = () => {
     background-color: var(--color-secondary-1-dark-1);
     border-radius: 20px;
     opacity: 0.9;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .recipe-card {
+    .recipe-thumbnail {
+      h1 {
+        font-size: 4.4rem;
+        bottom: 2rem;
+      }
+    }
+  }
+
+  .recipe-info {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .recipe-card {
+    .recipe-thumbnail {
+      h1 {
+        font-size: 3rem;
+        bottom: 3rem;
+      }
+    }
   }
 }
 </style>
