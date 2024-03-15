@@ -2,7 +2,7 @@
   <section class="recipe-details-section">
     <div class="recipe-card">
       <div class="recipe-thumbnail">
-        <img :src="'/reseptikanta/images/' + recipe.img" :alt="recipe.title" />
+        <img :src="`${BASE_IMAGE_PATH + recipe.img}`" :alt="recipe.title" />
         <h1>{{ recipe.title }}</h1>
       </div>
       <div class="recipe-stats">
@@ -53,6 +53,8 @@ import { ref } from "vue";
 
 import RecipeIngredients from "../components/RecipeIngredients.vue";
 import RecipeInstructions from "../components/RecipeInstructions.vue";
+
+import { BASE_IMAGE_PATH } from "@/assets/config.js";
 
 // Get ID
 const route = useRoute();

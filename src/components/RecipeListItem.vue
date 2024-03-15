@@ -2,8 +2,7 @@
   <RouterLink :to="`/recipes/${recipe.id}`">
     <div class="recipe-item">
       <div class="recipe-thumbnail">
-        <img :src="'/reseptikanta/images/' + recipe.img" :alt="recipe.title" />
-        <!-- <img :src="`/images/${recipe.img}`" :alt="recipe.title" /> -->
+        <img :src="`${BASE_IMAGE_PATH + recipe.img}`" :alt="recipe.title" />
       </div>
       <h1 class="title">{{ recipe.title }}</h1>
       <div class="recipe-info">
@@ -25,6 +24,8 @@
 import tagToIcon from "@/assets/tagsToIcons.json";
 import { Icon } from "@iconify/vue";
 import { defineProps } from "vue";
+
+import { BASE_IMAGE_PATH } from "@/assets/config.js";
 
 const props = defineProps({
   recipe: {
