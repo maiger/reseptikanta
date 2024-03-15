@@ -14,6 +14,8 @@
       "Kokeile yhdistelmää Tulinen makkarakeitto / Jauheliha-chorizo –keitto."
     ],
     "source": "",
+    "dateAdded": "13.3.2024",
+    "favourite": false,
     "ingredients": [
       {
         "collectionName": "Osa 1",
@@ -100,6 +102,8 @@
       "Tarjoa kaalilaatikko puolukkasurvoksen kera."
     ],
     "source": "",
+    "dateAdded": "13.3.2024",
+    "favourite": false,
     "ingredients": [
       {
         "collectionName": "Osa 1",
@@ -183,6 +187,8 @@
       "Käytetty ruohosipulituorejuustoa, valkosipulia ja lohi ostettu raakana. Ei edes tilliä ja ruohosipulia."
     ],
     "source": "Ruokala.fi / Basilisko",
+    "dateAdded": "13.3.2024",
+    "favourite": false,
     "ingredients": [
       {
         "collectionName": "Osa 1",
@@ -284,6 +290,8 @@
       "Kypsennä perinteistä makaronilaatikkoa 180-asteisessa uunissa noin 45 minuuttia. Tai 1 h ja 200 astetta."
     ],
     "source": "Maku 04/2007",
+    "dateAdded": "13.3.2024",
+    "favourite": false,
     "ingredients": [
       {
         "collectionName": "Makaronijauhelihaseos",
@@ -357,6 +365,8 @@
       "Lisää nakit lähes valmiiseen keittoon (nakit kannattaa paistaa ensin)."
     ],
     "source": "",
+    "dateAdded": "13.3.2024",
+    "favourite": false,
     "ingredients": [
       {
         "collectionName": "Osa 1",
@@ -440,6 +450,187 @@
             "name": "Laakerinlehti",
             "amount": 2,
             "unit": "kpl"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Norjalainen lohikeitto",
+    "description": "",
+    "tags": ["kala", "keitto"],
+    "img": "norjalainen_lohikeitto.jpg",
+    "prepTime": 60,
+    "servings": 4,
+    "instructions": [
+      "Poista ruodot ja leikkaa lohi nahattomaksi. Paloittele kala",
+      "Kuori kasvikset. Kuutioi perunat, hienonna sipuli, viipaloi porkkanat ja selleri",
+      "Kuullota kasviksia, fenkolinsiemeniä ja laakerinlehtiä rasvassa kattilassa noin 5 minuutti",
+      "Lisää suola ja vesi. Keitä noin 10 minuuttia, kunnnes kasvikset ovat lähes kypsiä. Ripottele lohipalat keiton pinnalle ja keitä miedolla lämmöllä noin 5 minuuttia, kunnes ne ovat kypsiä",
+      "Mausta sitruunamehulla ja tillillä. Tarkista maku. Tarjoa lohikeitto lämpimien rieskojen tai paahdetun ruisleivän kanssa."
+    ],
+    "source": "",
+    "dateAdded": "15.3.2024",
+    "favourite": false,
+    "ingredients": [
+      {
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Lohifileetä",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "name": "Perunaa",
+            "amount": 300,
+            "unit": "g (4-5)"
+          },
+          {
+            "name": "Sipuli",
+            "amount": 150,
+            "unit": "g (1 iso)"
+          },
+          {
+            "name": "Porkkanaa",
+            "amount": 200,
+            "unit": "g (2-3)"
+          },
+          {
+            "name": "Lehtisellerinvartta",
+            "amount": 150,
+            "unit": "g (2)"
+          },
+          {
+            "name": "Fenkolinsiemeniä",
+            "amount": 1.5,
+            "unit": "tl"
+          },
+          {
+            "name": "Laakerinlehti",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Voita tai öljyä",
+            "amount": 1,
+            "unit": "rkl (1-2)"
+          },
+          {
+            "name": "Suolaa",
+            "amount": 1.5,
+            "unit": "tl"
+          },
+          {
+            "name": "Vettä",
+            "amount": 9,
+            "unit": "dl"
+          },
+          {
+            "name": "Sitruunamehua",
+            "amount": 1,
+            "unit": "rkl (1-2)"
+          },
+          {
+            "name": "Tilliä hienonnettuna",
+            "amount": 1,
+            "unit": "dl"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Ranskalainen lihapata, Pot-au-feu",
+    "description": "",
+    "tags": ["liha", "pata"],
+    "img": "ranskalainen_lihapata.jpg",
+    "prepTime": 180,
+    "servings": 4,
+    "instructions": [
+      "Pot-au-feu on ranskalaisen perheen sunnuntairuoka. Naudanlihan lisäksi monet emännät lisäävät pataan myös kanaa (rintaleike kokonaisena nahkoineen noin tunti, pintaan ensin ruskistus). Muista pyytää kauppiaalta mukaan vähän maukasta ydinluuta.",
+      "Paloittele liha reiluiksi paloiksi. Kuumenna 2 l vettä isossa kattilassa tai padassa, lisää lihapalat, laakerinlehdet, kuorimattomat valkosipulinkynnet, neilikat, suola ja pippurit. Kuori reikäkauhalla pois pinnalle nouseva vaahto. Hauduta lihaa miedolla lämmöllä 2,5 tuntia.",
+      "Lisää pataan yrtinoksat, reiluiksi paloiksi leikatut purjot, selleri, porkkanat ja kokonaiset salottisipulit (sekä tomaatit). Jatka hauduttamista vielä noin tunnin ajan.",
+      "Tarjoa padan kanssa Dijonin sinappia, cornichoneja eli pikkukurkkuja ja maalaisleipää."
+    ],
+    "source": "Anna / Taina Salovaara",
+    "dateAdded": "15.3.2024",
+    "favourite": false,
+    "ingredients": [
+      {
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Naudan lapaa",
+            "amount": 1.5,
+            "unit": "kg"
+          },
+          {
+            "name": "Valkosipulinkynttä",
+            "amount": 4,
+            "unit": "kpl"
+          },
+          {
+            "name": "Kokonaista valkopippuria",
+            "amount": 10,
+            "unit": "kpl"
+          },
+          {
+            "name": "Laakerinlehti",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Neilikkaa",
+            "amount": 4,
+            "unit": "kpl"
+          },
+          {
+            "name": "Suolaa",
+            "amount": 2,
+            "unit": "tl"
+          },
+          {
+            "name": "Vettä",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "Purjoa",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Selleriä",
+            "amount": 0.5,
+            "unit": "kpl"
+          },
+          {
+            "name": "Porkkanaa",
+            "amount": 4,
+            "unit": "kpl"
+          },
+          {
+            "name": "Salottisipulia",
+            "amount": 8,
+            "unit": "kpl"
+          },
+          {
+            "name": "(Kokonaisia tomaatteja)",
+            "amount": 1,
+            "unit": "tlk"
+          },
+          {
+            "name": "Timjamin oksia",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "Rosmariinin oksa",
+            "amount": 0,
+            "unit": ""
           }
         ]
       }
