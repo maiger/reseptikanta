@@ -2,7 +2,7 @@
   <section class="recipe-details-section">
     <div class="recipe-card">
       <div class="recipe-thumbnail">
-        <img :src="'/images/' + recipe.img" :alt="recipe.title" />
+        <img :src="'/reseptikanta/images/' + recipe.img" :alt="recipe.title" />
         <h1>{{ recipe.title }}</h1>
       </div>
       <div class="recipe-stats">
