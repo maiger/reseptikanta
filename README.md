@@ -30,3 +30,12 @@ git add dist -f
 git commit -m "..."
 git subtree push --prefix dist origin gh-pages
 ```
+
+### TODO:
+- General
+  - Tests
+
+- New Features
+  - Favourite recipes
+  - Shopping cart
+  - Add new recipes form
