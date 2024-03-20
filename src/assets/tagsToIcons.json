@@ -9,6 +9,9 @@
   "chorizo": "tabler:sausage",
   "kaali": "tdesign:cabbage",
   "kala": "tdesign:fish",
+  "kana": "icon-park-outline:chicken",
   "pasta": "mdi:spaghetti",
-  "makaroni": "mdi:spaghetti"
+  "makaroni": "mdi:spaghetti",
+  "chipotle": "icon-park-outline:chili",
+  "tomaatti": "icon-park-outline:tomato"
 }
