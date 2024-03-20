@@ -28,10 +28,11 @@ npm run build
 2. Run:
 
 ```sh
+git commit -m "..."
 npm run build
 npm run deploy
 git add dist -f
-git commit -m "..."
+git commit -m "Update dist"
 git subtree push --prefix dist origin gh-pages
 ```
 
