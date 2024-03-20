@@ -635,5 +635,493 @@
         ]
       }
     ]
+  },
+  {
+    "id": 8,
+    "title": "Broileria punaviinissä",
+    "description": "",
+    "tags": ["kana", "pata"],
+    "img": "broileria_punaviinissa.JPG",
+    "prepTime": 90,
+    "servings": 4,
+    "instructions": [
+      "Huuhtele marinadi leikkeistä juoksevalla vedellä. Kuivaa leikkeet talouspaperilla. Pyörittele leikkeet jauhoissa ja ruskista öljyssä pannulla. Mausta suolalla ja pippurilla. Nosta broilerit uunivuokaan tai -pataan.",
+      "Kuori ja paloittele sipuli ja valkosipulikynnet. Pilko sienet ja kuullota ne öljyssä pannulla sipulien kanssa. Lisää pannulle viini ja anna kiehahtaa. Kaada seos broilerin päälle.",
+      "Lisää pataan laakerinlehti, timjami ja pekonit. Kaada päälle kanaliemi ja anna padan hautua 150-asteisessa uunissa noin tunti. Ripotelle pinnalle hienonnettua persiljaa. Tarjoile riisin tai keitettyjen perunoiden kanssa."
+    ],
+    "source": "Yhteishyvä",
+    "dateAdded": "20.3.2024",
+    "favourite": false,
+    "ingredients": [
+      {
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Marinoitua broilerin rintaleikettä",
+            "amount": 3,
+            "unit": "kpl"
+          },
+          {
+            "name": "Vehnäjauhoja",
+            "amount": 1,
+            "unit": "dl"
+          },
+          {
+            "name": "Öljyä",
+            "amount": 2,
+            "unit": "rkl"
+          },
+          {
+            "name": "Suolaa",
+            "amount": 1,
+            "unit": "ripaus"
+          },
+          {
+            "name": "Rouhittua mustapippuria",
+            "amount": 1,
+            "unit": "ripaus"
+          },
+          {
+            "name": "Iso sipuli",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Valkosipulinkynttä",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Herkkusieniä (200g)",
+            "amount": 1,
+            "unit": "rasia"
+          },
+          {
+            "name": "Punaviiniä",
+            "amount": 4,
+            "unit": "dl"
+          },
+          {
+            "name": "Laakerinlehti",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Timjamia",
+            "amount": 2,
+            "unit": "tl"
+          },
+          {
+            "name": "Pekonia",
+            "amount": 5,
+            "unit": "viipaletta"
+          },
+          {
+            "name": "Kanalientä",
+            "amount": 4,
+            "unit": "dl"
+          },
+          {
+            "name": "Tuoretta persiljaa",
+            "amount": "0",
+            "unit": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Burgundinpata",
+    "description": "",
+    "tags": ["liha", "pata"],
+    "img": "burgundinpata.JPG",
+    "prepTime": 120,
+    "servings": 6,
+    "instructions": [
+      "Kuutioi ensin naudanpaisti ja ruskista kuutiot hyvin joka puolelta öljyssä tai voissa. Siirrä pataan ja huuhtele pannu vesitilkalla, jonka lisäät lihoille. Kaada päälle puolisen pulloa punaviiniä ja lihalientä niin, että lihat juuri peittyvät. Anna hautua hiljalleen (n. 30 min uunissa 200 C°). ",
+      "Pilko pekoni (pekoni lisättiin vasta viimeisessä vaiheessa) ja sipulit, viipaloi valkosipulinkynnet, kuullota kevyesti ja lisää pataan. Jos kaipaat lisää kasviksia, viipaloi, kuullota ja lisää mukaan pari porkkanaa. Mausta laakerinlehdillä, suolalla, pippurilla ja timjamilla. ",
+      "Kun pata on hautunut puolisen tuntia, lisää tomaattimurska (tai pari rkl tomaattipyreetä) ja sokeri. Ruskista kevyesti pikkusipulit ja lisää pataan. Puolita ja ruskista herkkusienet ja lisää mukaan (lisättiin vasta viimeisessä vaiheessa).",
+      "(Annettiin porista puoli tuntia). Tee beurre manie (hiero yhteen yhtä suuri määrä pehmeää voita ja vehnäjauhoja) ja suurusta pataa sillä (n. 1,5 rkl). (Lisättiin siis pekoni ja sienet tässä vaiheessa.)",
+      "Anna nyt padan hautua hiljalleen niin kauan, että lihat ovat täysin mureita (noin puoli tuntia). Yhteensä uunissa siis 2 tuntia. ",
+      "Tarkista maku. Tarjoa pata perinteisesti keitettyjen perunoitten tai muusin kera. Voit maustaa muusin maitotilkassa hetken haudutetulla valkosipulisilpulla. Juomana samaa punaviiniä, jota käytit ruokaan. Sen ei tarvitse olla kallista, mutta täyteläisyyttä saa jonkin verran olla.",
+      "Jos haluat ruokaan belgialaista makua, korvaa viini maukkaalla oluella. Valitse matalasti humaloitu olut, esim. tumma lager tai belgialainen ale. Sama olut on tietenkin tällöin ruokajuomana."
+    ],
+    "source": "Kotikokki/Kurre",
+    "dateAdded": "20.3.2024",
+    "favourite": false,
+    "ingredients": [
+      {
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Naudanpaistia / sisäpaistia",
+            "amount": 600,
+            "unit": "g"
+          },
+          {
+            "name": "Öljyä tai voita",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "Nuorta punaviiniä",
+            "amount": 0.5,
+            "unit": "pulloa"
+          },
+          {
+            "name": "Lihalientä",
+            "amount": 0.5,
+            "unit": "l"
+          },
+          {
+            "name": "Pekonia",
+            "amount": 100,
+            "unit": "g"
+          },
+          {
+            "name": "Sipulia",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Valkosipulinkynttä",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Laakerinlehteä",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Kuivattua timjamia",
+            "amount": 1,
+            "unit": "tl"
+          },
+          {
+            "name": "Suolaa (ja pippuria)",
+            "amount": 1,
+            "unit": "tl"
+          },
+          {
+            "name": "Tomaattimurskaa tai 2 rkl pyreetä",
+            "amount": 0.5,
+            "unit": "prk"
+          },
+          {
+            "name": "Sokeria (ruokosokeria)",
+            "amount": 2,
+            "unit": "tl"
+          },
+          {
+            "name": "Pikkusipuleita",
+            "amount": 1,
+            "unit": "kourallinen"
+          },
+          {
+            "name": "Porkkanaa",
+            "amount": 4,
+            "unit": "kpl"
+          },
+          {
+            "name": "Tuoreita herkkusieniä",
+            "amount": 200,
+            "unit": "g"
+          },
+          {
+            "name": "Voita ja vehnäjauhoja suurukseen",
+            "amount": 0,
+            "unit": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Chipotle keitto",
+    "description": "Chipotlesta tuli mieleen meidän perheen lempiruoka, eli chipotle keitto (meksikossa kutsustaan myös nimellä sopa azteca). Resepti löytyi jenkkiläisestä meksikokeittokirjasta, joka oli suomennettu, en nyt muista nimeä.. Keitto maistuu myös nirsolle meksikolaiselle miehelleni, eli siitä löytyy aitoja meksikon makuja :) Todella helppo ja nopea tehdä!",
+    "tags": ["chipotle", "keitto"],
+    "img": "chipotlekeitto.JPG",
+    "prepTime": 60,
+    "servings": 3,
+    "instructions": [
+      "Laita kattilaan vähän öljyä ja yksi purkki tomaattipyrettä (tai vastaava määrä tuubista) ja kuumenna ne. ",
+      "Lisää joukkoon noin litra vettä, yksi kanaliemikuutio (tai korvaa osa liemestä kanaliemellä) ja sopiva loraus chipotle-chilikastiketta (tai jos löydät kokonaisia chipotlechilejä tölkissä niin niitä silputtuna 2-4 (käytetty 2) maun mukaan. Lisää lisäksi noin 3 valkosipulinkynttä ja tomaattimurska. Lisäksi maun mukaan suolaa ja pippuria.",
+      "Anna porista hiljalleen sillä aikaa kun valmistat ja paloittelet muut ainekset.",
+      "Paista kanasuikaleet. (voi myös keittää kanan reisipalat jos haluaa, ja käyttää keitinlientä sopan liemessä antamaan makua.) Jos kana naturel, lisää suola + muut mausteet. Laita broileri kattilaan pari minuuttia ennen tarjoilua.",
+      "Pilko sipuli pieneksi silpuksi (kuullota sipulit ja laita kattilaan), avokado kuutioiksi, korianteri silpuksi ja ota esille créme fresh purkki.",
+      "Leikkaa tortillat veitsellä noin 2cm leveiksi ja 4cm pitkiksi suikaleiksi ja paista runsaassa öljyssä, kunnes tortillat ovat muuttuneet rapeiksi. Lisää suolaa. (Nachoja ei kannata käyttää, ne hajoaa mössöksi keittoon)",
+      "Jokainen ruokailija ottaa oman maun mukaan keittokulhoonsa kanaa, sipulia, rapeita tortilloita, avokadoa ja korianteria. Kaada keittolientä näiden päälle ja lisää maun mukaan limeä ja créme freshiä."
+    ],
+    "source": "Tiina / 09",
+    "dateAdded": "20.3.2024",
+    "favourite": false,
+    "ingredients": [
+      {
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Kanaa",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "name": "Chipotle salsa / chipotle chile tölkistä / tuoreita keitettyinä",
+            "amount": 0,
+            "unit": "muutama"
+          },
+          {
+            "name": "Korianteria",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "Tomaattimurskapurkki",
+            "amount": 1,
+            "unit": "prk"
+          },
+          {
+            "name": "Öljyä",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "Avocado tai pari",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Creme fresh",
+            "amount": 1,
+            "unit": "prk"
+          },
+          {
+            "name": "(Maissi)tortilloita",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "Sipuli",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Lime tai lime-mehua",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Kanaliemikuutio",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Vettä",
+            "amount": 1,
+            "unit": "l"
+          },
+          {
+            "name": "Valkosipulinkynttä",
+            "amount": 3,
+            "unit": "kpl"
+          },
+          {
+            "name": "Suolaa ja pippuria",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "Tomaattipyre",
+            "amount": 0,
+            "unit": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Dijon-rosmariinibroileri",
+    "description": "Rauhalliset viikonloppuillat hyvän ruoan parissa ovat parasta mitä tiedän. Uuniruoat ovat lempiruokiani, sillä ne ovat niin helppoja valmistaa. Huumaava rosmariinin ja valkosipulin tuoksu valtaa koko kodin, kun tämä broileriruoka kypsyy hiljalleen uunissa. Herkulliset päärynät valmistuvat ruokailun aikana upean paahteisiksi talviherkuiksi.",
+    "tags": ["kana"],
+    "img": "dijon_rosmariinibroileri.JPG",
+    "prepTime": 60,
+    "servings": 4,
+    "instructions": [
+      "Ota broileri ajoissa huoneenlämpöön, kuumenna uuni 180 asteeseen. Jos sinulla on kokonainen broileri, leikkaa siivet, rintapalat ja koipireidet irti.",
+      "Kuori valkosipulinkynnet, kuori ja pilko porkkana ja sipuli reiluiksi paloiksi.",
+      "Kuumenna öljy uunipadassa. Nosta pataan broilerin palat, sipuli ja porkkanat ja ruskista broileri kauniin ruskeaksi.",
+      "Mausta suolalla ja pippurilla. Mittaa dijoninsinappi ja levitä sitä broilerin palojen päälle. Tiputa joukkoon neljä rosmariinin oksaa ja valkosipulinkynnet.",
+      "Sulje kansi ja nosta pata uuniin 45—50 minuutiksi.",
+      "Puolen tunnin kohdalla nosta pata uunista ja sekoita liemen joukkoon créme fraîche.",
+      "Laita pata takaisin uuniin vielä loppuajaksi, kunnes broilerin palat ovat kypsiä eli haarukalla paksuimpaan kohtaan pistettäessä lihasta nousee täysin kirkasta nestettä. Tarjoa polentan, valkoisten papujen tai riisin kera."
+    ],
+    "source": "",
+    "dateAdded": "20.3.2024",
+    "favourite": false,
+    "ingredients": [
+      {
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Kokonainen broileri / koipireisiä / rintafileitä",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Valkosipulinkynttä",
+            "amount": 4,
+            "unit": "kpl"
+          },
+          {
+            "name": "Sipulia",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Porkkanaa",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Oliiviöljyä",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "Tuoretta rosmariinia",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "Suolaa",
+            "amount": 1.5,
+            "unit": "tl"
+          },
+          {
+            "name": "Mustapippuria",
+            "amount": 0.5,
+            "unit": "tl"
+          },
+          {
+            "name": "Dijonsinappia",
+            "amount": 3,
+            "unit": "rkl"
+          },
+          {
+            "name": "Creme fraichea",
+            "amount": 200,
+            "unit": "g"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Enchilada-kanakeitto",
+    "description": "",
+    "tags": ["enchilada", "kana", "keitto"],
+    "img": "enchilada_kanakeitto.JPG",
+    "prepTime": 75,
+    "servings": 6,
+    "instructions": [
+      "Leikkaa paistileikkeet 2–3 osaan. Kuori ja hienonna sipuli ja valkosipulinkynnet.",
+      "Kuumenna öljy uuninkestävässä kattilassa. Lisää sipulit ja valkosipulinkynnet, kuullota pari minuuttia. Lisää paistileikkeet ja paista pari minuuttia. Lisää paseerattu tomaatti ja vesi. Murustele joukkoon kanaliemikuutiot. Mausta enchilada-mausteseoksella, balsamiviinietikalla, sokerilla ja suolalla. Kiehauta.",
+      "Huuhtele lävikössä kidneypavut ja maissit. Lisää keiton joukkoon. Hauduta 200-asteisessa uunissa noin 1 tunti.",
+      "Lisää valmiiseen keittoon tuoretta korianteria. Tarjoa lisäksi nachoja."
+    ],
+    "source": "Suvi Rüster",
+    "dateAdded": "20.3.2024",
+    "favourite": false,
+    "ingredients": [
+      {
+        "collectionName": "Pääruoka",
+        "collectionIngredients": [
+          {
+            "name": "Broilerin paistileikkeitä",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "name": "Keltasipuli",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Valkosipulinkynttä",
+            "amount": 3,
+            "unit": "kpl"
+          },
+          {
+            "name": "Öljyä",
+            "amount": 2,
+            "unit": "rkl"
+          },
+          {
+            "name": "paseerattua tomaattia (2 x 500g)",
+            "amount": 2,
+            "unit": "tlk"
+          },
+          {
+            "name": "Vettä",
+            "amount": 5,
+            "unit": "dl"
+          },
+          {
+            "name": "Kanaliemikuuutiota",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Enchilada-mausteseosta (28g)",
+            "amount": 1,
+            "unit": "ps"
+          },
+          {
+            "name": "balsamiviinietikkaa",
+            "amount": 2,
+            "unit": "rkl"
+          },
+          {
+            "name": "Sokeria tai hunajaa",
+            "amount": 1,
+            "unit": "rkl"
+          },
+          {
+            "name": "Suolaa",
+            "amount": 0.5,
+            "unit": "tl"
+          },
+          {
+            "name": "Kidneypapuja (290g)",
+            "amount": 1,
+            "unit": "tlk"
+          },
+          {
+            "name": "Maissia (290g)",
+            "amount": 1,
+            "unit": "tlk"
+          }
+        ]
+      },
+      {
+        "collectionName": "Lisäksi",
+        "collectionIngredients": [
+          {
+            "name": "Korianteria hienonnettuna",
+            "amount": 1,
+            "unit": "ruukku"
+          },
+          {
+            "name": "Natchoja",
+            "amount": 0,
+            "unit": ""
+          }
+        ]
+      }
+    ]
   }
 ]
