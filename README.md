@@ -24,15 +24,21 @@ npm run build
 
 (https://www.youtube.com/watch?v=yo2bMGnIKE8)
 
+1. Update versio number
+2. Run:
+
 ```sh
 npm run build
+npm run deploy
 git add dist -f
 git commit -m "..."
 git subtree push --prefix dist origin gh-pages
 ```
 
 ### TODO:
+
 - General
+
   - Tests
 
 - New Features
