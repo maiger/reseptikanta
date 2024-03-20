@@ -60,5 +60,9 @@ getUniqueTags();
 <style lang="scss" scoped>
 .recipe-section {
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 </style>

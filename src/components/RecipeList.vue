@@ -28,6 +28,7 @@ const props = defineProps({
   justify-content: center;
   flex-direction: column;
   margin: 2rem 0 10rem 0;
+  max-width: 180rem;
 
   ul {
     display: flex;
