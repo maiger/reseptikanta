@@ -3,6 +3,7 @@ import RecipeView from "../views/RecipeView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
+
   routes: [
     {
       path: "/",
@@ -23,6 +24,13 @@ const router = createRouter({
       component: () => import("../views/RecipeDetailsView.vue"),
     },
   ],
+  scrollBehavior(to, from, savedPosition) {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve({ left: 0, top: 0 });
+      }, 300);
+    });
+  },
 });
 
 export default router;
