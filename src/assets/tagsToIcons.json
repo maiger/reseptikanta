@@ -6,6 +6,7 @@
   "jauheliha": "mdi:meat-outline",
   "liha": "mdi:meat-outline",
   "nakki": "tabler:sausage",
+  "makkara": "tabler:sausage",
   "chorizo": "tabler:sausage",
   "kaali": "tdesign:cabbage",
   "kala": "tdesign:fish",
@@ -13,5 +14,8 @@
   "pasta": "mdi:spaghetti",
   "makaroni": "mdi:spaghetti",
   "chipotle": "icon-park-outline:chili",
-  "tomaatti": "icon-park-outline:tomato"
+  "tomaatti": "icon-park-outline:tomato",
+  "nuudeli": "icon-park-outline:noodles",
+  "sieni": "tdesign:mushroom-1",
+  "kastike": "icon-park-outline:pot"
 }
