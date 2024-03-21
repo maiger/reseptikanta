@@ -1123,5 +1123,941 @@
         ]
       }
     ]
+  },
+  {
+    "id": 13,
+    "title": "Espanjalainen liha-makkarapata",
+    "description": "",
+    "tags": ["liha", "makkara", "pata"],
+    "img": "espanjalainen_lihamakkarapata.JPG",
+    "prepTime": 120,
+    "servings": 4,
+    "instructions": [
+      "Ruskista lihapalat öljyssä pannulla muutamassa erässä.",
+      "Viipaloi makkarat ja kuori ja hienonna sipuli ja valkosipulinkynnet.",
+      "Lisää makkarat ja sipulit pannulle ja kääntele aineksia muutama minuutti, kunnes ne saavat hieman väriä",
+      "Mausta lihaseos suolalla, pippurilla, paprikajauheella ja timjamilla. Nosta lihat pataan.",
+      "Halkaise paprika ja poista siemenet ja kanta. Paloittele paprika ja lisää pataan tomaattisoseen, chilitahnan ja tomaattimurskan kanssa.",
+      "Kaada punaviini päälle. Kypsennä pataa 200-asteisessa uunissa noin 1.5h."
+    ],
+    "source": "",
+    "dateAdded": "21.3.2024",
+    "favourite": false,
+    "ingredients": [
+      {
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Karjalanpaistilihaa (700g)",
+            "amount": 1,
+            "unit": "pkt"
+          },
+          {
+            "name": "Öljyä",
+            "amount": 2,
+            "unit": "rkl"
+          },
+          {
+            "name": "Grillibalkanmakkaraa (n.200g)",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Iso sipuli",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Valkosipulinkynttä",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Suolaa",
+            "amount": 1,
+            "unit": "ripaus"
+          },
+          {
+            "name": "Rouhittua mustapippuria",
+            "amount": 1,
+            "unit": "ripaus"
+          },
+          {
+            "name": "Paprikajauhetta",
+            "amount": 1,
+            "unit": "tl"
+          },
+          {
+            "name": "Timjamia",
+            "amount": 2,
+            "unit": "tl"
+          },
+          {
+            "name": "Iso punainen paprika",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Tomaattisosetta",
+            "amount": 2,
+            "unit": "rkl"
+          },
+          {
+            "name": "Chilikastiketta tai chilitahnaa",
+            "amount": 2,
+            "unit": "rkl"
+          },
+          {
+            "name": "Tomaattimurskaa (400g)",
+            "amount": 1,
+            "unit": "prk"
+          },
+          {
+            "name": "Punaviiniä",
+            "amount": 2,
+            "unit": "dl"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Hoi Sin kana",
+    "description": "",
+    "tags": ["kana", "nuudeli"],
+    "img": "hoisin_kana.jpg",
+    "prepTime": 30,
+    "servings": 4,
+    "instructions": [
+      "Keitä nuudelit ja jäähdytä ne.",
+      "Kuumenna kasviöljy pannussa ja paista paistisuikaleet reilun ruskeiksi. Lisää Tuorekset ja jatka paistamista pari minuuttia seosta koko ajan sekoitellen.",
+      "Sekoita joukkoon hoisinkastike ja nuudelit. Sekoittele, kunnes nuudelit ovat kuumentuneet ja pyöräytä lopuksi joukkoon seesamiöljy. Viimeistele seesaminsiemenillä ja silputulla korianterilla."
+    ],
+    "source": "",
+    "dateAdded": "21.3.2024",
+    "favourite": false,
+    "ingredients": [
+      {
+        "collectionName": "Pääaineet",
+        "collectionIngredients": [
+          {
+            "name": "Munanuudeleita",
+            "amount": 200,
+            "unit": "g"
+          },
+          {
+            "name": "Rypsiöljyä",
+            "amount": 1,
+            "unit": "rkl"
+          },
+          {
+            "name": "Paistisuikale maustamaton",
+            "amount": 250,
+            "unit": "g"
+          },
+          {
+            "name": "Apetit Tuorekset Thai wok (2-3 rs)",
+            "amount": 200,
+            "unit": "g"
+          },
+          {
+            "name": "Spice Up! Hoi sin -kastiketta",
+            "amount": 6,
+            "unit": "rkl"
+          },
+          {
+            "name": "Seesamiöljyä",
+            "amount": 2,
+            "unit": "rkl"
+          }
+        ]
+      },
+      {
+        "collectionName": "Tarjoiluun",
+        "collectionIngredients": [
+          {
+            "name": "Paahdettuja seesaminsiemeniä",
+            "amount": 1,
+            "unit": "rkl"
+          },
+          {
+            "name": "Korianteria",
+            "amount": 1,
+            "unit": "kourallinen"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Intialainen kanakorma",
+    "description": "",
+    "source": "Maku.fi",
+    "prepTime": 140,
+    "servings": 4,
+    "tags": ["kana"],
+    "img": "intialainen_kanakorma.JPG",
+    "dateAdded": "21.3.2024",
+    "favourite": false,
+    "instructions": [
+      "Valmista marinadi. Mittaa kulhoon jogurtti, tomaattipyree, chilijauhe, juustokumina, korianteri, suola, sitruunamehu ja öljy. Sekoita hyvin.",
+      "Paloittele broileri sopiviksi suupaloiksi, pyörittele palat jogurttikastikkeessa ja anna marinoitua ainakin tunnin ajan.",
+      "Valmista kormakastike. Kuori ja raasta inkivääri hienoksi. Kuori ja pilko valkosipuli. Yhdistä kookosmaito, tomaattipyree, korianterijauhe, chilijauhe, valkosipuli, inkivääri ja suola.",
+      "Kuumenna öljy pannulla ja kuullota siinä hetki kardemummajauhetta, kaada sitten sekaan kookosmaitoseos. Sekoita ja lisää vielä rusinat sekä mantelilastut.",
+      "Levitä marinoidut broilerin palat laakeaan, voideltuun uunivuokaan. Kypsennä 200-asteisessa uunissa noin 20 minuuttia, kunnes pinta saa tummia täpliä. ",
+      "Kaada kastike broilerin palojen päälle ja tarjoa basmatiriisin kanssa. Pääset tiskaamisessa vähemmällä vuoraamalla uunivuoan foliolla."
+    ],
+    "ingredients": [
+      {
+        "collectionName": "Marinadi",
+        "collectionIngredients": [
+          {
+            "name": "Maustamatonta jogurttia (rasvaa 2.5%)",
+            "amount": 1,
+            "unit": "dl"
+          },
+          {
+            "name": "Tomaattipyreetä",
+            "amount": 0.5,
+            "unit": "dl"
+          },
+          {
+            "name": "Chilijauhetta",
+            "amount": 2,
+            "unit": "tl"
+          },
+          {
+            "name": "Juustokuminaa (jauhettuna)",
+            "amount": 2,
+            "unit": "tl"
+          },
+          {
+            "name": "Korianterinsiemeniä",
+            "amount": 2,
+            "unit": "tl"
+          },
+          {
+            "name": "Suolaa",
+            "amount": 1,
+            "unit": "tl"
+          },
+          {
+            "name": "Sitruunamehua",
+            "amount": 1,
+            "unit": "dl"
+          },
+          {
+            "name": "Rypsiöljyä",
+            "amount": 1,
+            "unit": "rkl"
+          },
+          {
+            "name": "Broilerin rintaleikkeitä",
+            "amount": 600,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "collectionName": "Kormakastike",
+        "collectionIngredients": [
+          {
+            "name": "Tuoretta inkivääriä",
+            "amount": 15,
+            "unit": "g"
+          },
+          {
+            "name": "Valkosipulinkynttä",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Kookosmaitoa",
+            "amount": 4,
+            "unit": "dl"
+          },
+          {
+            "name": "Tomaattipyreetä",
+            "amount": 0.5,
+            "unit": "dl"
+          },
+          {
+            "name": "Korianterinsiemeniä (jauhettuna)",
+            "amount": 1,
+            "unit": "tl"
+          },
+          {
+            "name": "Chilijauhetta (max)",
+            "amount": 1,
+            "unit": "tl"
+          },
+          {
+            "name": "Suolaa",
+            "amount": 0.5,
+            "unit": "tl"
+          },
+          {
+            "name": "Rypsiöljyä (pannulle)",
+            "amount": 3,
+            "unit": "rkl"
+          },
+          {
+            "name": "Kardemummaa (pannulle)",
+            "amount": 2,
+            "unit": "tl"
+          },
+          {
+            "name": "Rusinoita",
+            "amount": 2,
+            "unit": "rkl"
+          },
+          {
+            "name": "Mantelilastuja",
+            "amount": 1,
+            "unit": "dl"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Kaali-braatvurstikeitto",
+    "description": "",
+    "source": "Yhteishyvä 7.12",
+    "prepTime": 60,
+    "servings": 4,
+    "tags": ["kaali", "makkara", "keitto"],
+    "img": "kaali_braatvurstikeitto.JPG",
+    "dateAdded": "21.3.2024",
+    "favourite": false,
+    "instructions": [
+      "Kuori ja silppua sipuli ja valkosipulinkynnet. Huuhtele ja suikaloi kaali. Kuullota öljyssä sipulisilppu ja kaali muutaman minuutin ajan, kunnes pehmenevät.",
+      "Lisää tomaattimurska vesi, liemikuutio, sokeri ja timjami. Keitä kannen alla noin 20 minuuttia.",
+      "Paloittele makkarat ja lisää ne keittoon. Kypsennä vielä 10-15 minuuttia.",
+      "Viimeistele persiljalla. Tarkista maku. Jos keitto on liian sakeaa, lisää vettä.",
+      "Vinkki: Halutessasi voit ruskistaa makkarat ennen keittoon lisäämistä."
+    ],
+    "ingredients": [
+      {
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Sipuli",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Valkosipulinkynttä",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Varhaiskaalia",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "name": "Öljyä",
+            "amount": 2,
+            "unit": "rkl"
+          },
+          {
+            "name": "Tomaattimurskaa (a 500g)",
+            "amount": 2,
+            "unit": "prk"
+          },
+          {
+            "name": "Vettä",
+            "amount": 5,
+            "unit": "dl"
+          },
+          {
+            "name": "Kasvisliemikuutio",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Sokeria",
+            "amount": 2,
+            "unit": "tl"
+          },
+          {
+            "name": "Timjamia",
+            "amount": 1,
+            "unit": "tl"
+          },
+          {
+            "name": "Braatvurstia",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "name": "Silputtua tuoretta persiljaa",
+            "amount": 1,
+            "unit": "dl"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Kanaa tikka-masala",
+    "description": "Ehkä Intian tunnetuin curry. Meheväksi marinoituja, rapsakaksi paistettuja kananpaloja upeassa tomaattikastikkeessa.",
+    "source": "",
+    "prepTime": 60,
+    "servings": 4,
+    "tags": ["kana"],
+    "img": "kanaa_tikkamasala.JPG",
+    "dateAdded": "21.3.2024",
+    "favourite": false,
+    "instructions": [
+      "Paloittele kana reiluiksi varraspaloiksi ja laita marinoitumaan jogurtin ja tikka-mausteen kanssa vähintään pariksi tunniksi.",
+      "Asettele kanat varrastikkuihin (tikka) ja laita 270C uuniin 11 (max 13 min) minuutiksi. Grilliuuni on vielä parempi. (Tai kanat laakeaan vuokaan ja lämmössä 225 astetta 14-15 min.) Palojen pinta saa jopa hiukan hiillostua.",
+      "Laita sillä välin kastikeainekset kattilaan ja ala keitellä kasaan, n. 20 min.",
+      "Lisää lopuksi grillatut kananpalat tikka-masala -kastikkeeseen ja hauduttele 5 minuuttia. Tarkista maku ja nauti."
+    ],
+    "ingredients": [
+      {
+        "collectionName": "Kana",
+        "collectionIngredients": [
+          {
+            "name": "Jogurttia",
+            "amount": 1,
+            "unit": "rkl"
+          },
+          {
+            "name": "Tikka-masala -mausteseosta",
+            "amount": 2,
+            "unit": "rkl"
+          },
+          {
+            "name": "Kananrintapaloja",
+            "amount": 500,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "collectionName": "Masala-kastike",
+        "collectionIngredients": [
+          {
+            "name": "Paseerattua tomaattia",
+            "amount": 300,
+            "unit": "g"
+          },
+          {
+            "name": "Inkivääriraastetta",
+            "amount": 1.5,
+            "unit": "rkl"
+          },
+          {
+            "name": "Valkosipulinkynttä",
+            "amount": 5,
+            "unit": "kpl"
+          },
+          {
+            "name": "Hunajaa (tai 1 tl ruokosokeria",
+            "amount": 1.5,
+            "unit": "rkl"
+          },
+          {
+            "name": "Chilijauhoa",
+            "amount": 1,
+            "unit": "ripaus"
+          },
+          {
+            "name": "Sitruunamehua",
+            "amount": 3,
+            "unit": "rkl"
+          },
+          {
+            "name": "Kermaa",
+            "amount": 3,
+            "unit": "dl"
+          },
+          {
+            "name": "Suolaa",
+            "amount": "0",
+            "unit": ""
+          },
+          {
+            "name": "Pippuria",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "Tikka-masala -maustetta",
+            "amount": 0,
+            "unit": ""
+          }
+        ]
+      },
+      {
+        "collectionName": "Koristeeksi",
+        "collectionIngredients": [
+          {
+            "name": "Korianteria",
+            "amount": "0",
+            "unit": ""
+          },
+          {
+            "name": "Sitruunalohkoja",
+            "amount": "0",
+            "unit": ""
+          },
+          {
+            "name": "Jogurttia",
+            "amount": "0",
+            "unit": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Kanttarellikastike",
+    "description": "Kantarellikastike on varmasti Jokaiselle tuttu kesäherkku. Resepti on viilattu fiinimmäksi valkoviinillä, joka sopii tähän ruokaan täydellisesti.",
+    "source": "",
+    "prepTime": 30,
+    "servings": 2,
+    "tags": ["sieni", "kastike"],
+    "img": "kanttarellikastike.JPG",
+    "dateAdded": "21.3.2024",
+    "favourite": false,
+    "instructions": [
+      "Kuori ja silppua sipuli hyvin hienoksi. Kuullota voin kanssa kasarissa keltaiseksi. Lisää sitten kantarellit ja paista niistä vedet pois. Mausta pippurilla.",
+      "Lisää viini ja hauduta se lähes pois. Lisää kasvisliemi ja kiehauta. Suurusta kantarellikastike kermalla ja mausta sokerilla ja suolalla (kurkumaa tai currya väriksi). Anna kiehahtaa ja siirrä pois levyltä.",
+      "Lisää silputtu lehtipersilja ja anna hautua minuutin verran. Tarjoa kantarellikastike kuumana."
+    ],
+    "ingredients": [
+      {
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Tuoreita kanttarelleja",
+            "amount": 3,
+            "unit": "dl"
+          },
+          {
+            "name": "Lehtipersiljaa (tai ruohosipulia)",
+            "amount": 2,
+            "unit": "kourallista"
+          },
+          {
+            "name": "Kermaa",
+            "amount": 2,
+            "unit": "dl"
+          },
+          {
+            "name": "Kuivaa valkoviiniä",
+            "amount": 1,
+            "unit": "dl"
+          },
+          {
+            "name": "Kasvislientä",
+            "amount": 1,
+            "unit": "dl"
+          },
+          {
+            "name": "Iso sipuli",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Voita",
+            "amount": 2,
+            "unit": "rkl"
+          },
+          {
+            "name": "Valkopippuria",
+            "amount": 0.5,
+            "unit": "tl"
+          },
+          {
+            "name": "Kurkumaa (väriksi)",
+            "amount": 0.5,
+            "unit": "tl"
+          },
+          {
+            "name": "Sokeria",
+            "amount": 0.5,
+            "unit": "tl"
+          },
+          {
+            "name": "Suolaa",
+            "amount": 0,
+            "unit": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Kylmäsavulohi-katkarapukeitto",
+    "description": "",
+    "source": "Chipters",
+    "prepTime": 45,
+    "servings": 2,
+    "tags": ["kala", "keitto"],
+    "img": "kylmasavulohi_katkarapukeitto.JPG",
+    "dateAdded": "21.3.2024",
+    "favourite": false,
+    "instructions": [
+      "Kuori ja kuutioi perunat ja palsternakka. Pese ja suikaloi fenkoli ja hienonna sipuli.",
+      "Kuumenna rypsiöljy kattilassa ja kuullota kasviksia hetki.",
+      "Lisää kalaliemi ja keitä kunnes perunat ovat lähes kypsiä.",
+      "Suikaloi kylmäsavulohi ja valuta katkaravut.",
+      "Lisää keittoon kerma, sinappi, sitruunamehu sekä mustapippuria.",
+      "Kiehauta ja lisää aivan lopuksi lohisuikaleet ja katkaravut.",
+      "Hauduta 1-2 minuuttia, tarkista maku ja lisää tarvittaessa ripaus suolaa.",
+      "Viimeistele hienonnetulla tillillä ja tarjoile hyvän leivän kera."
+    ],
+    "ingredients": [
+      {
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Perunaa",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "name": "Palsternakka",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Fenkoli",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Sipuli",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Rypsiöljyä",
+            "amount": 2,
+            "unit": "rkl"
+          },
+          {
+            "name": "Kalalientä",
+            "amount": 1,
+            "unit": "l"
+          },
+          {
+            "name": "Kylmäsavulohiviipaleita",
+            "amount": 150,
+            "unit": "g"
+          },
+          {
+            "name": "Katkarapuja liemiessä",
+            "amount": 170,
+            "unit": "g"
+          },
+          {
+            "name": "Kermaa",
+            "amount": 2,
+            "unit": "dl"
+          },
+          {
+            "name": "Dijon-sinappia",
+            "amount": 2,
+            "unit": "tl"
+          },
+          {
+            "name": "Sitruunamehua",
+            "amount": 2,
+            "unit": "rkl"
+          },
+          {
+            "name": "Mustapippuria",
+            "amount": 1,
+            "unit": "ripaus"
+          },
+          {
+            "name": "(Suolaa)",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "Tilliä hienonnettuna",
+            "amount": 1,
+            "unit": "dl"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Lempeä kanakeitto",
+    "description": "",
+    "source": "Hellapoliisi / Yhteishyvä",
+    "prepTime": 30,
+    "servings": 3,
+    "tags": ["kana", "keitto"],
+    "img": "lempea_kanakeitto.JPG",
+    "dateAdded": "21.3.2024",
+    "favourite": false,
+    "instructions": [
+      "Kuumenna rasvat kattilan pohjalla ja sekoita joukkoon ensin curry ja paprika, ja sitten lihasuikaleet. Ruskista ne kevyesti ja lisää sipulisilppu ja porkkanasuikaleet. Hauduta hetki ja lisää vesi, liemikuutio ja riisit. Sekoita.",
+      "Keitä riisejä 15-20 (tai 10) minuuttia (ja lisää alussa joukkoon myös porkkanasuikaleet).",
+      "Huuhdo purjo hyvin halkaistuna ja suikaloi se sitten. Kuori ja suikaloi myös valkosipulinkynnet.",
+      "Lisää molemmat keittoon valmistuksen loppuvaiheessa, samoin tuorejuusto nokareina. Tarkista keitosta vielä maku.",
+      "Pinnalle korianterisilppu. Hyvää tuoreen patongin kanssa.",
+      "Riisin voi jättää halutessaan pois."
+    ],
+    "ingredients": [
+      {
+        "collectionName": "Keitto",
+        "collectionIngredients": [
+          {
+            "name": "Broilerin rintafileitä suikaleina tai kuutioina",
+            "amount": 600,
+            "unit": "g"
+          },
+          {
+            "name": "Öljyä tai voita",
+            "amount": 1,
+            "unit": "rkl"
+          },
+          {
+            "name": "Currya",
+            "amount": 1,
+            "unit": "tl"
+          },
+          {
+            "name": "Paprikaa",
+            "amount": 1,
+            "unit": "tl"
+          },
+          {
+            "name": "Iso sipuli hienonnettuna tai 2-3 kevätsipulia varsineen",
+            "amount": 1.5,
+            "unit": "kpl"
+          },
+          {
+            "name": "Vettä",
+            "amount": 1.5,
+            "unit": "l"
+          },
+          {
+            "name": "Kana- tai kasvisliemikuutio",
+            "amount": 3,
+            "unit": "kpl"
+          },
+          {
+            "name": "Riisiä tai riisi-ohraseosta",
+            "amount": 1,
+            "unit": "dl"
+          },
+          {
+            "name": "Porkkanaa",
+            "amount": 3,
+            "unit": "kpl"
+          },
+          {
+            "name": "Valkosipulinkynttä",
+            "amount": 5,
+            "unit": "kpl"
+          },
+          {
+            "name": "Pieni purjo",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Suolaa tai yrttisuolaa (ei välttämättä tarvita)",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "Pehmeää tuorejuustoa tai chilituorejuustoa",
+            "amount": 100,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "collectionName": "Pinnalle",
+        "collectionIngredients": [
+          {
+            "name": "persilja-, kirveli, - korianteri- tai ruohosipulisilppua",
+            "amount": 0,
+            "unit": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Lihakeitto",
+    "description": "",
+    "source": "Seura",
+    "prepTime": 120,
+    "servings": 10,
+    "tags": ["liha", "keitto"],
+    "img": "lihakeitto.JPG",
+    "dateAdded": "21.3.2024",
+    "favourite": false,
+    "instructions": [
+      "Huuhdo liha ja pane se suureen kattilaan. Kaada vesi päälle ja kuumenna kiehuvaksi. Kuori pinnalle nouseva vaahto pois.",
+      "Lisää mineraalisuola, maustepippurit, laakerinlehti ja kuorittu sipuli kokonaisena tai lohkoina. Keitä miedolla lämmöllä 1 ½–2 tuntia tai kunnes liha on aivan pehmeää.",
+      "Ota liha reikäkauhalla liemestä pois. Poista luut ja jänteet. Leikkaa liha pieniksi kuutioiksi. Siivilöi keitinliemi ja kaada se takaisin kattilaan. Lisää tarvittaessa vettä.",
+      "Kuori ja kuutioi porkkanat, lanttu, mukulaselleri sekä palsternakka.",
+      "Kuori ja lohko perunat. Huuhdo purjosipuli ja leikkaa se renkaiksi tai suikaleiksi.",
+      "Kuumenna keitinliemi uudelleen kiehuvaksi. Lisää lihapalat sekä porkkana-, lanttu- ja mukulasellerikuutiot liemen joukkoon. Keitä noin 10 minuuttia. Lisää perunalohkot sekä purjosipuli ja jatka keittämistä 10–15 minuuttia.",
+      "Höystä valmis keitto hienonnetulla persiljalla."
+    ],
+    "ingredients": [
+      {
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Naudan lapaa, rintaa tai etuselkää",
+            "amount": 1,
+            "unit": "kg"
+          },
+          {
+            "name": "Vettä",
+            "amount": 2.5,
+            "unit": "l"
+          },
+          {
+            "name": "Currya",
+            "amount": 1,
+            "unit": "tl"
+          },
+          {
+            "name": "Mineraalisuolaa",
+            "amount": 1,
+            "unit": "rkl"
+          },
+          {
+            "name": "Kokonaisia maustepippureita",
+            "amount": 0,
+            "unit": "muutama"
+          },
+          {
+            "name": "Laakerinlehti",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Sipuli",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Porkkanaa",
+            "amount": 3,
+            "unit": "kpl"
+          },
+          {
+            "name": "Lanttua",
+            "amount": 0,
+            "unit": "pala"
+          },
+          {
+            "name": "Mukulaselleriä",
+            "amount": 0,
+            "unit": "pala"
+          },
+          {
+            "name": "Palsternakkaa",
+            "amount": 0,
+            "unit": "pala"
+          },
+          {
+            "name": "Perunaa",
+            "amount": 6,
+            "unit": "kpl"
+          },
+          {
+            "name": "Purjosipulia",
+            "amount": 0,
+            "unit": "pala"
+          },
+          {
+            "name": "Persiljaa",
+            "amount": 0,
+            "unit": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Liharuukku",
+    "description": "",
+    "source": "",
+    "prepTime": 100,
+    "servings": 6,
+    "tags": ["liha", "pata"],
+    "img": "liharuukku.JPG",
+    "dateAdded": "21.3.2024",
+    "favourite": false,
+    "instructions": [
+      "Kuori ja hienonna sipuli. Kuumenna pannu hyvin kuumaksi. Ruskista lihasuikaleet margariini-öljyseoksessa kahdessa erässä. Siirä ensimmäinen lihaerä pataan.",
+      "Lisää loppujen ruskistuneiden lihojen joukkoon sipuli ja anna hetken aikaa pehmetä. Murenna pannulle juusto ja lisää joukkoon vesi. Kääntele seosta, kunnes juusto on täysin sulanut. Valuta lihaseos pataan.",
+      "Anna hautua 175-asteisessa uunissa tunnin ajan. Lisää kerma ja soijakastike ja sekoita. Anna padan hautua vielä noin 15 minuuttia. Tarjoile perunoiden kanssa"
+    ],
+    "ingredients": [
+      {
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Sipuli",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Naudan paistisuikaleita",
+            "amount": 800,
+            "unit": "g"
+          },
+          {
+            "name": "Margariinia tai öljyä",
+            "amount": 1,
+            "unit": "rkl"
+          },
+          {
+            "name": "Suolaa",
+            "amount": 1,
+            "unit": "tl"
+          },
+          {
+            "name": "Mustapippurituorejuustoa (100g)",
+            "amount": 1,
+            "unit": "pkt"
+          },
+          {
+            "name": "Vettä",
+            "amount": 3,
+            "unit": "dl"
+          },
+          {
+            "name": "Ruokakermaa",
+            "amount": 2,
+            "unit": "dl"
+          },
+          {
+            "name": "Soijakastiketta",
+            "amount": 2,
+            "unit": "rkl"
+          }
+        ]
+      }
+    ]
   }
 ]
