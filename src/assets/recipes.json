@@ -2059,5 +2059,425 @@
         ]
       }
     ]
+  },
+  {
+    "id": 23,
+    "title": "Mausteinen makkarakeitto",
+    "description": "",
+    "source": "Katja Nordlund / Pia Inberg",
+    "prepTime": 30,
+    "servings": 4,
+    "tags": ["makkara", "keitto"],
+    "img": "mausteinen_makkarakeitto.JPG",
+    "dateAdded": "22.3.2024",
+    "favourite": false,
+    "instructions": [
+      "Leikkaa makkara paloiksi. Kuori ja kuutioi sipuli ja bataatti. Kuori ja hienonna valkosipulinkynnet. Leikkaa sellerinvarret pieniksi kuutioiksi.",
+      "Kuumenna öljy kattilassa ja kuullota sipu­lia keskilämmöllä 3 minuuttia. Lisää makkarat, bataattikuutiot, valkosipuli, sellerikuutiot, harissa ja juustokumina. Kypsennä muutama minuutti sekoitellen.",
+      "Kaada tomaattimurska, vesi ja liemikuutio kattilaan. Kuumenna kiehuvaksi ja keitä 10 minuuttia. Koristele ruoka persiljasilpulla."
+    ],
+    "ingredients": [
+      {
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Mausteista makkaraa (Wotkins pippuri- ja lammasmakkaraa)",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "name": "Sipuli",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Bataatti",
+            "amount": 0.5,
+            "unit": "kpl"
+          },
+          {
+            "name": "Valkosipulinkynttä",
+            "amount": 6,
+            "unit": "kpl"
+          },
+          {
+            "name": "Sellerinvartta",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Öljyä",
+            "amount": 1,
+            "unit": "rkl"
+          },
+          {
+            "name": "Harissa-tahnaa",
+            "amount": 4,
+            "unit": "tl"
+          },
+          {
+            "name": "Juustokuminaa",
+            "amount": 2,
+            "unit": "tl"
+          },
+          {
+            "name": "Tomaattimurskaa",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "name": "Vettä",
+            "amount": 7,
+            "unit": "dl"
+          },
+          {
+            "name": "Lihaliemikuutio",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Persiljaa",
+            "amount": 0,
+            "unit": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Meksikolainen munakasrulla",
+    "description": "",
+    "source": "Kotikokki",
+    "prepTime": 45,
+    "servings": 3,
+    "tags": ["kananmuna"],
+    "img": "meksikolainen_munakasrulla.JPG",
+    "dateAdded": "22.3.2024",
+    "favourite": false,
+    "instructions": [
+      "Sekoita taikinan ainekset keskenään ja kaada uunipellille. Paista 225 asteessa 20-25 min. Kumoa kypsä levy toiselle leivinpaperille.",
+      "Valmista täyte: ruskista jauheliha, hienonnettu sipuli ja viipaloitu jalapeno pannulla. Sekoita joukkoon tomaattipyre ja mausta mustapippurilla. Nosta pannu levyltä ja lisää tuorejuusto. Sekoita täyte tasaiseksi.",
+      "Levitä täyte levylle, ja ripottele pinnalle kuutioidut tomaatit. Kääri rullalle ja jätä saumapuoli alaspäin. Raasta päälle juustoa ja laita uuniin 200 ºC noin 5 min. "
+    ],
+    "ingredients": [
+      {
+        "collectionName": "Rulla",
+        "collectionIngredients": [
+          {
+            "name": "Kananmuna",
+            "amount": 4,
+            "unit": "kpl"
+          },
+          {
+            "name": "Vehnäjauhoja",
+            "amount": 2,
+            "unit": "dl"
+          },
+          {
+            "name": "Maitoa",
+            "amount": 4,
+            "unit": "dl"
+          },
+          {
+            "name": "Suolaa",
+            "amount": 0.5,
+            "unit": "tl"
+          },
+          {
+            "name": "Culinessea tms.",
+            "amount": 1,
+            "unit": "rkl"
+          }
+        ]
+      },
+      {
+        "collectionName": "Täyte",
+        "collectionIngredients": [
+          {
+            "name": "Jauhelihaa / Bratwurst / Pekoni / Chorizo",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "name": "Sipulia",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Jalopeno",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Tomaattipyrettä / ketsuppia",
+            "amount": 2,
+            "unit": "rkl"
+          },
+          {
+            "name": "Taco-tuorejuustoa",
+            "amount": 200,
+            "unit": "g"
+          },
+          {
+            "name": "Tomaatti (aurinkokuivattuja tomaatteja)",
+            "amount": 3,
+            "unit": "kpl"
+          },
+          {
+            "name": "Mustapippuri",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "(Maustekurkkuja)",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "Ruokakermaa",
+            "amount": 2,
+            "unit": "dl"
+          },
+          {
+            "name": "Pinnalle juustoa",
+            "amount": 0,
+            "unit": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Nyhtöpossupata",
+    "description": "Nyhtöpossupata on ihanan mehevä ja lämmittävä talviruoka! Koko ateria valmistuu samassa padassa, ja sen voi valmistaa hyvissä ajoin ennen ulkoilua.",
+    "source": "",
+    "prepTime": 325,
+    "servings": 6,
+    "tags": ["possu", "pata"],
+    "img": "nyhtopossupata.JPG",
+    "dateAdded": "22.3.2024",
+    "favourite": false,
+    "instructions": [
+      "Ota liha huoneenlämpöön noin tuntia ennen valmistusta.",
+      "Hiero lihan pintaan suolaa ja paprikajauhetta. Kuori sipulit ja leikkaa ne lohkoiksi.",
+      "Nosta liha ja sipulit pataan. Kypsennä possua uunissa 125 asteessa 4-5 tuntia.",
+      "Nosta pehmeäksi hautunut liha padasta, jätä paistoliemi pataan. Revi liha haarukalla säikeiksi.",
+      "Kuori porkkanat ja bataatti. Leikkaa kasvikset ohuiksi tikuiksi.",
+      "Kaada barbequekastike pataan paistoliemen sekaan, lisää kasvikset ja revitty liha.",
+      "Sekoita ja kypsennä uunissa tai liedellä, kunnes kasvikset ovat kypsiä (noin 20 minuuttia).",
+      "Koristele pata kevätsipulilla ja tarjoa kaalisalaatin tai leivän kanssa."
+    ],
+    "ingredients": [
+      {
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Porsaan kasleria (luutonta)",
+            "amount": 1500,
+            "unit": "g"
+          },
+          {
+            "name": "Suolaa",
+            "amount": 2.5,
+            "unit": "tl"
+          },
+          {
+            "name": "Savustettua paprikajauhetta",
+            "amount": 2,
+            "unit": "tl"
+          },
+          {
+            "name": "Salottisipulia",
+            "amount": 5,
+            "unit": "kpl"
+          },
+          {
+            "name": "Valkosipulinkynttä",
+            "amount": 5,
+            "unit": "kpl"
+          },
+          {
+            "name": "Porkkanaa",
+            "amount": 4,
+            "unit": "kpl"
+          },
+          {
+            "name": "Bataattia",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Grillauskastiketta (BBQ-kastiketta)",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "name": "Kevätsipulia",
+            "amount": 4,
+            "unit": "kpl (nippu)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Paprikainen porsaanfilee- ja makkarapata",
+    "description": "Nyhtöpossupata on ihanan mehevä ja lämmittävä talviruoka! Koko ateria valmistuu samassa padassa, ja sen voi valmistaa hyvissä ajoin ennen ulkoilua.",
+    "source": "",
+    "prepTime": 45,
+    "servings": 4,
+    "tags": ["possu", "makkara", "pata"],
+    "img": "paprikainen_porsaanfilee_ja_makkarapata.JPG",
+    "dateAdded": "22.3.2024",
+    "favourite": false,
+    "instructions": [
+      "Leikkaa porsaanfilee noin 1,5 cm viipaleisiin ja muotoile viipaleet kevyesti kämmenellä painaen. Kääntele paloja pippurilla maustetuissa vehnäjauhoissa. Paloittele makkarat 1,5 cm pätkiin. Ruskista ensin makkarat ja sitten lihapalat makkaroista irronneessa rasvassa. ",
+      "Paloittele paprikat. Leikkaa pikkukurkut kapeiksi pitkiksi suikaleiksi. Laita kaikki ainekset paitsi persiljasilppu pataan. Anna hautua 20 min",
+      "Lisää päälle persiljasilppu ja tarjoile paistettujen perunamykyjen kera. Lisää tarjoiluvaiheessa reilusti rucolaa mykyjen sekaan"
+    ],
+    "ingredients": [
+      {
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Porsaan sisäfilettä",
+            "amount": 600,
+            "unit": "g"
+          },
+          {
+            "name": "Salamipatukkaa",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Pitkää bratwurstia",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Vehnäjauhoja leivittämiseen",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "Jauhettua mustapippuria",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "Hillosipuleita",
+            "amount": 1,
+            "unit": "dl"
+          },
+          {
+            "name": "Mustia kivettömiä oliiveja",
+            "amount": 1,
+            "unit": "dl"
+          },
+          {
+            "name": "Punainen paprika",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Vihreä paprika",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Pieniä cornichons-kurkkuja",
+            "amount": 1,
+            "unit": "dl"
+          },
+          {
+            "name": "Hapankaalia",
+            "amount": 2,
+            "unit": "dl"
+          },
+          {
+            "name": "Kermaa",
+            "amount": 4,
+            "unit": "dl"
+          },
+          {
+            "name": "Lihalientä",
+            "amount": 4,
+            "unit": "dl"
+          },
+          {
+            "name": "Persiljasilppua",
+            "amount": 0,
+            "unit": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Rahkainen kuningatarpiirakka",
+    "description": "",
+    "source": "",
+    "prepTime": 60,
+    "servings": 12,
+    "tags": ["piirakka"],
+    "img": "rahkainen_kuningatarpiirakka.JPG",
+    "dateAdded": "22.3.2024",
+    "favourite": false,
+    "instructions": [
+      "Sulata murotaikina pakkauksen ohjeen mukaan ja taputtele taikina voidellun piirakkavuoan (halkaisija 24cm) pohjalle ja reunoille.",
+      "Sekoita kulhossa keskenään maitorahka, kermaviili, munat, sokeri ja vanilliinisokeri. Kaada mustikat piirakkapohjalle ja levitä päälle rahkaseos. Ripottele pinnalle vadelmat",
+      "Paista 200 asteessa alimmalla tasolla 30 minuuttia ja edelleen keskitasolla 5-1 minuuttia. Tarjoa jäähtyneenä."
+    ],
+    "ingredients": [
+      {
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Pirkka murotaikinaa (a 400g)",
+            "amount": 0.75,
+            "unit": "pkt"
+          },
+          {
+            "name": "Pirkka maitorahkaa (200g)",
+            "amount": 1,
+            "unit": "tlk"
+          },
+          {
+            "name": "Pirkka Kevyt kermaviiliä (200g)",
+            "amount": 1,
+            "unit": "tlk"
+          },
+          {
+            "name": "Kananmunaa",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Sokeria",
+            "amount": 0.75,
+            "unit": "dl"
+          },
+          {
+            "name": "Vanilliinisokeria",
+            "amount": 3,
+            "unit": "tl"
+          },
+          {
+            "name": "Pirkka mustikoita (200g)",
+            "amount": 1,
+            "unit": "ps"
+          },
+          {
+            "name": "Pirkka vadelmia (200g)",
+            "amount": 0.5,
+            "unit": "ps"
+          }
+        ]
+      }
+    ]
   }
 ]
