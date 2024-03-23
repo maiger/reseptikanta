@@ -12,7 +12,7 @@ recipeStore.setRecipes(recipeData);
 
 <template>
   <Header />
-  <router-view v-slot="{ Component }">
+  <router-view class="main-content" v-slot="{ Component }">
     <transition name="scale" mode="out-in">
       <component :is="Component" />
     </transition>
@@ -21,6 +21,11 @@ recipeStore.setRecipes(recipeData);
 </template>
 
 <style lang="scss" scoped>
+.main-content {
+  // Take the whole height minus header and footer heights
+  min-height: calc(100vh - 7rem - 10rem);
+}
+
 .scale-enter-active,
 .scale-leave-active {
   transition: all 0.3s ease;

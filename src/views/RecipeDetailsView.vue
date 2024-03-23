@@ -87,7 +87,7 @@ const removeServings = () => {
   flex-direction: column;
   align-items: center;
   width: 100rem;
-  margin: 5rem 0 0 0;
+  margin: 5rem 0 5rem 0;
   padding: 2rem;
 }
 

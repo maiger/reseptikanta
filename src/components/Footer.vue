@@ -22,7 +22,7 @@ import { Icon } from "@iconify/vue";
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin-top: 10rem;
+  height: 10rem;
   padding: 3rem 0;
   color: var(--color-secondary-1-dark-1);
   background-color: var(--color-primary-1-dark);

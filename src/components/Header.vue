@@ -37,6 +37,7 @@ header {
 
   nav {
     display: flex;
+    height: 7rem;
     align-items: center;
     padding: 1rem 1.6rem;
 
