@@ -2479,5 +2479,589 @@
         ]
       }
     ]
+  },
+  {
+    "id": 28,
+    "title": "Ranskalainen lohilaatikko",
+    "description": "Tämä maukas, ranskalaistyylinen lohilaatikko maistuu koko perheelle.",
+    "source": "",
+    "prepTime": 60,
+    "servings": 4,
+    "tags": ["kala", "laatikko"],
+    "img": "ranskalainen_lohilaatikko.JPG",
+    "dateAdded": "23.3.2024",
+    "favourite": false,
+    "instructions": [
+      "Laita uuni kuumenemaan 225-asteiseksi. Leikkaa lohi noin 2x2 cm kokoisiksi paloiksi. Mausta suolalla. Viipaloi purjo, kuori ja pilko omena kuutioiksi. Laita ainekset voideltuun uunivuokaan.",
+      "Sekoita kerma ja sinappi keskenään ja kaada vuokaan. Ripottele halutessasi pinnalle juustoraastetta.",
+      "Paista uunin keskiosassa n. 15 (20 -25 min)min. Tarjoa keitettyjen perunoiden tai perunamuusin kanssa.",
+      "Voit halutessasi valmistaa perunat samassa vuoassa. Pilko kuoritut perunat reilunkokoisiksi kuutioiksi, laita uunivuokaan ennen muita aineksia ja esipaista n. 10-15 min. Lisää vuokaan loput ainekset ja paista laatikko kypsäksi."
+    ],
+    "ingredients": [
+      {
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Nahatonta ja ruodotonta lohifileetä",
+            "amount": 500,
+            "unit": "g"
+          },
+          {
+            "name": "Suolaa",
+            "amount": 0.5,
+            "unit": "tl"
+          },
+          {
+            "name": "Purjo",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Omenaa",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Dijonsinappia",
+            "amount": 2,
+            "unit": "tl"
+          },
+          {
+            "name": "Arla Keittiö ruokakermaa 10%",
+            "amount": 2.5,
+            "unit": "dl"
+          },
+          {
+            "name": "Arla Emmentaljuustoraastetta",
+            "amount": 150,
+            "unit": "g"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Schwarzwaldin jauhelihapihvit",
+    "description": "",
+    "source": "",
+    "prepTime": 60,
+    "servings": 4,
+    "tags": ["jauheliha"],
+    "img": "schwarzwaldin_jauhelihapihvit.JPG",
+    "dateAdded": "23.3.2024",
+    "favourite": false,
+    "instructions": [
+      "Mittaa kulhoon korppujauhot. Sekoita joukkoon vesi ja kerma",
+      "Kuullota sipulit paistinpannussa öljyssä.",
+      "Lisää kulhoon jauheliha, muna, kaprikset, sinappi, suola, mustapippuri ja sipulit. Sekoita taikina tasaiseksi",
+      "Pyörittele taikinasta 12 tasakokoista pyörykkää leivinpaperille pellille. Paina pyörykät hieman ohuemmiksi",
+      "Leikkaa kinkku parin sentin levyisiksi pitkiksi suikaleiksi. Kiepauta suikaleet ruusukkeiksi ja paina pihvin keskelle.",
+      " Paista pihvit 225 asteessa noin 15 minuuttia. Tarjoa lisäksi esimerkiksi juureskakkua'"
+    ],
+    "ingredients": [
+      {
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Pirkka korppujauhoja",
+            "amount": 1,
+            "unit": "dl"
+          },
+          {
+            "name": "Vettä",
+            "amount": 1,
+            "unit": "dl"
+          },
+          {
+            "name": "Kevytkermaa",
+            "amount": 0.75,
+            "unit": "dl"
+          },
+          {
+            "name": "Pirkka sipulikuutioita (pakaste)",
+            "amount": 1,
+            "unit": "dl"
+          },
+          {
+            "name": "Öljyä",
+            "amount": 0.5,
+            "unit": "rkl"
+          },
+          {
+            "name": "Pirkka naudan paistijauheliha",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "name": "Kananmuna",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Pirkka kapriksia",
+            "amount": 0.5,
+            "unit": "dl"
+          },
+          {
+            "name": "Sinappia",
+            "amount": 1,
+            "unit": "rkl"
+          },
+          {
+            "name": "Suolaa",
+            "amount": 0.75,
+            "unit": "tl"
+          },
+          {
+            "name": "Mustapippuria",
+            "amount": 1,
+            "unit": "ripaus"
+          },
+          {
+            "name": "Pirkka Schwarzwaldin kinkkua (100g)",
+            "amount": 1,
+            "unit": "ptk"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Sitruksinen pesto-uunilohi",
+    "description": "",
+    "source": "",
+    "prepTime": 60,
+    "servings": 6,
+    "tags": ["kala", "pesto"],
+    "img": "sitruksinen_pesto_uunilohi.JPG",
+    "dateAdded": "23.3.2024",
+    "favourite": false,
+    "instructions": [
+      "Poista kalasta mahdolliset ruodot. Nosta lohifilee leivinpaperilla vuoratulle uunipellille.",
+      "Leikkaa kalaan ohuita viiltoja. Sipaise väleihin pestokastiketta.",
+      "Mausta lohi suolalla, pippurilla, paprikajauheella, korianterilla ja chilillä.",
+      "Pese sitruunat ja limetti hyvin. Purista kalalle toisen sitruunan mehu.",
+      "Leikkaa toinen sitruuna ja limetti viipaleiksi ja asettele niitä viiltoihin.",
+      "Paista uunilohta 175 asteessa 30-40 minuuttia.",
+      "Tarjoa sitruksinen pesto-uunilohi keitettyjen perunoiden ja porkkana-rucolasalaatin kera.",
+      "Jos uunilohta jää aterialta yli, perkaa kala paloiksi ja käytä sitä lohikiusaukseen, -piirakkaan tai -pastaan."
+    ],
+    "ingredients": [
+      {
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Lohifileetä",
+            "amount": 1500,
+            "unit": "g"
+          },
+          {
+            "name": "Pestoa",
+            "amount": 1,
+            "unit": "dl"
+          },
+          {
+            "name": "Suolaa",
+            "amount": 0.25,
+            "unit": "tl"
+          },
+          {
+            "name": "Mustapippuria",
+            "amount": 0.25,
+            "unit": "tl"
+          },
+          {
+            "name": "Paprikajauhetta",
+            "amount": 1,
+            "unit": "tl"
+          },
+          {
+            "name": "Korianterinsiemieniä (jauhettuna)",
+            "amount": 0.5,
+            "unit": "tl"
+          },
+          {
+            "name": "Chilijauhetta",
+            "amount": 0.25,
+            "unit": "tl"
+          },
+          {
+            "name": "Sitruunaa",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Limettiä",
+            "amount": 1,
+            "unit": "kpl"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Syksyinen broileripata",
+    "description": "",
+    "source": "Henri Alén",
+    "prepTime": 60,
+    "servings": 4,
+    "tags": ["kana", "pata"],
+    "img": "syksyinen_broileripata.JPG",
+    "dateAdded": "23.3.2024",
+    "favourite": false,
+    "instructions": [
+      "Leikkaa koipireidet kahteen osaan. Ruskista palat öljytilkassa padassa ja ripottele päälle vehnäjauhot.",
+      "Lisää kuorittu ja pilkottu sipuli, halkaistut valkosipulin kynnet ja porkkanat.",
+      "Sekoita hieman ja lisää tomaattipyree sekä kanaliemi. Sekoita ainekset hyvin ja anna liemen kuumentua kiehuvaksi.",
+      "Kun pata poreilee, lisää laakerinlehti. Anna hautua noin 30 minuuttia.",
+      "Lisää lopuksi joukkoon smetana. Mausta suolalla ja mustapippurilla. Tarjoile keitetyn bulgurin, couscousin tai riisin kera."
+    ],
+    "ingredients": [
+      {
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Broilerin koipi-reisipalaa",
+            "amount": 4,
+            "unit": "kpl"
+          },
+          {
+            "name": "Öljyä",
+            "amount": 1,
+            "unit": "tilkka"
+          },
+          {
+            "name": "Valkosipulin kynttä",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Tomaattipyreetä",
+            "amount": 2,
+            "unit": "rkl"
+          },
+          {
+            "name": "Sipuli",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Porkkanaa",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Vehnäjauhoja",
+            "amount": 1,
+            "unit": "rkl"
+          },
+          {
+            "name": "Kanalientä",
+            "amount": 4,
+            "unit": "dl"
+          },
+          {
+            "name": "Laakerinlehti",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Suolaa",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "Mustapippuria",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "Smetanaa",
+            "amount": 1,
+            "unit": "prk"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Thai-kanakeitto",
+    "description": "",
+    "source": "Sensaisti 14.1.2013",
+    "prepTime": 60,
+    "servings": 4,
+    "tags": ["kana", "keitto"],
+    "img": "thai_kanakeitto.JPG",
+    "dateAdded": "23.3.2024",
+    "favourite": false,
+    "instructions": [
+      "Paista broilerisuikaleet pannulla kypsäksi. Maustamaton broileri käy ihan yhtä hyvin, koska keitto maustetaan kuitenkin hyvin.",
+      "Pilko sipuli, porkkana, parsakaali ja kukkakaali ja kuullota niitä suuressa kattilassa hetki (voissa tai öljyssä).",
+      "Lisää kasvisten sekaan punaista currytahnaa maun mukaan.",
+      "Lisää keittoon kookosmaito ja vesi. Kookosmaito pehmentää curryn tulisuutta melko paljon.",
+      "Mausta suolalla, pippurilla ja soijakastikkeella. Lisää chiliä tai chilikastiketta jos haluat potkivampaa keittoa. Maustamisen jälkeen kannattaa tsekata keiton tulisuus ja tarvitseeko currya laittaa lisää.",
+      "Lisää vielä pilkottu tomaatti ja broileri.",
+      "Anna vielä kiehua hiljalleen miedommalla lämmöllä 10-15 minuuttia, välillä sekoitellen.",
+      "Laita nuudeleita kiehumaan muutama minuutti ennen keiton valmistumista.",
+      "Keitto on erinomaista tuoreen vaalean leivän kanssa.",
+      "Keittoa on myös helppo jatkaa parin annoksen syömisen jälkeen. Ei muuta kuin keitto takaisin levylle, lisätään vettä, ehkä porkkana ja tomaatti tai kaksi ja annetaan keiton lämmetä uudelleen hetken aikaa. Tarkistetaan mausteet ja lisätään soijakastiketta ja currya yms. tarvittaessa. "
+    ],
+    "ingredients": [
+      {
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Broileria, kanaa (rintafileitä tai suikaleita)",
+            "amount": 750,
+            "unit": "g"
+          },
+          {
+            "name": "Iso sipuli (100g)",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Isoa porkkanaa",
+            "amount": 3,
+            "unit": "kpl"
+          },
+          {
+            "name": "Parsakaali (400g)",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "(Pieni kukkakaali)",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Tomaattia",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Punaista currytahnaa",
+            "amount": 2,
+            "unit": "rkl"
+          },
+          {
+            "name": "Kookosmaitoa",
+            "amount": 2,
+            "unit": "purkkia"
+          },
+          {
+            "name": "Vettä",
+            "amount": 4,
+            "unit": "purkkia"
+          },
+          {
+            "name": "Suolaa",
+            "amount": 1,
+            "unit": "tl"
+          },
+          {
+            "name": "Mustapippuria",
+            "amount": 1,
+            "unit": "tl"
+          },
+          {
+            "name": "Soijakastiketta",
+            "amount": 6,
+            "unit": "rkl"
+          },
+          {
+            "name": "Pientä chiliä silputtuna (makeaa chilikastiketta)",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Nuudeleita",
+            "amount": 0,
+            "unit": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Tom Yam keitto",
+    "description": "",
+    "source": "",
+    "prepTime": 60,
+    "servings": 4,
+    "tags": ["katkarapu", "sieni", "keitto"],
+    "img": "tom_yam_keitto.JPG",
+    "dateAdded": "23.3.2024",
+    "favourite": false,
+    "instructions": [
+      "Kuumenna kanaliemi kiehuvaksl. Lisää Tom Yam tahna, sienet ja kaffirlimetinlehdet. Anna kiehua muutaman minuutin ajan",
+      "Lisää katkaravut ja kirsikkatomaatit, kuumenna, mutta älä keitä, etteivät katkaravut sitkisty.",
+      "Mausta kalakastikkeella ja limetinmehulla.",
+      "Koristele lopuksi korianterisilpulla. Thaimaalainen tapa on tarjota keittoa höyryävän jasmiiniriisin kera.",
+      "Vinkki: Jos haluat keittoosi tulisuutta, lisää joukkoon chiliviipaleita tai tulista chilikastiketta. Voit halutessasi lisätä keittoosi vielä lopuksi 2 dl kookosmaitoa."
+    ],
+    "ingredients": [
+      {
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Kanalientä",
+            "amount": 1,
+            "unit": "l"
+          },
+          {
+            "name": "Spice Up! Tom Yam tahnaa",
+            "amount": 1,
+            "unit": "prk"
+          },
+          {
+            "name": "Herkkusieniä viipaloituna",
+            "amount": 100,
+            "unit": "g"
+          },
+          {
+            "name": "Spice Up! Kaffirlimetinlehteä",
+            "amount": 4,
+            "unit": "kpl"
+          },
+          {
+            "name": "Jättikatkarapuja",
+            "amount": 300,
+            "unit": "g"
+          },
+          {
+            "name": "Kirsikkatomaattia",
+            "amount": 20,
+            "unit": "n. kpl"
+          },
+          {
+            "name": "Spice Up! Thai Kalakastiketta",
+            "amount": 4,
+            "unit": "rkl"
+          },
+          {
+            "name": "Limetin mehua",
+            "amount": 0.5,
+            "unit": "dl"
+          },
+          {
+            "name": "Korianteria silputtuna",
+            "amount": 0,
+            "unit": "koristeeksi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Tom kha kai -keitto",
+    "description": "",
+    "source": "Ruoka 16.10.2014",
+    "prepTime": 60,
+    "servings": 4,
+    "tags": ["kana", "sieni", "keitto"],
+    "img": "tom_kha_kai_keitto.JPG",
+    "dateAdded": "23.3.2024",
+    "favourite": false,
+    "instructions": [
+      "Kuori sipulit. Halkaise sipulit neljään osaan. Kuori ja viipaloi galangal-juuri ohuiksi siivuiksi. Murskaa veitsen lappeella kaksi pientä tai yksi suuri sitruunaruohon oksa niin, että maut irtoavat. Katkaise sitruunaruoho viiden senttimetrin pätkiksi. Puolita kirsikkatomaatit.",
+      "Sekoita pienessä astiassa soija- ja kalakastike, limettimehu, sokeri ja suola. Aseta kastike sivuun odottamaan.",
+      "Laita levy täydelle teholle ja aseta kattila levylle. Kaada kattilaan tölkillinen kookosmaitoa ja lisää joukkoon vielä kaksi tölkillistä vettä. Kuumenna liemi.",
+      "Lisää joukkoon sipulinpalat, galangal-viipaleet ja sitruunaruoho. Anna kiehahtaa.",
+      "Pilko broileri suupaloiksi. Tiputtele broileripalat kiehuvan kookosmaidon joukkoon yksitellen. Älä sekoita tai kääntele, vaan anna palojen kypsyä rauhassa.",
+      "Kun keitto kiehuu jälleen, lisää joukkoon herkkusienet ja kypsytä hetki.",
+      "Lisää maustekastike ja kirsikkatomaatinpuolikkaat.",
+      "Mikäli haluat keitosta tulista, paina veitsen lappeella kahden chilipalon rakenteet rikki pilkkomatta niitä ja heitä chilit mukaan keittoon kokonaisina.",
+      "Kun keitto kiehuu jälleen, lisää joukkoon korianteri ja käännä levy pois päältä. Tarkista suola. Tarjoa."
+    ],
+    "ingredients": [
+      {
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Banaanisalottisipuli",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Galangal-juurta (tai inkivääriä, 20g raasteena)",
+            "amount": 40,
+            "unit": "g"
+          },
+          {
+            "name": "Sitruunaruohoa",
+            "amount": 2,
+            "unit": "oksa"
+          },
+          {
+            "name": "Kirsikkatomaattia",
+            "amount": 10,
+            "unit": "kpl"
+          },
+          {
+            "name": "Vähäsuolaista soijakastiketta",
+            "amount": 2,
+            "unit": "rkl"
+          },
+          {
+            "name": "Kalakastiketta",
+            "amount": 4,
+            "unit": "rkl"
+          },
+          {
+            "name": "Limettimehua",
+            "amount": 4,
+            "unit": "rkl"
+          },
+          {
+            "name": "Ruokosokeria",
+            "amount": 2,
+            "unit": "rkl"
+          },
+          {
+            "name": "Suolaa",
+            "amount": 0.5,
+            "unit": "tl"
+          },
+          {
+            "name": "kookosmaitoa, extra cream",
+            "amount": 1,
+            "unit": "tlk"
+          },
+          {
+            "name": "Vettä",
+            "amount": 2,
+            "unit": "tlk"
+          },
+          {
+            "name": "Broilerinrintaa",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "name": "Tuoreita herkkusieniä",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "name": "(Tuoretta chiliä)",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Korianteria",
+            "amount": 1,
+            "unit": "nippu"
+          }
+        ]
+      }
+    ]
   }
 ]
