@@ -3,6 +3,16 @@
     <div class="content">
       <h1>Tervetuloa Reseptikantaan!</h1>
       <p>Täältä löydät herkullisimmat reseptit jokaiseen tilanteeseen.</p>
+      <p>
+        Reseptit on koottu vuosien(kymmenien) saatossa useista eri lähteistä.
+      </p>
+      <p>
+        Reseptejä on koottu niin historian havinoista, kuin lehdista ja
+        internetin syövereistä.
+      </p>
+      <p>
+        Monia reseptejä on muokattu alkuperäisestä omien maukujen mukaisesti.
+      </p>
       <h2>Ominaisuudet</h2>
       <ul>
         <li>Avoin hakukenttä</li>
