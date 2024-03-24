@@ -114,6 +114,7 @@ const removeServings = () => {
   h1 {
     position: absolute;
     text-align: center;
+    line-height: 1.2;
     bottom: 1rem;
     font-size: 6.4rem;
     color: var(--color-primary-1-light);

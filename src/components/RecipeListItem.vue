@@ -72,9 +72,10 @@ const getTagIcon = (tag) => {
 
   .title {
     position: absolute;
-    bottom: 6rem;
+    bottom: 5.5rem;
     font-size: 3rem;
     text-align: center;
+    line-height: 1.3;
     color: var(--color-primary-1-light);
     letter-spacing: 1px;
     text-shadow: -4px -4px 1px var(--color-secondary-1-dark),
