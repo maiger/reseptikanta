@@ -3063,5 +3063,451 @@
         ]
       }
     ]
+  },
+  {
+    "id": 35,
+    "title": "Tulinen makkarakeitto",
+    "description": "",
+    "source": "",
+    "prepTime": 50,
+    "servings": 4,
+    "tags": ["makkara", "keitto"],
+    "img": "tulinen_makkarakeitto.JPG",
+    "dateAdded": "24.3.2024",
+    "favourite": false,
+    "instructions": [
+      "Kuori ja hienonna sipulit. Kuutioi porkkana ja selleri. Hienonna chili. Suikaloi makkara.",
+      "Kuullota sipuleita, porkkanaa ja selleriä kattilassa (tai isolla pannulla) öljyssä. 2 min",
+      "Lisää chili ja makkarat. Paista hetken aikaa. 4 min",
+      "Lisää kattilaan tomaattipyree, -murska ja lihaliemi. Anna kiehua hetken aikaa kunnes vihannekset ovat pehmenneet. 15 min",
+      "Lisää tuoreet yrtit (tai vasta pöydässä per nuppi) ja mausta pippurilla ja suolalla.",
+      "Tarjoile lisänä tuoretta leipää ja tuorejuustoa."
+    ],
+    "ingredients": [
+      {
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Sipulia",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Valkosipulinkynttä",
+            "amount": 4,
+            "unit": "kpl"
+          },
+          {
+            "name": "Porkkanaa",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Varsisellerin vartta (purjo, kokeile)",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Keskivahvaa chiliä",
+            "amount": 2,
+            "unit": "rkl"
+          },
+          {
+            "name": "Öljyä",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "Chorizomakkaraa / Jauhelihaa / Nakkeja",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "name": "Tomaattipyreetä",
+            "amount": 2,
+            "unit": "rkl"
+          },
+          {
+            "name": "Tomaattimurskaa",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "name": "Lihalinetä tai vettä",
+            "amount": 1,
+            "unit": "l"
+          },
+          {
+            "name": "Tuoreita yrttejä esim. timjamia, persilja",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "Pippuria",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "Chilitahnaa",
+            "amount": 0,
+            "unit": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Unkarilainen jauhelihakeitto",
+    "description": "",
+    "source": "",
+    "prepTime": 30,
+    "servings": 5,
+    "tags": ["jauheliha", "keitto"],
+    "img": "unkarilainen_jauhelihakeitto.JPG",
+    "dateAdded": "24.3.2024",
+    "favourite": false,
+    "instructions": [
+      "Ruskista jauheliha sekä silputut sipulit öljyssä.",
+      "Lisää paprikajauhe, sekoittele hetki.",
+      "Lisää vesi, liemikuutiot ja pieniksi silputut kasvikset sekä mausteet.",
+      "Anna kiehua hiljalleen, kunnes kasvikset ovat pehmeät. Tarkista maku ja lisää tarvittaessa suolaa.",
+      "Tarjoa tuoreen vaalean leivän kanssa."
+    ],
+    "ingredients": [
+      {
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Jauhelihaa",
+            "amount": 400,
+            "unit": "g"
+          },
+          {
+            "name": "Sipuli",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Valkosipulinkynttä",
+            "amount": 6,
+            "unit": "kpl"
+          },
+          {
+            "name": "Palsternakka",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Perunaa",
+            "amount": 3,
+            "unit": "kpl"
+          },
+          {
+            "name": "Porkkanaa",
+            "amount": 4,
+            "unit": "kpl"
+          },
+          {
+            "name": "Kaalia",
+            "amount": 1,
+            "unit": "pieni pala"
+          },
+          {
+            "name": "Vettä",
+            "amount": 2.5,
+            "unit": "l"
+          },
+          {
+            "name": "Lihaliemikuutiota",
+            "amount": 3,
+            "unit": "kpl"
+          },
+          {
+            "name": "Laakerinlehti",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Paprikajauhetta",
+            "amount": 4,
+            "unit": "rkl"
+          },
+          {
+            "name": "Mustapippuria myllystä",
+            "amount": 10,
+            "unit": "kierrosta"
+          },
+          {
+            "name": "Tomaatti pyrettä",
+            "amount": 1,
+            "unit": "rkl"
+          },
+          {
+            "name": "Tuoreita yrttejä",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "Suolaa",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "Chilitahnaa",
+            "amount": 0,
+            "unit": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Uunimakkara",
+    "description": "",
+    "source": "",
+    "prepTime": 60,
+    "servings": 6,
+    "tags": ["makkara"],
+    "img": "uunimakkara.JPG",
+    "dateAdded": "24.3.2024",
+    "favourite": false,
+    "instructions": [
+      "Kuori makkara ja leikkaa siihen syvät viillot. Nosta makkara voideltuun uunivuokaan lenkin muotoon. Levitä viiltoihin sinappia.",
+      "Viipaloi juusto ja työnnä jokaiseen viiltoon juustoviipale.",
+      "Puolita tomaatit ja viipaloi ne. Leikkaa sipulit ohuiksi suikaleiksi. Kuullota sipuleita öljyssä pari minuuttia, mausta ne hunajalla, suolalla ja pippurilla. Kaada sipuliseos makkaran keskelle. Levitä sipuleiden päälle tomaatit ja mausta vielä oreganolla. Paista 200 asteessa noin 25 minuuttia."
+    ],
+    "ingredients": [
+      {
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Lenkkimakkaraa (Huilun Tuhti 400g 2-3 hlö)",
+            "amount": 850,
+            "unit": "g"
+          },
+          {
+            "name": "Sinappia",
+            "amount": 2,
+            "unit": "rkl"
+          },
+          {
+            "name": "Emmentaljuustoa",
+            "amount": 100,
+            "unit": "g"
+          },
+          {
+            "name": "Tomaattia",
+            "amount": 2,
+            "unit": "kpl"
+          },
+          {
+            "name": "Iso sipuli",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Öljyä",
+            "amount": 1,
+            "unit": "rkl"
+          },
+          {
+            "name": "Juoksevaa hunajaa",
+            "amount": 0.5,
+            "unit": "rkl"
+          },
+          {
+            "name": "Suolaa",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "Mustapippuria",
+            "amount": 0,
+            "unit": ""
+          },
+          {
+            "name": "Oreganoa",
+            "amount": 1,
+            "unit": "tl"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Pho-keitto",
+    "description": "",
+    "source": "",
+    "prepTime": 30,
+    "servings": 5,
+    "tags": ["liha", "keitto", "nuudeli"],
+    "img": "pho_keitto.JPG",
+    "dateAdded": "24.3.2024",
+    "favourite": false,
+    "instructions": [
+      "Kuori ja hienonna sipuli sekä valkosipulinkynnet. Kuori porkkana ja leikkaa vinoviipaleiksi. Leikkaa liha mahdollisimman ohuiksi viipaleiksi ja viipaleet vielä pariin osaan. Poista halutessasi chilistä siement, jolloin tulisuus vähenee. Leikkaa chili ohuiksi renkaiksi tai puolirenkaiksi.",
+      "Ruskista lihat kevyesti öljytilkassa kattilan pohjalla. Lisää sipuli, valkosipuli ja porkkanat. Mittaa päälle vesi. Lisää chili ja muut mausteet. Kuumenna kiehuvaksi ja keitä kannen alla 5 minuuttia.",
+      "Murra nuudelilevyt muutamaan osaan ja lisää keittoon. Keitä 4 minuuttia, eli kunnes nuudelt ja kasvikset ovat kypsiä.",
+      "Hienonna kevätsipuli, korianteri ja minttu. Lisää ne valmiiseen keittoon. Tarjoa pho-keitto heti."
+    ],
+    "ingredients": [
+      {
+        "collectionName": "Osa 1",
+        "collectionIngredients": [
+          {
+            "name": "Sipuli",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Valkosipulinkynttä",
+            "amount": 3,
+            "unit": "kpl"
+          },
+          {
+            "name": "Porkkana",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Naudan sisä- tai paahtopaistia",
+            "amount": 300,
+            "unit": "g"
+          },
+          {
+            "name": "Mietoa punaista chiliä",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Vettä",
+            "amount": 12,
+            "unit": "dl"
+          },
+          {
+            "name": "Inkivääritahnaa",
+            "amount": 2,
+            "unit": "tl"
+          },
+          {
+            "name": "Kanelitanko",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Tähtianis",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Kalakastiketta",
+            "amount": 1,
+            "unit": "rkl"
+          },
+          {
+            "name": "Lihaliemikuutio",
+            "amount": 1,
+            "unit": "kpl"
+          },
+          {
+            "name": "Sokeria",
+            "amount": 2,
+            "unit": "tl"
+          },
+          {
+            "name": "Vehnänuudeleita",
+            "amount": 250,
+            "unit": "g"
+          },
+          {
+            "name": "Kevätsipulin vartta",
+            "amount": 4,
+            "unit": "kpl"
+          },
+          {
+            "name": "Tuoretta korianteria hienonnettuna",
+            "amount": 0.5,
+            "unit": "dl"
+          },
+          {
+            "name": "Tuoretta minttua hienonnettuna",
+            "amount": 0.5,
+            "unit": "dl"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Vuohenjuustolla kuorrutettu uunilohi",
+    "description": "",
+    "source": "Ruoka",
+    "prepTime": 60,
+    "servings": 8,
+    "tags": ["kala", "juusto"],
+    "img": "vuohenjuustolla_kuorrutettu_uunilohi.JPG",
+    "dateAdded": "24.3.2024",
+    "favourite": false,
+    "instructions": [
+      "Jaa tuore lohifilee 6–8 annospalaan. Mausta suolalla ja sitruunamehulla. Jos pidät sitruunasta, voit lisätä sitä enemmänkin kuin ohjeessa neuvotaan.",
+      "Paahda kinkkuviipaleet kuumalla, kuivalla pannulla hyvin rapeiksi. Silppua kinkku kunnolla. Sekoita keskenään mehevä vuohenjuusto, kaprikset ja silputtu, tuore timjami. Mausta pippurilla. Levitä juustoseos lohipalojen päälle. Ripottele pinnalle kinkkusuikaleet.",
+      "Kypsennä lohipaloja 225-asteisessa uunissa noin 25 minuuttia. Tarjoa Chevrekuorrutettu uunilohi keitettyjen papujen, perunoiden ja/tai salaatin kanssa."
+    ],
+    "ingredients": [
+      {
+        "collectionName": "Kala",
+        "collectionIngredients": [
+          {
+            "name": "Lohifilee",
+            "amount": 1.2,
+            "unit": "kg"
+          },
+          {
+            "name": "Suolaa",
+            "amount": 1,
+            "unit": "tl"
+          },
+          {
+            "name": "Sitruunan mehu",
+            "amount": 0.5,
+            "unit": "kpl"
+          }
+        ]
+      },
+      {
+        "collectionName": "Kuorrute",
+        "collectionIngredients": [
+          {
+            "name": "Vuohentuorejuustoa (Chavroux)",
+            "amount": 150,
+            "unit": "g"
+          },
+          {
+            "name": "Silputtua timjamia",
+            "amount": 1,
+            "unit": "rkl"
+          },
+          {
+            "name": "Kapriksia",
+            "amount": 2,
+            "unit": "rkl"
+          },
+          {
+            "name": "Mustapippuria",
+            "amount": 1,
+            "unit": "ripaus"
+          },
+          {
+            "name": "Ilmakuivattua savukinkkua",
+            "amount": 0,
+            "unit": "viipaleita"
+          }
+        ]
+      }
+    ]
   }
 ]
