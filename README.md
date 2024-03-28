@@ -38,10 +38,6 @@ git subtree push --prefix dist origin gh-pages
 
 ### TODO:
 
-- General
-
-  - Tests
-
 - New Features
   - Favourite recipes
   - Shopping cart
