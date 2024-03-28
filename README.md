@@ -14,10 +14,21 @@ npm install
 npm run dev
 ```
 
+### Tests
+All tests
+```sh
+npm run test
+```
+Check coverage
+```sh
+npm run test:coverage
+```
+
 ### Compile and Minify for Production
 
 ```sh
 npm run build
+npm run deploy
 ```
 
 ### Push to gh-pages
