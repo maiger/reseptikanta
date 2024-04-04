@@ -38,7 +38,11 @@ const props = defineProps({
 });
 
 const computedServings = computed(() => {
-  return props.servings / props.recipe.servings;
+  if (props.servings < 1) {
+    return 1 / props.recipe.servings;
+  } else {
+    return props.servings / props.recipe.servings;
+  }
 });
 
 const toggleComplete = (e) => {
