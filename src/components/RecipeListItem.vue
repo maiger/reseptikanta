@@ -11,7 +11,7 @@
           <p>{{ recipe.prepTime }}min</p>
         </div>
         <div class="tags">
-          <div class="tag" v-for="tag in recipe.tags">
+          <div class="tag" v-for="tag in recipe.tags" :aria-label="tag">
             <Icon class="icon" :icon="`${getTagIcon(tag)}`" />
           </div>
         </div>
