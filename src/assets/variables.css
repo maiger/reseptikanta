@@ -35,16 +35,15 @@
   /* ACCENT */
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
-    --color-background: var(--vt-c-black);
-    --color-background-soft: var(--vt-c-black-soft);
-    --color-background-mute: var(--vt-c-black-mute);
-
-    --color-border: var(--vt-c-divider-dark-2);
-    --color-border-hover: var(--vt-c-divider-dark-1);
-
-    --color-heading: var(--vt-c-text-dark-1);
-    --color-text: var(--vt-c-text-dark-2);
+    /* PRIMARY */
+    --color-primary-1-light: #24351d;
+    --color-primary-1: #617a55;
+    --color-primary-1-dark: #24351d;
+    /* SECONDARY */
+    --color-secondary-1: #24351d;
+    --color-secondary-1-dark: #fff8d6;
+    --color-secondary-1-dark-1: #f7e1ae;
   }
-} */
+}
