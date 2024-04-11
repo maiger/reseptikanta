@@ -1,9 +1,11 @@
 <template>
   <section class="recipe-list-section">
     <ul>
-      <li v-for="recipe in recipes" :key="recipe.id">
-        <RecipeListItem :recipe="recipe" />
-      </li>
+      <RecipeListItem
+        v-for="recipe in recipes"
+        :key="recipe.id"
+        :recipe="recipe"
+      />
     </ul>
   </section>
 </template>

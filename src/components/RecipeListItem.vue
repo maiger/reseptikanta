@@ -1,23 +1,25 @@
 <template>
-  <RouterLink :to="`/recipes/${recipe.id}`">
-    <div class="recipe-item">
-      <div class="recipe-thumbnail">
-        <img :src="`${BASE_IMAGE_PATH + recipe.img}`" :alt="recipe.title" />
-      </div>
-      <h1 class="title">{{ recipe.title }}</h1>
-      <div class="recipe-info">
-        <div class="prep-time">
-          <Icon class="icon" icon="mdi:clockwise" />
-          <p>{{ recipe.prepTime }}min</p>
+  <li>
+    <RouterLink :to="`/recipes/${recipe.id}`">
+      <div class="recipe-item">
+        <div class="recipe-thumbnail">
+          <img :src="`${BASE_IMAGE_PATH + recipe.img}`" :alt="recipe.title" />
         </div>
-        <div class="tags">
-          <div class="tag" v-for="tag in recipe.tags" :aria-label="tag">
-            <Icon class="icon" :icon="`${getTagIcon(tag)}`" />
+        <h1 class="title">{{ recipe.title }}</h1>
+        <div class="recipe-info">
+          <div class="prep-time">
+            <Icon class="icon" icon="mdi:clockwise" />
+            <p>{{ recipe.prepTime }}min</p>
+          </div>
+          <div class="tags">
+            <div class="tag" v-for="tag in recipe.tags" :aria-label="tag">
+              <Icon class="icon" :icon="`${getTagIcon(tag)}`" />
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </RouterLink>
+    </RouterLink>
+  </li>
 </template>
 
 <script setup>
