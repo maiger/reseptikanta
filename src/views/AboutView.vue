@@ -11,12 +11,14 @@
         internetin syövereistä.
       </p>
       <p>
-        Monia reseptejä on muokattu alkuperäisestä omien maukujen mukaisesti.
+        Monia reseptejä on muokattu alkuperäisestä omien makujen mukaisesti.
       </p>
       <h2>Ominaisuudet</h2>
       <ul>
         <li>Avoin hakukenttä</li>
         <li>Haku avainsanoilla</li>
+        <li>Reseptien järjestyksen vaihto</li>
+        <li>Reseptien muutos annosmäärien mukaan</li>
         <li>Reseptien vaiheitten seuranta</li>
       </ul>
     </div>
@@ -32,10 +34,13 @@
     @include base-panel;
 
     padding: 4rem;
-    min-height: 80vh;
     max-width: 80rem;
-    margin-top: 3rem;
+    margin: 3rem 0 3rem 0;
     color: var(--color-secondary-1-dark-1);
+  }
+
+  h1 {
+    margin-bottom: 1.2rem;
   }
 
   h2 {
@@ -44,8 +49,6 @@
 
   ul {
     @include flex-column-center;
-
-    margin-top: 1rem;
   }
 }
 </style>
