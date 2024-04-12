@@ -1,4 +1,52 @@
-@mixin test-mixin {
-  background-color: red;
-  border: 5px solid blue;
+@mixin flex-row-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+// Base panel style
+@mixin base-panel {
+  background-color: var(--color-primary-1-dark);
+  border-radius: 20px;
+  box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.2);
+}
+
+@mixin base-hover-effect {
+  &:hover {
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  &:active {
+    transform: translateY(1px) scale(0.95);
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
+  }
+}
+
+// Base button style
+@mixin base-button {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+  background-color: var(--color-secondary-1);
+  border: none;
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+
+  .icon {
+    color: var(--color-secondary-1-dark-1);
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+
+  @include base-hover-effect;
 }

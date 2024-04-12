@@ -2,12 +2,12 @@
   <section class="recipe-section">
     <RecipeSearch :tags="tags" @searchSubmitted="handleSearchSubmitted" />
     <div class="recipe-sort">
-      <div @click="sortRecipesAlphabetically()" class="alphabetical-sort">
+      <button @click="sortRecipesAlphabetically()" class="alphabetical-sort">
         <Icon class="icon" icon="material-symbols:sort-by-alpha-rounded" />
-      </div>
-      <div @click="sortRecipesByPrepTime()" class="prepTime-sort">
+      </button>
+      <button @click="sortRecipesByPrepTime()" class="prepTime-sort">
         <Icon class="icon" icon="mdi:clockwise" />
-      </div>
+      </button>
     </div>
     <RecipeList :recipes="recipes" />
   </section>
@@ -96,45 +96,20 @@ sortRecipesAlphabetically(false);
 
 <style lang="scss" scoped>
 .recipe-section {
+  @include flex-column-center;
+
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .recipe-sort {
   display: flex;
 
-  .alphabetical-sort,
-  .prepTime-sort {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  button {
+    @include flex-row-center;
+    @include base-button;
+
     margin: 0 0.5rem;
     padding: 0.7rem 0.7rem;
-    background-color: var(--color-secondary-1);
-    border-radius: 50px;
-    opacity: 0.9;
-    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.2);
-    transition: all 0.2s ease-out;
-    cursor: pointer;
-
-    .icon {
-      color: var(--color-secondary-1-dark-1);
-      width: 3.2rem;
-      height: 3.2rem;
-    }
-
-    &:hover {
-      transform: translateY(-2px) scale(1.05);
-      box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.2);
-    }
-
-    &:active {
-      transform: translateY(1px) scale(0.95);
-      box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
-    }
   }
 }
 </style>

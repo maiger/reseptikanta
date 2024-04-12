@@ -23,27 +23,19 @@
   </div>
 </template>
 
-<style>
+<style lang="scss">
 .about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  @include flex-column-center;
 
   .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    @include flex-column-center;
+    @include base-panel;
 
     padding: 4rem;
-
     min-height: 80vh;
     max-width: 80rem;
     margin-top: 3rem;
-    border-radius: 20px;
     color: var(--color-secondary-1-dark-1);
-    background-color: var(--color-primary-1-dark);
   }
 
   h2 {
@@ -51,11 +43,9 @@
   }
 
   ul {
+    @include flex-column-center;
+
     margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 }
 </style>

@@ -63,18 +63,14 @@ const onTagClick = (tag) => {
 
 <style lang="scss" scoped>
 .search-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  @include flex-column-center;
 
   margin: 4rem 0 2rem 0;
 }
 
 .search-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-row-center;
+
   position: relative;
   margin-bottom: 2rem;
 
@@ -89,43 +85,23 @@ const onTagClick = (tag) => {
   }
 
   button {
+    @include flex-row-center;
+    @include base-button;
+
     position: absolute;
     right: 0;
-    height: 4rem;
-    width: 4rem;
     margin-left: 1rem;
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--color-secondary-1);
-    cursor: pointer;
-    border: 3px solid var(--color-secondary-1-dark-1);
-    border: none;
-    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.2);
-    transition: all 0.2s ease-out;
-
-    .icon {
-      color: var(--color-secondary-1-dark-1);
-      height: 80%;
-      width: 80%;
-    }
-  }
-
-  button:hover {
-    transform: translateY(-2px) scale(1.05);
-    box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.2);
-  }
-
-  button:active {
-    transform: translateY(1px) scale(0.95);
-    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
   }
 
   .btn-search {
     right: -0.5rem;
     height: 6rem;
     width: 6rem;
+
+    .icon {
+      height: 80%;
+      width: 80%;
+    }
   }
 
   .btn-reset {
@@ -134,10 +110,9 @@ const onTagClick = (tag) => {
 }
 
 .search-tags {
-  display: flex;
+  @include flex-row-center;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+
   margin-top: 1rem;
   cursor: pointer;
 
@@ -150,16 +125,8 @@ const onTagClick = (tag) => {
     box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.2);
     transition: all 0.2s ease-out;
     transform-origin: bottom;
-  }
 
-  li:hover {
-    transform: translateY(-2px) scale(1.05);
-    box-shadow: 3px 3px 6px 2px rgba(0, 0, 0, 0.2);
-  }
-
-  li:active {
-    transform: translateY(1px) scale(0.95);
-    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
+    @include base-hover-effect;
   }
 }
 

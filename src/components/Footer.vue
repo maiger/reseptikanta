@@ -17,10 +17,8 @@ import { Icon } from "@iconify/vue";
 
 <style lang="scss" scoped>
 .footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  @include flex-column-center;
+
   width: 100%;
   height: 10rem;
   padding: 3rem 0;
@@ -34,8 +32,8 @@ import { Icon } from "@iconify/vue";
   }
 
   a {
-    display: flex;
-    align-items: center;
+    @include flex-row-center;
+
     color: var(--color-secondary-1-dark);
 
     &:visited {

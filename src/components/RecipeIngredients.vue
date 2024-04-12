@@ -52,16 +52,14 @@ const toggleComplete = (e) => {
 
 <style lang="scss" scoped>
 .ingredients {
+  @include base-panel;
+
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: center;
   margin: 1rem;
   padding: 3rem 0 1rem 2rem;
-
-  border-radius: 20px;
-  box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.2);
-  background-color: var(--color-primary-1-dark);
 
   .collection {
     text-align: center;
@@ -75,10 +73,9 @@ const toggleComplete = (e) => {
   }
 
   .ingredient {
+    @include flex-row-center;
+
     margin: 0.5rem 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     cursor: pointer;
     .name {
       flex: 2;
@@ -96,8 +93,6 @@ const toggleComplete = (e) => {
 @media only screen and (max-width: 750px) {
   .ingredients {
     padding: 2rem 2rem;
-    // width: 90vw;
-    // max-width: 50rem;
   }
 }
 </style>

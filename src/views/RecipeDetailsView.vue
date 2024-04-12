@@ -92,16 +92,15 @@ const removeServings = () => {
 }
 
 .recipe-thumbnail {
+  @include base-panel;
+
   position: relative;
   display: flex;
   justify-content: center;
   height: 30rem;
   max-width: 64rem;
-  background-color: var(--color-primary-1-dark);
   padding: 1rem;
   margin-bottom: 1rem;
-  border-radius: 20px;
-  box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.2);
 
   img {
     width: 100%;
@@ -131,16 +130,14 @@ const removeServings = () => {
 
   .prep-time,
   .servings-container {
-    border-radius: 20px;
-    box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.2);
-    background-color: var(--color-primary-1-dark);
+    @include base-panel;
+
     margin: 0 1rem;
   }
 
   .prep-time {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-row-center;
+
     color: var(--color-secondary-1-dark-1);
     padding: 0 2.5rem 0 1rem;
 
@@ -157,30 +154,13 @@ const removeServings = () => {
   }
 
   .servings-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-row-center;
 
     button {
-      height: 4rem;
-      width: 4rem;
-      border-radius: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 1rem 1rem;
-      background-color: var(--color-secondary-1);
-      cursor: pointer;
-      border: 3px solid var(--color-secondary-1-dark-1);
-      border: none;
-      box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.2);
-      transition: all 0.2s ease-out;
+      @include flex-row-center;
+      @include base-button;
 
-      .icon {
-        color: var(--color-secondary-1-dark-1);
-        height: 80%;
-        width: 80%;
-      }
+      margin: 1rem 1rem;
     }
   }
 }
@@ -201,12 +181,9 @@ const removeServings = () => {
 }
 
 .tags {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-  box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.2);
-  background-color: var(--color-primary-1-dark);
+  @include base-panel;
+  @include flex-row-center;
+
   padding: 1rem 2rem;
 
   .tag {

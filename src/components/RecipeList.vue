@@ -25,18 +25,14 @@ const props = defineProps({
 
 <style lang="scss" scoped>
 .recipe-list-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  @include flex-column-center;
+
   margin: 2rem 0 10rem 0;
   max-width: 180rem;
 
   ul {
-    display: flex;
+    @include flex-row-center;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
   }
 }
 </style>

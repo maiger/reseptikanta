@@ -48,6 +48,8 @@ const getTagIcon = (tag) => {
 
 <style lang="scss" scoped>
 .recipe-item {
+  @include base-panel;
+
   position: relative;
   display: flex;
   flex-direction: column;
@@ -55,9 +57,7 @@ const getTagIcon = (tag) => {
   margin: 10rem 2rem 2rem 2rem;
   height: 28rem;
   width: 32rem;
-  background-color: var(--color-primary-1-dark);
-  border-radius: 20px;
-  box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.2);
+
   z-index: 1;
   transition: all 0.4s;
 
@@ -120,9 +120,8 @@ const getTagIcon = (tag) => {
     display: flex;
 
     .prep-time {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      @include flex-row-center;
+
       color: var(--color-secondary-1-dark-1);
 
       .icon {
@@ -141,9 +140,8 @@ const getTagIcon = (tag) => {
       display: flex;
 
       .tag {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @include flex-row-center;
+
         margin-left: 0.25rem;
         padding: 0.7rem 0.7rem;
         letter-spacing: 1px;

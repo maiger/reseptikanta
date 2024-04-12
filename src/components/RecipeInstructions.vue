@@ -30,12 +30,10 @@ const toggleComplete = (e) => {
 
 <style lang="scss" scoped>
 .instructions {
+  @include base-panel;
+
   margin: 1rem;
   padding: 3rem;
-
-  border-radius: 20px;
-  box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.2);
-  background-color: var(--color-primary-1-dark);
 
   .instruction-step {
     margin: 1rem 0;
