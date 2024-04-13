@@ -15,11 +15,15 @@ npm run dev
 ```
 
 ### Tests
+
 All tests
+
 ```sh
 npm run test
 ```
+
 Check coverage
+
 ```sh
 npm run test:coverage
 ```
@@ -51,5 +55,6 @@ git subtree push --prefix dist origin gh-pages
 
 - New Features
   - Favourite recipes
+  - Users can add own (local) comments to recipes
   - Shopping cart
   - Add new recipes form
