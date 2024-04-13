@@ -17,6 +17,9 @@
             </div>
           </div>
         </div>
+        <div v-if="favorite" class="recipe-favorite">
+          <Icon v-if="favorite" class="icon" icon="material-symbols:favorite" />
+        </div>
       </div>
     </RouterLink>
   </li>
@@ -26,6 +29,7 @@
 import tagToIcon from "@/assets/tagsToIcons.json";
 import { Icon } from "@iconify/vue";
 import { defineProps } from "vue";
+import { useRecipeStore } from "@/stores/recipes";
 
 import { BASE_IMAGE_PATH } from "@/assets/config.js";
 
@@ -35,6 +39,9 @@ const props = defineProps({
     required: true,
   },
 });
+
+const recipeStore = useRecipeStore();
+const favorite = recipeStore.getFavoriteById(props.recipe.id);
 
 const getTagIcon = (tag) => {
   let iconName = tagToIcon[tag];
@@ -159,6 +166,21 @@ const getTagIcon = (tag) => {
       }
     }
   }
+
+  .recipe-favorite {
+    position: absolute;
+    top: -7rem;
+    left: 1rem;
+    margin: 0.3rem;
+    border-radius: 50%;
+
+    .icon {
+      height: 5rem;
+      width: 5rem;
+      color: rgb(200, 50, 50);
+      filter: drop-shadow(3px 3px 3px rgb(0 0 0 / 0.4));
+    }
+  }
 }
 
 @media only screen and (max-width: 750px) {
@@ -203,6 +225,11 @@ const getTagIcon = (tag) => {
           }
         }
       }
+    }
+
+    .recipe-favorite {
+      top: -6rem;
+      margin: 0.1rem;
     }
   }
 }

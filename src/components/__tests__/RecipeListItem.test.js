@@ -1,6 +1,27 @@
+import { mount, shallowMount } from "@vue/test-utils";
 import { render, screen } from "@testing-library/vue";
-import { describe, it, expect } from "vitest";
+import { describe, it, expect, vi } from "vitest";
 import RecipeListItem from "../RecipeListItem.vue";
+import { createTestingPinia } from "@pinia/testing";
+import { useRecipeStore } from "@/stores/recipes";
+
+// Router link stub
+shallowMount(RecipeListItem, {
+  stubs: ["router-link", "router-view"],
+});
+
+// Store setup, is this correct?
+const wrapper = mount(RecipeListItem, {
+  global: {
+    plugins: [
+      createTestingPinia({
+        createSpy: vi.fn,
+      }),
+    ],
+  },
+});
+
+const store = useRecipeStore();
 
 describe.concurrent("RecipeListItem", () => {
   // Setup recipe

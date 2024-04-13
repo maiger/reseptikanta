@@ -27,6 +27,25 @@
             <Icon class="icon" icon="mdi:plus" />
           </button>
         </div>
+        <div class="favorite-container">
+          <button
+            @click="toggleFavorite"
+            class="toggle-favorite"
+            aria-label="toggle favorite"
+          >
+            <Icon
+              v-if="favorite"
+              class="icon"
+              icon="material-symbols:favorite"
+              style="color: rgb(200, 50, 50)"
+            />
+            <Icon
+              v-else
+              class="icon"
+              icon="material-symbols:favorite-outline"
+            />
+          </button>
+        </div>
       </div>
       <div class="recipe-info">
         <RecipeIngredients
@@ -64,6 +83,7 @@ const recipeID = route.params.id;
 const recipeStore = useRecipeStore();
 const recipe = recipeStore.getRecipeById(+recipeID);
 
+// Servings
 let servings = ref(recipe.servings);
 
 const addServings = () => {
@@ -73,6 +93,19 @@ const addServings = () => {
 const removeServings = () => {
   if (servings.value <= 1) return;
   servings.value--;
+};
+
+// Favorite
+let favorite = ref(false);
+favorite.value = recipeStore.getFavoriteById(+recipeID);
+
+const toggleFavorite = () => {
+  favorite.value = !favorite.value;
+  if (favorite.value) {
+    recipeStore.addFavorite(+recipeID);
+  } else {
+    recipeStore.removeFavorite(+recipeID);
+  }
 };
 </script>
 
@@ -129,7 +162,8 @@ const removeServings = () => {
   margin: 1rem 0;
 
   .prep-time,
-  .servings-container {
+  .servings-container,
+  .favorite-container {
     @include base-panel;
 
     margin: 0 1rem;
@@ -153,7 +187,8 @@ const removeServings = () => {
     }
   }
 
-  .servings-container {
+  .servings-container,
+  .favorite-container {
     @include flex-row-center;
 
     button {
@@ -161,6 +196,13 @@ const removeServings = () => {
       @include base-button;
 
       margin: 1rem 1rem;
+    }
+  }
+
+  .favorite-container button .icon {
+    transition: all 0.2s;
+    &:hover {
+      color: rgb(200, 50, 50);
     }
   }
 }

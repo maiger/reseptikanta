@@ -8,6 +8,11 @@ import recipeData from "./assets/recipes.json";
 // Load recipes
 const recipeStore = useRecipeStore();
 recipeStore.setRecipes(recipeData);
+
+const favorites = localStorage.favorites;
+if (favorites) {
+  recipeStore.setFavorites(JSON.parse(favorites));
+}
 </script>
 
 <template>

@@ -1,6 +1,22 @@
+import { mount } from "@vue/test-utils";
 import { render, screen } from "@testing-library/vue";
-import { describe, it, expect } from "vitest";
+import { describe, it, expect, vi } from "vitest";
 import RecipeList from "../RecipeList.vue";
+import { createTestingPinia } from "@pinia/testing";
+import { useRecipeStore } from "@/stores/recipes";
+
+// Store setup, is this correct?
+const wrapper = mount(RecipeList, {
+  global: {
+    plugins: [
+      createTestingPinia({
+        createSpy: vi.fn,
+      }),
+    ],
+  },
+});
+
+const store = useRecipeStore();
 
 describe.concurrent("RecipeList", () => {
   // Setup recipe
