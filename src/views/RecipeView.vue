@@ -8,6 +8,9 @@
       <button @click="sortRecipesByPrepTime()" class="prepTime-sort">
         <Icon class="icon" icon="mdi:clockwise" />
       </button>
+      <button @click="sortRecipesByFavorite()" class="prepTime-sort">
+        <Icon class="icon" icon="material-symbols:favorite-outline" />
+      </button>
     </div>
     <RecipeList :recipes="recipes" />
   </section>
@@ -88,6 +91,14 @@ const sortRecipesByPrepTime = (reverse = false) => {
   });
 
   if (reverse) recipes.value.reverse();
+};
+
+const sortRecipesByFavorite = () => {
+  recipes.value.sort((a, b) => {
+    return (
+      recipeStore.getFavoriteById(b.id) - recipeStore.getFavoriteById(a.id)
+    );
+  });
 };
 
 getUniqueTags();

@@ -54,7 +54,7 @@ git subtree push --prefix dist origin gh-pages
 ### TODO:
 
 - New Features
-  - Favourite recipes
+  - Remember selected recipe sorting / search words/tags
   - Users can add own (local) comments to recipes
   - Shopping cart
   - Add new recipes form
