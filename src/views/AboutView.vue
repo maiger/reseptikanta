@@ -20,6 +20,7 @@
         <li>Reseptien järjestyksen vaihto</li>
         <li>Reseptien muutos annosmäärien mukaan</li>
         <li>Reseptien vaiheitten seuranta</li>
+        <li>Reseptien kommentointi</li>
       </ul>
     </div>
   </div>
