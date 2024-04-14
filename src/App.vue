@@ -13,6 +13,11 @@ const favorites = localStorage.favorites;
 if (favorites) {
   recipeStore.setFavorites(JSON.parse(favorites));
 }
+
+const notes = localStorage.notes;
+if (notes) {
+  recipeStore.setNotes(JSON.parse(notes));
+}
 </script>
 
 <template>

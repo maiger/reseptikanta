@@ -5,6 +5,7 @@ export const useRecipeStore = defineStore({
   state: () => ({
     recipes: [],
     favorites: [],
+    notes: [],
   }),
   getters: {
     getRecipes: (state) => state.recipes,
@@ -14,6 +15,9 @@ export const useRecipeStore = defineStore({
     },
     getFavoriteById: (state) => {
       return (recipeId) => state.favorites.includes(recipeId);
+    },
+    getNoteById: (state) => {
+      return (recipeId) => state.notes.find((note) => note.id == recipeId);
     },
   },
   actions: {
@@ -35,6 +39,26 @@ export const useRecipeStore = defineStore({
     removeFavorite(recipeId) {
       this.favorites = this.favorites.filter((id) => id !== recipeId);
       localStorage.setItem("favorites", JSON.stringify(this.favorites));
+    },
+    setNotes(val) {
+      this.notes = val;
+    },
+    addNote(recipeId, note) {
+      const id = this.notes.findIndex((note) => note.id === recipeId);
+      // Check if note exists for this recipe
+      if (id >= 0) {
+        // If yes, modify existing note
+        this.notes[id].note = note;
+      } else {
+        // If no, add new note
+        this.notes.push({ id: recipeId, note: note });
+      }
+      // Update localstorage
+      localStorage.setItem("notes", JSON.stringify(this.notes));
+    },
+    removeNote(recipeId) {
+      this.notes = this.notes.filter((note) => note.id !== recipeId);
+      localStorage.setItem("notes", JSON.stringify(this.notes));
     },
   },
 });

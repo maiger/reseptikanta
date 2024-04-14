@@ -53,7 +53,10 @@
           :recipe="recipe"
           :servings="servings"
         />
-        <RecipeInstructions class="instructions" :recipe="recipe" />
+        <div class="recipe-text">
+          <RecipeInstructions class="instructions" :recipe="recipe" />
+          <RecipeNote :id="recipe.id" />
+        </div>
       </div>
       <ul class="tags">
         <li v-for="tag in recipe.tags">
@@ -72,6 +75,7 @@ import { ref } from "vue";
 
 import RecipeIngredients from "../components/RecipeIngredients.vue";
 import RecipeInstructions from "../components/RecipeInstructions.vue";
+import RecipeNote from "../components/RecipeNote.vue";
 
 import { BASE_IMAGE_PATH } from "@/assets/config.js";
 
