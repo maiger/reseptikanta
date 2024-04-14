@@ -41,8 +41,8 @@ describe.concurrent("RecipeInstructions", () => {
 
     // Assert
     expect(screen.getByText("Ohjeet")).not.toBeNull();
-    expect(screen.getByText("Vaihe 1:")).not.toBeNull();
-    // Should be null as there is no "Vaihe 2:"
-    expect(screen.queryByText("Vaihe 2:")).toBeNull();
+    expect(screen.getByText("1")).not.toBeNull();
+    // Should be null as there is no "2"
+    expect(screen.queryByText("2")).toBeNull();
   });
 });
