@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Poppins:wght@400;600;700&display=swap");
 
 :root {
   /* NEUTRAL */
@@ -11,11 +11,12 @@
   --color-neutral-grey-6: hsl(224, 21%, 14%);
 
   /* TEXT */
-  --text-heading-size-1: 2.4rem;
-  --text-heading-size-2: 2rem;
+  --text-heading-size-1: 3rem;
+  --text-heading-size-2: 2.4rem;
   --text-heading-size-3: 1.8rem;
   --text-para-size: 1.6rem;
   --text-para-size-small: 1.2rem;
+  --text-serif-font: "Merriweather", serif;
   --text-sans-serif-font: "Poppins", sans-serif;
   --text-weight-regular: 400;
   --text-weight-semibold: 600;

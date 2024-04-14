@@ -18,7 +18,7 @@
           >
             <Icon class="icon" icon="mdi:minus" />
           </button>
-          <h2 class="servings">{{ servings }}</h2>
+          <p class="servings">{{ servings }}</p>
           <button
             @click="addServings"
             class="add-servings"
@@ -201,6 +201,11 @@ const toggleFavorite = () => {
 
       margin: 1rem 1rem;
     }
+  }
+
+  .servings-container .servings {
+    font-size: var(--text-heading-size-3);
+    font-weight: var(--text-weight-semibold);
   }
 
   .favorite-container button .icon {

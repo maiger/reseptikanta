@@ -5,7 +5,7 @@
         <div class="recipe-thumbnail">
           <img :src="`${BASE_IMAGE_PATH + recipe.img}`" :alt="recipe.title" />
         </div>
-        <h1 class="title">{{ recipe.title }}</h1>
+        <h2 class="title">{{ recipe.title }}</h2>
         <div class="recipe-info">
           <div class="prep-time">
             <Icon class="icon" icon="mdi:clockwise" />
@@ -82,7 +82,7 @@ const getTagIcon = (tag) => {
   .title {
     position: absolute;
     bottom: 5.5rem;
-    font-size: 3rem;
+    font-size: 3.4rem;
     text-align: center;
     line-height: 1.3;
     color: var(--color-primary-1-light);

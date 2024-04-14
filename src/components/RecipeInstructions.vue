@@ -7,7 +7,8 @@
         v-for="(step, index) in recipe.instructions"
         class="instruction-step"
       >
-        <b>Vaihe {{ index + 1 }}:</b> {{ step }}
+        <div class="step-counter">{{ index + 1 }}</div>
+        <p class="step-text">{{ step }}</p>
       </li>
     </ul>
   </div>
@@ -36,8 +37,25 @@ const toggleComplete = (e) => {
   padding: 3rem;
 
   .instruction-step {
-    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
     cursor: pointer;
+  }
+
+  .step-counter {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    font-weight: var(--text-weight-bold);
+    border-radius: 50%;
+    width: 2.2rem;
+    height: 2.2rem;
+    padding: 1.4rem;
+    box-shadow: 0px 0px 1px 2px var(--color-secondary-1-dark-1);
+    margin-right: 1.4rem;
   }
 
   .step-complete {

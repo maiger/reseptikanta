@@ -10,6 +10,11 @@ body {
   background-color: var(--color-primary-1);
 }
 
+h1,
+h2 {
+  font-family: "Merriweather";
+}
+
 h1 {
   font-size: var(--text-heading-size-1);
 }
