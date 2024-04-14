@@ -39,7 +39,7 @@ const toggleComplete = (e) => {
   .instruction-step {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: start;
     margin: 2rem 0;
     cursor: pointer;
   }
