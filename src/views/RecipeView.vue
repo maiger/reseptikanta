@@ -35,18 +35,9 @@ const recipeData = recipeStore.getRecipes;
 recipes.value = recipeData;
 
 const tags = ref([]);
-const initialSearchTerm = recipeStore.getSearchTerm;
 
-const sorting = {
-  alphabetical: {
-    active: true,
-    order: "az",
-  },
-  prepTime: {
-    active: false,
-    order: "ascending",
-  },
-};
+const initialSearchTerm = recipeStore.getSearchTerm;
+const initialSorting = recipeStore.getSorting;
 
 const handleSearchSubmitted = (searchTerm) => {
   recipeStore.setSearchTerm(searchTerm);
@@ -88,6 +79,7 @@ const getUniqueTags = () => {
 };
 
 const sortRecipesAlphabetically = (reverse = false) => {
+  recipeStore.setSorting("alphabetical");
   recipes.value.sort((a, b) => {
     return a.title.toLowerCase() < b.title.toLowerCase() ? -1 : 1;
   });
@@ -96,6 +88,7 @@ const sortRecipesAlphabetically = (reverse = false) => {
 };
 
 const sortRecipesByPrepTime = (reverse = false) => {
+  recipeStore.setSorting("prepTime");
   recipes.value.sort((a, b) => {
     return a.prepTime - b.prepTime;
   });
@@ -104,6 +97,7 @@ const sortRecipesByPrepTime = (reverse = false) => {
 };
 
 const sortRecipesByFavorite = () => {
+  recipeStore.setSorting("favorite");
   recipes.value.sort((a, b) => {
     return (
       recipeStore.getFavoriteById(b.id) - recipeStore.getFavoriteById(a.id)
@@ -113,7 +107,21 @@ const sortRecipesByFavorite = () => {
 
 filterRecipes(initialSearchTerm);
 getUniqueTags();
-sortRecipesAlphabetically(false);
+
+switch (initialSorting) {
+  case "alphabetical":
+    sortRecipesAlphabetically(false);
+    break;
+  case "prepTime":
+    sortRecipesByPrepTime(false);
+    break;
+  case "favorite":
+    sortRecipesByFavorite(false);
+    break;
+  default:
+    sortRecipesAlphabetically(false);
+    break;
+}
 </script>
 
 <style lang="scss" scoped>

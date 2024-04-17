@@ -7,6 +7,7 @@ export const useRecipeStore = defineStore({
     favorites: [],
     notes: [],
     searchTerm: "",
+    sorting: "",
   }),
   getters: {
     getRecipes: (state) => state.recipes,
@@ -21,6 +22,7 @@ export const useRecipeStore = defineStore({
       return (recipeId) => state.notes.find((note) => note.id == recipeId);
     },
     getSearchTerm: (state) => state.searchTerm,
+    getSorting: (state) => state.sorting,
   },
   actions: {
     setRecipes(val) {
@@ -64,6 +66,9 @@ export const useRecipeStore = defineStore({
     },
     setSearchTerm(searchTerm) {
       this.searchTerm = searchTerm;
+    },
+    setSorting(sort) {
+      this.sorting = sort;
     },
   },
 });
