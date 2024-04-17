@@ -1,6 +1,10 @@
 <template>
   <section class="recipe-section">
-    <RecipeSearch :tags="tags" @searchSubmitted="handleSearchSubmitted" />
+    <RecipeSearch
+      :tags="tags"
+      :searchTerm="initialSearchTerm"
+      @searchSubmitted="handleSearchSubmitted"
+    />
     <div class="recipe-sort">
       <button @click="sortRecipesAlphabetically()" class="alphabetical-sort">
         <Icon class="icon" icon="material-symbols:sort-by-alpha-rounded" />
@@ -31,6 +35,7 @@ const recipeData = recipeStore.getRecipes;
 recipes.value = recipeData;
 
 const tags = ref([]);
+const initialSearchTerm = recipeStore.getSearchTerm;
 
 const sorting = {
   alphabetical: {
@@ -44,6 +49,14 @@ const sorting = {
 };
 
 const handleSearchSubmitted = (searchTerm) => {
+  recipeStore.setSearchTerm(searchTerm);
+  filterRecipes(searchTerm);
+
+  // Update tags
+  getUniqueTags();
+};
+
+const filterRecipes = (searchTerm) => {
   recipes.value = recipeData.filter((recipe) => {
     if (
       recipe.title.toLowerCase().includes(searchTerm) ||
@@ -52,9 +65,6 @@ const handleSearchSubmitted = (searchTerm) => {
       return true;
     }
   });
-
-  // Update tags
-  getUniqueTags();
 };
 
 const getUniqueTags = () => {
@@ -101,6 +111,7 @@ const sortRecipesByFavorite = () => {
   });
 };
 
+filterRecipes(initialSearchTerm);
 getUniqueTags();
 sortRecipesAlphabetically(false);
 </script>

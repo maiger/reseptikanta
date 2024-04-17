@@ -1,6 +1,5 @@
 <template>
   <section class="search-section">
-    <!-- <h2>Hae reseptiä</h2> -->
     <form class="search-form" @submit.prevent="">
       <input
         type="text"
@@ -35,6 +34,9 @@ import { ref } from "vue";
 import { defineProps } from "vue";
 
 const props = defineProps({
+  searchTerm: {
+    type: String,
+  },
   tags: {
     type: Array,
     required: true,
@@ -42,11 +44,12 @@ const props = defineProps({
 });
 
 const searchTerm = ref("");
+searchTerm.value = props.searchTerm;
 
 const emit = defineEmits(["searchSubmitted"]);
 
 const doSearch = () => {
-  searchTerm.value = searchTerm.value.toLowerCase();
+  searchTerm.value = searchTerm.value.toLowerCase().trim();
   emit("searchSubmitted", searchTerm.value);
 };
 

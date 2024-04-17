@@ -6,6 +6,7 @@ export const useRecipeStore = defineStore({
     recipes: [],
     favorites: [],
     notes: [],
+    searchTerm: "",
   }),
   getters: {
     getRecipes: (state) => state.recipes,
@@ -19,6 +20,7 @@ export const useRecipeStore = defineStore({
     getNoteById: (state) => {
       return (recipeId) => state.notes.find((note) => note.id == recipeId);
     },
+    getSearchTerm: (state) => state.searchTerm,
   },
   actions: {
     setRecipes(val) {
@@ -59,6 +61,9 @@ export const useRecipeStore = defineStore({
     removeNote(recipeId) {
       this.notes = this.notes.filter((note) => note.id !== recipeId);
       localStorage.setItem("notes", JSON.stringify(this.notes));
+    },
+    setSearchTerm(searchTerm) {
+      this.searchTerm = searchTerm;
     },
   },
 });
