@@ -2,7 +2,7 @@
   <div class="recipe-pages" v-if="pageCount > 1">
     <button
       v-show="currentPage > 1"
-      @click="previousPage"
+      @click="pageChanged('previous')"
       class="previous-page"
     >
       <Icon class="icon" icon="uil:arrow-left" />
@@ -15,7 +15,11 @@
         <Icon class="icon" icon="material-symbols:circle-outline" />
       </div>
     </div>
-    <button v-if="currentPage < pageCount" @click="nextPage" class="next-page">
+    <button
+      v-if="currentPage < pageCount"
+      @click="pageChanged('next')"
+      class="next-page"
+    >
       <Icon class="icon" icon="uil:arrow-right" />
     </button>
   </div>
@@ -36,14 +40,10 @@ const props = defineProps({
   },
 });
 
-const emit = defineEmits(["nextPageSubmitted", "previousPageSubmitted"]);
+const emit = defineEmits(["pageChangeSubmitted"]);
 
-const previousPage = () => {
-  emit("previousPageSubmitted");
-};
-
-const nextPage = () => {
-  emit("nextPageSubmitted");
+const pageChanged = (direction) => {
+  emit("pageChangeSubmitted", direction);
 };
 </script>
 

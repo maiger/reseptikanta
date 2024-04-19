@@ -10,8 +10,7 @@
     <Pagination
       :currentPage="currentPage"
       :pageCount="pageCount"
-      @previousPageSubmitted="previousPage"
-      @nextPageSubmitted="nextPage"
+      @pageChangeSubmitted="onPageChange"
     ></Pagination>
   </section>
 </template>
@@ -54,24 +53,37 @@ const currentPage = computed(() => {
   return recipeStore.getPage;
 });
 
+// Search / Sort / Pagination submit handlers
 const handleSearchSubmitted = (searchTerm) => {
-  recipeStore.setPage(1);
-  recipeStore.setSearchTerm(searchTerm);
   filterRecipes(searchTerm);
-  sortRecipes(recipeStore.getSorting);
-  sliceRecipesForPage();
-  updatePageCount();
-  getUniqueTags();
+  updateRecipeList(recipeStore.getSorting);
+  recipeStore.setSearchTerm(searchTerm);
 };
 
 const onSortClicked = (sortType) => {
+  updateRecipeList(sortType);
+};
+
+const onPageChange = (direction) => {
+  if (direction === "previous") {
+    recipeStore.setPage(currentPage.value - 1);
+  } else if (direction === "next") {
+    recipeStore.setPage(currentPage.value + 1);
+  } else {
+    console.error("onPageChange: Incorrect direction:", direction);
+  }
+
+  sliceRecipesForPage();
+};
+
+const updateRecipeList = (sortType) => {
   recipeStore.setPage(1);
   sortRecipes(sortType);
   sliceRecipesForPage();
   updatePageCount();
-  getUniqueTags();
 };
 
+// Filter
 const filterRecipes = (searchTerm) => {
   filteredRecipes = recipeData.filter((recipe) => {
     if (
@@ -83,6 +95,7 @@ const filterRecipes = (searchTerm) => {
   });
 };
 
+// Tags
 const getUniqueTags = () => {
   //Sort by count, only return top 5 results
   let uTags = [];
@@ -103,6 +116,7 @@ const getUniqueTags = () => {
   tags.value = uTags.slice(0, 6);
 };
 
+// Sorting functions
 const sortRecipesAlphabetically = (reverse = false) => {
   recipeStore.setSorting("alphabetical");
   filteredRecipes.sort((a, b) => {
@@ -147,38 +161,22 @@ const sortRecipes = (sortType) => {
   }
 };
 
-const previousPage = () => {
-  if (currentPage.value > 1) {
-    recipeStore.setPage(currentPage.value - 1);
-
-    filterRecipes(recipeStore.getSearchTerm);
-    sortRecipes(recipeStore.getSorting);
-    sliceRecipesForPage();
-  }
-};
-
-const nextPage = () => {
-  if (currentPage.value < pageCount.value) {
-    recipeStore.setPage(currentPage.value + 1);
-
-    filterRecipes(recipeStore.getSearchTerm);
-    sortRecipes(recipeStore.getSorting);
-    sliceRecipesForPage();
-  }
-};
-
+// Pagination functions
 const sliceRecipesForPage = () => {
-  const page = recipeStore.getPage;
+  const currPage = recipeStore.getPage;
   const perPage = recipeStore.perPage;
-  const startIndex = (page - 1) * perPage;
-  const endIndex = page * perPage;
-  recipes.value = filteredRecipes.slice(startIndex, endIndex);
+  recipes.value = filteredRecipes.slice(
+    (currPage - 1) * perPage,
+    currPage * perPage
+  );
 };
 
+// Run initialization functions
 filterRecipes(initialSearchTerm);
 sortRecipes(initialSorting);
 sliceRecipesForPage();
 updatePageCount();
+
 getUniqueTags();
 </script>
 
