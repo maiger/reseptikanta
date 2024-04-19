@@ -8,6 +8,8 @@ export const useRecipeStore = defineStore({
     notes: [],
     searchTerm: "",
     sorting: "",
+    page: 1,
+    perPage: 13,
   }),
   getters: {
     getRecipes: (state) => state.recipes,
@@ -23,6 +25,8 @@ export const useRecipeStore = defineStore({
     },
     getSearchTerm: (state) => state.searchTerm,
     getSorting: (state) => state.sorting,
+    getPage: (state) => state.page,
+    getPerPage: (state) => state.perPage,
   },
   actions: {
     setRecipes(val) {
@@ -69,6 +73,12 @@ export const useRecipeStore = defineStore({
     },
     setSorting(sort) {
       this.sorting = sort;
+    },
+    setPage(page) {
+      this.page = page;
+    },
+    setPerPage(page) {
+      this.perPage = page;
     },
   },
 });

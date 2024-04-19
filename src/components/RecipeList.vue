@@ -27,7 +27,7 @@ const props = defineProps({
 .recipe-list-section {
   @include flex-column-center;
 
-  margin: 2rem 0 10rem 0;
+  margin: 2rem 0 5rem 0;
   max-width: 180rem;
 
   ul {

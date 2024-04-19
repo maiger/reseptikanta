@@ -6,22 +6,46 @@
       @searchSubmitted="handleSearchSubmitted"
     />
     <div class="recipe-sort">
-      <button @click="sortRecipesAlphabetically()" class="alphabetical-sort">
+      <button @click="onSortClicked('alphabetical')" class="alphabetical-sort">
         <Icon class="icon" icon="material-symbols:sort-by-alpha-rounded" />
       </button>
-      <button @click="sortRecipesByPrepTime()" class="prepTime-sort">
+      <button @click="onSortClicked('prepTime')" class="prepTime-sort">
         <Icon class="icon" icon="mdi:clockwise" />
       </button>
-      <button @click="sortRecipesByFavorite()" class="prepTime-sort">
+      <button @click="onSortClicked('favorite')" class="favorite-sort">
         <Icon class="icon" icon="material-symbols:favorite-outline" />
       </button>
     </div>
     <RecipeList :recipes="recipes" />
+    <div class="recipe-pages" v-if="pageCount > 1">
+      <button
+        v-show="currentPage > 1"
+        @click="previousPage"
+        class="previous-page"
+      >
+        <Icon class="icon" icon="uil:arrow-left" />
+      </button>
+      <div class="pages" v-for="(page, index) in pageCount">
+        <div class="current-page" v-if="currentPage - 1 === index">
+          <Icon class="icon" icon="material-symbols:circle" />
+        </div>
+        <div class="other-page" v-else>
+          <Icon class="icon" icon="material-symbols:circle-outline" />
+        </div>
+      </div>
+      <button
+        v-if="currentPage < pageCount"
+        @click="nextPage"
+        class="next-page"
+      >
+        <Icon class="icon" icon="uil:arrow-right" />
+      </button>
+    </div>
   </section>
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref, computed } from "vue";
 import { useRecipeStore } from "@/stores/recipes";
 import { Icon } from "@iconify/vue";
 
@@ -33,22 +57,50 @@ const recipeStore = useRecipeStore();
 const recipes = ref([]);
 const recipeData = recipeStore.getRecipes;
 recipes.value = recipeData;
+let filteredRecipes = recipeData;
 
+// Tags
 const tags = ref([]);
 
+// Search and Sorting
 const initialSearchTerm = recipeStore.getSearchTerm;
 const initialSorting = recipeStore.getSorting;
 
+// Pages
+// TODO: Make properly reactive so no need to manually update
+const pageCount = ref();
+// const pageCount = computed(() => {
+//   return Math.ceil(filteredRecipes.length / recipeStore.getPerPage);
+// });
+
+const updatePageCount = () => {
+  pageCount.value = Math.ceil(filteredRecipes.length / recipeStore.getPerPage);
+};
+
+const currentPage = computed(() => {
+  return recipeStore.getPage;
+});
+
 const handleSearchSubmitted = (searchTerm) => {
+  recipeStore.setPage(1);
   recipeStore.setSearchTerm(searchTerm);
   filterRecipes(searchTerm);
+  sortRecipes(recipeStore.getSorting);
+  sliceRecipesForPage();
+  updatePageCount();
+  getUniqueTags();
+};
 
-  // Update tags
+const onSortClicked = (sortType) => {
+  recipeStore.setPage(1);
+  sortRecipes(sortType);
+  sliceRecipesForPage();
+  updatePageCount();
   getUniqueTags();
 };
 
 const filterRecipes = (searchTerm) => {
-  recipes.value = recipeData.filter((recipe) => {
+  filteredRecipes = recipeData.filter((recipe) => {
     if (
       recipe.title.toLowerCase().includes(searchTerm) ||
       recipe.tags.includes(searchTerm)
@@ -61,7 +113,7 @@ const filterRecipes = (searchTerm) => {
 const getUniqueTags = () => {
   //Sort by count, only return top 5 results
   let uTags = [];
-  recipes.value.forEach((recipe) => {
+  recipeData.forEach((recipe) => {
     recipe.tags.forEach((tag) => {
       // If tag already in uTags increment count, else add to array
       const targetTag = uTags.find((uTag) => uTag.name === tag);
@@ -80,48 +132,81 @@ const getUniqueTags = () => {
 
 const sortRecipesAlphabetically = (reverse = false) => {
   recipeStore.setSorting("alphabetical");
-  recipes.value.sort((a, b) => {
+  filteredRecipes.sort((a, b) => {
     return a.title.toLowerCase() < b.title.toLowerCase() ? -1 : 1;
   });
 
-  if (reverse) recipes.value.reverse();
+  if (reverse) filteredRecipes.reverse();
 };
 
 const sortRecipesByPrepTime = (reverse = false) => {
   recipeStore.setSorting("prepTime");
-  recipes.value.sort((a, b) => {
+  filteredRecipes.sort((a, b) => {
     return a.prepTime - b.prepTime;
   });
 
-  if (reverse) recipes.value.reverse();
+  if (reverse) filteredRecipes.reverse();
 };
 
 const sortRecipesByFavorite = () => {
   recipeStore.setSorting("favorite");
-  recipes.value.sort((a, b) => {
+  filteredRecipes.sort((a, b) => {
     return (
       recipeStore.getFavoriteById(b.id) - recipeStore.getFavoriteById(a.id)
     );
   });
 };
 
-filterRecipes(initialSearchTerm);
-getUniqueTags();
+const sortRecipes = (sortType) => {
+  switch (sortType) {
+    case "alphabetical":
+      sortRecipesAlphabetically(false);
+      break;
+    case "prepTime":
+      sortRecipesByPrepTime(false);
+      break;
+    case "favorite":
+      sortRecipesByFavorite(false);
+      break;
+    default:
+      sortRecipesAlphabetically(false);
+      break;
+  }
+};
 
-switch (initialSorting) {
-  case "alphabetical":
-    sortRecipesAlphabetically(false);
-    break;
-  case "prepTime":
-    sortRecipesByPrepTime(false);
-    break;
-  case "favorite":
-    sortRecipesByFavorite(false);
-    break;
-  default:
-    sortRecipesAlphabetically(false);
-    break;
-}
+const previousPage = () => {
+  if (currentPage.value > 1) {
+    recipeStore.setPage(currentPage.value - 1);
+
+    filterRecipes(recipeStore.getSearchTerm);
+    sortRecipes(recipeStore.getSorting);
+    sliceRecipesForPage();
+  }
+};
+
+const nextPage = () => {
+  if (currentPage.value < pageCount.value) {
+    recipeStore.setPage(currentPage.value + 1);
+
+    filterRecipes(recipeStore.getSearchTerm);
+    sortRecipes(recipeStore.getSorting);
+    sliceRecipesForPage();
+  }
+};
+
+const sliceRecipesForPage = () => {
+  const page = recipeStore.getPage;
+  const perPage = recipeStore.perPage;
+  const startIndex = (page - 1) * perPage;
+  const endIndex = page * perPage;
+  recipes.value = filteredRecipes.slice(startIndex, endIndex);
+};
+
+filterRecipes(initialSearchTerm);
+sortRecipes(initialSorting);
+sliceRecipesForPage();
+updatePageCount();
+getUniqueTags();
 </script>
 
 <style lang="scss" scoped>
@@ -140,6 +225,47 @@ switch (initialSorting) {
 
     margin: 0 0.5rem;
     padding: 0.7rem 0.7rem;
+  }
+}
+
+.recipe-pages {
+  @include flex-row-center;
+  margin-bottom: 10rem;
+
+  // Buttons
+  .previous-page,
+  .next-page {
+    @include base-button;
+  }
+
+  .previous-page {
+    margin-right: 1rem;
+  }
+
+  .next-page {
+    margin-left: 1rem;
+  }
+
+  // List elements
+  .pages {
+    .other-page {
+      @include flex-row-center;
+      margin: 0.25rem;
+
+      .icon {
+        color: var(--color-secondary-1-dark-1);
+      }
+    }
+
+    .current-page {
+      @include flex-row-center;
+      margin: 0.25rem;
+      .icon {
+        height: 3rem;
+        width: 3rem;
+        color: var(--color-secondary-1-dark-1);
+      }
+    }
   }
 }
 </style>
