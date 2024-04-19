@@ -17,30 +17,12 @@
       </button>
     </div>
     <RecipeList :recipes="recipes" />
-    <div class="recipe-pages" v-if="pageCount > 1">
-      <button
-        v-show="currentPage > 1"
-        @click="previousPage"
-        class="previous-page"
-      >
-        <Icon class="icon" icon="uil:arrow-left" />
-      </button>
-      <div class="pages" v-for="(page, index) in pageCount">
-        <div class="current-page" v-if="currentPage - 1 === index">
-          <Icon class="icon" icon="material-symbols:circle" />
-        </div>
-        <div class="other-page" v-else>
-          <Icon class="icon" icon="material-symbols:circle-outline" />
-        </div>
-      </div>
-      <button
-        v-if="currentPage < pageCount"
-        @click="nextPage"
-        class="next-page"
-      >
-        <Icon class="icon" icon="uil:arrow-right" />
-      </button>
-    </div>
+    <Pagination
+      :currentPage="currentPage"
+      :pageCount="pageCount"
+      @previousPageSubmitted="previousPage"
+      @nextPageSubmitted="nextPage"
+    ></Pagination>
   </section>
 </template>
 
@@ -51,6 +33,7 @@ import { Icon } from "@iconify/vue";
 
 import RecipeSearch from "../components/RecipeSearch.vue";
 import RecipeList from "../components/RecipeList.vue";
+import Pagination from "../components/Pagination.vue";
 
 // Setup recipes
 const recipeStore = useRecipeStore();
@@ -225,47 +208,6 @@ getUniqueTags();
 
     margin: 0 0.5rem;
     padding: 0.7rem 0.7rem;
-  }
-}
-
-.recipe-pages {
-  @include flex-row-center;
-  margin-bottom: 10rem;
-
-  // Buttons
-  .previous-page,
-  .next-page {
-    @include base-button;
-  }
-
-  .previous-page {
-    margin-right: 1rem;
-  }
-
-  .next-page {
-    margin-left: 1rem;
-  }
-
-  // List elements
-  .pages {
-    .other-page {
-      @include flex-row-center;
-      margin: 0.25rem;
-
-      .icon {
-        color: var(--color-secondary-1-dark-1);
-      }
-    }
-
-    .current-page {
-      @include flex-row-center;
-      margin: 0.25rem;
-      .icon {
-        height: 3rem;
-        width: 3rem;
-        color: var(--color-secondary-1-dark-1);
-      }
-    }
   }
 }
 </style>
