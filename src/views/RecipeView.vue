@@ -5,17 +5,7 @@
       :searchTerm="initialSearchTerm"
       @searchSubmitted="handleSearchSubmitted"
     />
-    <div class="recipe-sort">
-      <button @click="onSortClicked('alphabetical')" class="alphabetical-sort">
-        <Icon class="icon" icon="material-symbols:sort-by-alpha-rounded" />
-      </button>
-      <button @click="onSortClicked('prepTime')" class="prepTime-sort">
-        <Icon class="icon" icon="mdi:clockwise" />
-      </button>
-      <button @click="onSortClicked('favorite')" class="favorite-sort">
-        <Icon class="icon" icon="material-symbols:favorite-outline" />
-      </button>
-    </div>
+    <RecipeSort @sortSubmitted="onSortClicked" />
     <RecipeList :recipes="recipes" />
     <Pagination
       :currentPage="currentPage"
@@ -29,9 +19,9 @@
 <script setup>
 import { ref, computed } from "vue";
 import { useRecipeStore } from "@/stores/recipes";
-import { Icon } from "@iconify/vue";
 
 import RecipeSearch from "../components/RecipeSearch.vue";
+import RecipeSort from "../components/RecipeSort.vue";
 import RecipeList from "../components/RecipeList.vue";
 import Pagination from "../components/Pagination.vue";
 
@@ -197,17 +187,5 @@ getUniqueTags();
   @include flex-column-center;
 
   height: 100%;
-}
-
-.recipe-sort {
-  display: flex;
-
-  button {
-    @include flex-row-center;
-    @include base-button;
-
-    margin: 0 0.5rem;
-    padding: 0.7rem 0.7rem;
-  }
 }
 </style>
