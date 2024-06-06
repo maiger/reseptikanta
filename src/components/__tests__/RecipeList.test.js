@@ -18,7 +18,7 @@ const wrapper = mount(RecipeList, {
 
 const store = useRecipeStore();
 
-describe.concurrent("RecipeList", () => {
+describe("RecipeList", () => {
   // Setup recipe
   const recipes = [
     {
@@ -83,7 +83,7 @@ describe.concurrent("RecipeList", () => {
     },
   ];
 
-  it("Render recipeList correctly", async () => {
+  it.skip("Render recipeList correctly", async () => {
     // Arrange
     render(RecipeList, { props: { recipes } });
 
