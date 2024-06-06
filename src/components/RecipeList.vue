@@ -13,7 +13,7 @@
 <script setup>
 import { defineProps } from "vue";
 
-import RecipeListItem from "./RecipeListItem.vue";
+import { RecipeListItem } from "@/components";
 
 const props = defineProps({
   recipes: {

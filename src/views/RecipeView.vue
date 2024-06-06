@@ -19,10 +19,7 @@
 import { ref, computed } from "vue";
 import { useRecipeStore } from "@/stores/recipes";
 
-import RecipeSearch from "../components/RecipeSearch.vue";
-import RecipeSort from "../components/RecipeSort.vue";
-import RecipeList from "../components/RecipeList.vue";
-import Pagination from "../components/Pagination.vue";
+import { RecipeSearch, RecipeSort, RecipeList, Pagination } from "@/components";
 
 // Setup recipes
 const recipeStore = useRecipeStore();

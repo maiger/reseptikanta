@@ -73,9 +73,11 @@ import { useRecipeStore } from "@/stores/recipes";
 import { useRoute } from "vue-router";
 import { ref } from "vue";
 
-import RecipeIngredients from "../components/RecipeIngredients.vue";
-import RecipeInstructions from "../components/RecipeInstructions.vue";
-import RecipeNote from "../components/RecipeNote.vue";
+import {
+  RecipeIngredients,
+  RecipeInstructions,
+  RecipeNote,
+} from "@/components";
 
 import { BASE_IMAGE_PATH } from "@/assets/config.js";
 
