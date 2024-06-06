@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="about" data-testid="about-page">
     <div class="content">
       <h1>Tervetuloa Reseptikantaan!</h1>
       <p>Täältä löydät herkullisimmat reseptit jokaiseen tilanteeseen.</p>

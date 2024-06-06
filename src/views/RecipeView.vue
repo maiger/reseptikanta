@@ -1,5 +1,5 @@
 <template>
-  <section class="recipe-section">
+  <section class="recipe-section" data-testid="recipe-page">
     <RecipeSearch
       :tags="tags"
       :searchTerm="initialSearchTerm"

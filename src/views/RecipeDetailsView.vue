@@ -1,5 +1,5 @@
 <template>
-  <section class="recipe-details-section">
+  <section class="recipe-details-section" data-testid="recipe-details-page">
     <div class="recipe-card">
       <div class="recipe-thumbnail">
         <img :src="`${BASE_IMAGE_PATH + recipe.img}`" :alt="recipe.title" />
