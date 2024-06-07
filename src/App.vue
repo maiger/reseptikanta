@@ -1,24 +1,3 @@
-<script setup>
-import { useRecipeStore } from "@/stores/recipes";
-import { RouterView } from "vue-router";
-import { Header, Footer } from "./components";
-import recipeData from "./assets/recipes.json";
-
-// Load recipes
-const recipeStore = useRecipeStore();
-recipeStore.setRecipes(recipeData);
-
-const favorites = localStorage.favorites;
-if (favorites) {
-  recipeStore.setFavorites(JSON.parse(favorites));
-}
-
-const notes = localStorage.notes;
-if (notes) {
-  recipeStore.setNotes(JSON.parse(notes));
-}
-</script>
-
 <template>
   <Header />
   <router-view class="main-content" v-slot="{ Component }">
@@ -28,6 +7,18 @@ if (notes) {
   </router-view>
   <Footer />
 </template>
+
+<script setup>
+import { RouterView } from "vue-router";
+import { Header, Footer } from "./components";
+import { onMounted } from "vue";
+
+import { setupRecipeStore } from "./stores/setupRecipeStore";
+
+onMounted(() => {
+  setupRecipeStore();
+});
+</script>
 
 <style lang="scss" scoped>
 .main-content {
