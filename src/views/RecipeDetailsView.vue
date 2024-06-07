@@ -50,7 +50,8 @@
       <div class="recipe-info">
         <RecipeIngredients
           class="ingredients"
-          :recipe="recipe"
+          :ingredients="recipe.ingredients"
+          :recipeServings="recipe.servings"
           :servings="servings"
         />
         <div class="recipe-text">
@@ -92,7 +93,7 @@ const recipeID = route.params.id;
 const recipeStore = useRecipeStore();
 const recipe = recipeStore.getRecipeById(+recipeID);
 
-// Servings
+// Custom servings count, start at "official" servings amount
 let servings = ref(recipe.servings);
 
 const addServings = () => {

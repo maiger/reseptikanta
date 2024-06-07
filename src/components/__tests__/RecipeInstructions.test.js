@@ -43,7 +43,7 @@ describe("Recipe Instructions", () => {
     expect(text).toHaveClass("step-complete");
   });
 
-  it("removes line-through on text when clicking an line-through text", async () => {
+  it("removes line-through on text when clicking line-through text", async () => {
     const { user } = render(RecipeInstructions, { props: { instructions } });
     let text = screen.getByText("Lorem ipsum dolor sit amet.");
     text = text.closest(".instruction-step");

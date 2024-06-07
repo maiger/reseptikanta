@@ -1,75 +1,86 @@
-import { render, screen } from "@testing-library/vue";
-import { describe, it, expect } from "vitest";
+import { render, screen } from "../../../test/helper";
 import RecipeIngredients from "../RecipeIngredients.vue";
 
-describe.skip("RecipeIngredients", () => {
-  const servings = 4;
-
-  // Setup recipe
-  const recipe = {
-    id: 1,
-    title: "Test Recipe Title",
-    description: "",
-    source: "Test Source",
-    prepTime: 60,
-    servings: 4,
-    tags: ["test_tag"],
-    img: "test_image.JPG",
-    dateAdded: "1.1.1970",
-    favourite: false,
-    instructions: ["Lorem ipsum dolor sit amet."],
-    ingredients: [
+const recipeServings = 4;
+const ingredients = [
+  {
+    collectionName: "Kala",
+    collectionIngredients: [
       {
-        collectionName: "Kala",
-        collectionIngredients: [
-          {
-            name: "Ingredient_Lorem",
-            amount: 1.2,
-            unit: "unit_kg",
-          },
-          {
-            name: "Ingredient_Ipsum",
-            amount: 1,
-            unit: "tl",
-          },
-        ],
+        name: "Ingredient_Lorem",
+        amount: 1.2,
+        unit: "unit_kg",
+      },
+      {
+        name: "Ingredient_Ipsum",
+        amount: 1,
+        unit: "tl",
       },
     ],
-  };
+  },
+];
 
-  it("Render recipeIngredients correctly", async () => {
+const setup = (customServings = recipeServings) => {
+  const { user } = render(RecipeIngredients, {
+    props: { ingredients, recipeServings, servings: customServings },
+  });
+  return user;
+};
+
+describe("Recipe Ingredients", () => {
+  it("Render Recipe Ingredients names correctly", async () => {
     // Arrange
-    render(RecipeIngredients, { props: { recipe, servings } });
+    setup();
 
     // Assert
-    expect(screen.getByText("Ainesosat")).not.toBeNull();
-    expect(
-      screen.getByText(recipe.ingredients[0].collectionIngredients[0].name)
-    ).not.toBeNull();
-    expect(screen.getByText("1 1/5 unit_kg")).not.toBeNull();
-    expect(
-      screen.getByText(recipe.ingredients[0].collectionIngredients[1].name)
-    ).not.toBeNull();
+    expect(screen.getByText("Ainesosat")).toBeInTheDocument();
+    expect(screen.getByText("Ingredient_Lorem")).toBeInTheDocument();
+    expect(screen.getByText("Ingredient_Ipsum")).toBeInTheDocument();
   });
 
-  it("Render custom amounts correctly", async () => {
-    // Arrange
-    render(RecipeIngredients, {
-      props: { recipe, servings: 8 },
-    });
+  it("Render Recipe Ingredient amounts correctly", async () => {
+    setup();
 
-    // Assert
-    expect(screen.getByText("2 2/5 unit_kg")).not.toBeNull();
+    expect(screen.getByText("1 1/5 unit_kg")).toBeInTheDocument();
+    expect(screen.getByText("1 tl")).toBeInTheDocument();
   });
 
-  it("Render negative amounts correctly", async () => {
-    // Amounts lower limit should be 1. No negatives allowed.
-    // Arrange
-    render(RecipeIngredients, {
-      props: { recipe, servings: -1 },
+  describe.each([
+    { servings: -10, amountText: "3/10 unit_kg" },
+    { servings: -1, amountText: "3/10 unit_kg" },
+    { servings: 0, amountText: "3/10 unit_kg" },
+    { servings: 1, amountText: "3/10 unit_kg" },
+    { servings: 4, amountText: "1 1/5 unit_kg" },
+    { servings: 8, amountText: "2 2/5 unit_kg" },
+    { servings: 12, amountText: "3 3/5 unit_kg" },
+    { servings: 16, amountText: "4 4/5 unit_kg" },
+  ])("when servings is $servings", ({ servings, amountText }) => {
+    it("displays custom amounts correctly", async () => {
+      setup(servings);
+      expect(screen.getByText(amountText)).toBeInTheDocument();
     });
+  });
 
-    // Assert
-    expect(screen.getByText("3/10 unit_kg")).not.toBeNull();
+  it("adds line-through to text on click", async () => {
+    const user = setup();
+    let text = screen.getByText("Ingredient_Lorem");
+    text = text.closest(".ingredient");
+
+    await user.click(text);
+
+    expect(text).toBeInTheDocument();
+    expect(text).toHaveClass("step-complete");
+  });
+
+  it("removes line-through on text when clicking line-through text", async () => {
+    const user = setup();
+    let text = screen.getByText("Ingredient_Lorem");
+    text = text.closest(".ingredient");
+
+    await user.click(text);
+    expect(text).toHaveClass("step-complete");
+    await user.click(text);
+
+    expect(text).not.toHaveClass("step-complete");
   });
 });

@@ -1,8 +1,8 @@
 <template>
   <div class="ingredients">
     <h2>Ainesosat</h2>
-    <ul v-for="collection in recipe.ingredients" class="ingredient-section">
-      <p class="collection" v-if="recipe.ingredients.length > 1">
+    <ul v-for="collection in ingredients" class="ingredient-section">
+      <p class="collection" v-if="ingredients.length > 1">
         {{ collection.collectionName }}
       </p>
       <li
@@ -27,10 +27,18 @@ import fracty from "fracty";
 import { defineProps, computed } from "vue";
 
 const props = defineProps({
-  recipe: {
-    type: Object,
+  ingredients: {
+    type: Array,
     required: true,
   },
+  recipeServings: {
+    type: Number,
+    required: true,
+  },
+  // recipe: {
+  //   type: Object,
+  //   required: true,
+  // },
   servings: {
     type: Number,
     required: true,
@@ -39,9 +47,9 @@ const props = defineProps({
 
 const computedServings = computed(() => {
   if (props.servings < 1) {
-    return 1 / props.recipe.servings;
+    return 1 / props.recipeServings;
   } else {
-    return props.servings / props.recipe.servings;
+    return props.servings / props.recipeServings;
   }
 });
 
