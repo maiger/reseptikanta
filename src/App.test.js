@@ -23,13 +23,4 @@ describe("App", () => {
       });
     });
   });
-
-  describe.skip("Loading data", () => {
-    // Loads recipe data
-    it("loads recipes to store", () => {
-      // const recipeCount =
-    });
-    // Loads favorites data
-    // Loads note data
-  });
 });

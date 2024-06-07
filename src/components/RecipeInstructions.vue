@@ -4,7 +4,7 @@
     <ul>
       <li
         @click="toggleComplete"
-        v-for="(step, index) in recipe.instructions"
+        v-for="(step, index) in instructions"
         class="instruction-step"
       >
         <div class="step-counter">{{ index + 1 }}</div>
@@ -18,8 +18,8 @@
 import { defineProps } from "vue";
 
 const props = defineProps({
-  recipe: {
-    type: Object,
+  instructions: {
+    type: Array,
     required: true,
   },
 });

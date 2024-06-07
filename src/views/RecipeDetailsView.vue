@@ -54,7 +54,10 @@
           :servings="servings"
         />
         <div class="recipe-text">
-          <RecipeInstructions class="instructions" :recipe="recipe" />
+          <RecipeInstructions
+            class="instructions"
+            :instructions="recipe.instructions"
+          />
           <RecipeNote :id="recipe.id" />
         </div>
       </div>

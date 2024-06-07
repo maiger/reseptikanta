@@ -10,9 +10,8 @@
 
 <script setup>
 import { RouterView } from "vue-router";
-import { Header, Footer } from "./components";
 import { onMounted } from "vue";
-
+import { Header, Footer } from "./components";
 import { setupRecipeStore } from "./stores/setupRecipeStore";
 
 onMounted(() => {
