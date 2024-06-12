@@ -17,7 +17,11 @@
             </div>
           </div>
         </div>
-        <div v-if="favorite" class="recipe-favorite">
+        <div
+          v-if="favorite"
+          class="recipe-favorite"
+          aria-label="Recipe favorited"
+        >
           <Icon v-if="favorite" class="icon" icon="material-symbols:favorite" />
         </div>
       </div>
