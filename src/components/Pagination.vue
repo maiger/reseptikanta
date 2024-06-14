@@ -1,22 +1,38 @@
 <template>
-  <div class="recipe-pages" v-if="pageCount > 1">
+  <div
+    class="recipe-pages"
+    v-if="pageCount > 1"
+    data-testid="pagination-component"
+  >
     <button
+      aria-label="Previous page button"
       v-show="currentPage > 1"
       @click="pageChanged('previous')"
       class="previous-page"
     >
       <Icon class="icon" icon="uil:arrow-left" />
     </button>
-    <div class="pages" v-for="(page, index) in pageCount">
-      <div class="current-page" v-if="currentPage - 1 === index">
-        <Icon class="icon" icon="material-symbols:circle" />
-      </div>
-      <div class="other-page" v-else>
-        <Icon class="icon" icon="material-symbols:circle-outline" />
+    <div class="pages-container" data-testid="pages-container">
+      <div
+        class="pages"
+        v-for="(page, index) in pageCount"
+        aria-label="Page index"
+      >
+        <div
+          class="current-page"
+          v-if="currentPage - 1 === index"
+          aria-label="Active page index"
+        >
+          <Icon class="icon" icon="material-symbols:circle" />
+        </div>
+        <div class="other-page" v-else aria-label="Non-active page index">
+          <Icon class="icon" icon="material-symbols:circle-outline" />
+        </div>
       </div>
     </div>
     <button
-      v-if="currentPage < pageCount"
+      aria-label="Next page button"
+      v-show="currentPage < pageCount"
       @click="pageChanged('next')"
       class="next-page"
     >
@@ -67,6 +83,9 @@ const pageChanged = (direction) => {
   }
 
   // List elements
+  .pages-container {
+    @include flex-row-center;
+  }
   .pages {
     .other-page {
       @include flex-row-center;
