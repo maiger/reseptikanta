@@ -7,11 +7,16 @@
         name="search"
         v-model="searchTerm"
         placeholder="Hae reseptiä.."
+        data-testid="input-search"
       />
-      <button class="btn-search" @click="doSearch" aria-label="search">
+      <button class="btn-search" @click="doSearch" aria-label="Search button">
         <Icon class="icon" icon="material-symbols:search" />
       </button>
-      <button class="btn-reset" @click="resetSearch" aria-label="reset search">
+      <button
+        class="btn-reset"
+        @click="resetSearch"
+        aria-label="Reset search button"
+      >
         <Icon class="icon" icon="fluent:arrow-reset-20-filled" />
       </button>
     </form>
@@ -21,6 +26,7 @@
         v-for="tag in tags"
         :key="tag.name"
         @click="onTagClick(tag.name)"
+        :aria-label="`Tag: ${tag.name}`"
       >
         {{ tag.name.toUpperCase() }}&nbsp;({{ tag.count }})
       </li>
