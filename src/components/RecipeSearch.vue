@@ -14,7 +14,11 @@
           @keydown.up="onArrowUp"
           @keydown.enter="onEnter"
         />
-        <ul v-show="isOpen" class="autocomplete-results">
+        <ul
+          v-show="isOpen"
+          class="autocomplete-results"
+          data-testid="autocomplete-results-panel"
+        >
           <li
             v-for="(result, i) in suggestionResults"
             :key="i"
@@ -95,7 +99,6 @@ const handleClickOutside = (event) => {
 };
 
 const doSearch = () => {
-  console.log("doSearch: SearchTerm was: ", searchTerm.value);
   if (searchTerm.value === undefined) return;
 
   searchTerm.value = searchTerm.value.toLowerCase().trim();

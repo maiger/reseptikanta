@@ -79,4 +79,62 @@ describe("Recipe Search", () => {
 
     expect(searchInput).toHaveValue("kala");
   });
+
+  it("does not show suggestions by default", async () => {
+    render(RecipeSearch, {
+      props: { searchTerm, tags, titles },
+    });
+
+    expect(screen.getByTestId("autocomplete-results-panel")).not.toBeVisible();
+  });
+
+  it("does not show suggestions if only two letters have been input", async () => {
+    const { user } = render(RecipeSearch, {
+      props: { searchTerm, tags, titles },
+    });
+
+    const searchInput = screen.getByTestId("input-search");
+    await user.type(searchInput, "ka");
+
+    expect(screen.getByTestId("autocomplete-results-panel")).not.toBeVisible();
+  });
+
+  it("does show suggestions if three letters have been input", async () => {
+    const { user } = render(RecipeSearch, {
+      props: { searchTerm, tags, titles },
+    });
+
+    const searchInput = screen.getByTestId("input-search");
+    await user.type(searchInput, "kal");
+
+    expect(screen.getByTestId("autocomplete-results-panel")).toBeVisible();
+  });
+
+  it("does show suggestions if more than three letters have been input", async () => {
+    const { user } = render(RecipeSearch, {
+      props: { searchTerm, tags, titles },
+    });
+
+    const searchInput = screen.getByTestId("input-search");
+    await user.type(searchInput, "kala");
+
+    expect(screen.getByTestId("autocomplete-results-panel")).toBeVisible();
+  });
+
+  it("does show correct suggestions", async () => {
+    const { user } = render(RecipeSearch, {
+      props: { searchTerm, tags, titles },
+    });
+
+    const searchInput = screen.getByTestId("input-search");
+    await user.type(searchInput, "keitto");
+
+    expect(screen.queryByTestId("autocomplete-results-panel")).toBeVisible();
+
+    expect(screen.queryByText("kalakeitto")).toBeInTheDocument();
+    expect(screen.queryByText("kanakeitto")).toBeInTheDocument();
+    expect(screen.queryByText("lihakeitto")).toBeInTheDocument();
+
+    expect(screen.queryByText("uunikala")).not.toBeInTheDocument();
+  });
 });
