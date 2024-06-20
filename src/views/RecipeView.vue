@@ -4,6 +4,7 @@
       :tags="tags"
       :searchTerm="initialSearchTerm"
       @searchSubmitted="handleSearchSubmitted"
+      :titles="recipeTitles"
     />
     <RecipeSort @sortSubmitted="onSortClicked" />
     <RecipeList :recipes="recipes" />
@@ -27,6 +28,7 @@ const recipes = ref([]);
 const recipeData = recipeStore.getRecipes;
 recipes.value = recipeData;
 let filteredRecipes = recipeData;
+const recipeTitles = recipes.value.map((r) => r.title);
 
 // Tags
 const tags = ref([]);
@@ -180,6 +182,7 @@ getUniqueTags();
 <style lang="scss" scoped>
 .recipe-section {
   @include flex-column-center;
+  justify-content: start;
 
   height: 100%;
 }
